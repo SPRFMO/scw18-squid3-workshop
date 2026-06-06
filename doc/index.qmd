@@ -7,6 +7,8 @@ format:
     code-fold: true
 ---
 
+{{< include _includes/sprfmo-banner.html >}}
+
 ## Overview
 
 The SPRFMO SC Third Squid Workshop (SCW18) will focus on the stock assessment and simulated assessment of jumbo flying squid (*Dosidicus gigas*) in the SPRFMO Convention Area.
