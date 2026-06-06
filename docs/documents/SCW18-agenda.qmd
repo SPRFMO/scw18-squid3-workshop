@@ -1,0 +1,109 @@
+---
+title: "SPRFMO SC Third Squid Workshop (SCW18)"
+subtitle: "Stock Assessment and Simulated Assessment of Jumbo Flying Squid"
+date: last-modified
+nocite: |
+  @*
+link-citations: true
+papersize: a4
+toc: false
+toc-depth: 2
+highlight-style: monochrome
+number-sections: true
+format:
+  html:
+    code-fold: true
+  docx:
+    reference-doc: ../_includes/quarto_latex_article_reference.docx
+  pdf:
+    documentclass: article
+    pdf-engine: lualatex
+    geometry:
+      - margin=2.5cm
+    colorlinks: false
+    tbl-cap-location: top
+    fig-cap-location: bottom
+    include-in-header:
+      text: |
+        \usepackage{booktabs}
+        \usepackage{longtable}
+        \usepackage{array}
+        \usepackage{etoolbox}
+        \AtBeginEnvironment{longtable}{\small}
+        \setlength{\emergencystretch}{3em}
+---
+
+## Introduction
+
+Jumbo flying squid (*Dosidicus gigas*) is one of the most important fisheries resources in the South Pacific, but its assessment remains challenging because of its short life span, rapid growth, high phenotypic plasticity, variable size at maturity, broad spatial distribution, and strong sensitivity to environmental variability. These characteristics complicate the interpretation of catch, effort, CPUE and biological data, and require careful evaluation of the assumptions used in candidate stock assessment models.
+
+The SPRFMO Squid Working Group has progressively developed the scientific basis for assessing jumbo flying squid through previous workshops and intersessional work. The first Squid Workshop, held in Shanghai in 2017, identified the main scientific issues, including stock structure, spawning and migration, data gaps, biological sampling, assessment methods and the need for coordinated research among Members and CNCPs. The second Squid Workshop, held in Havana in 2019, advanced these discussions by reviewing assessment data, candidate models, biological sampling protocols, observer coverage, effort dynamics, connectivity studies and possible elements of a future Conservation and Management Measure.
+
+Since then, the Squid Working Group has continued to develop assessment inputs, data templates, biological sampling approaches and candidate assessment models. Recent work has also highlighted the need to test how robust these models are to key uncertainties in population structure, morphotype dynamics, fleet structure, sampling coverage and data availability. In response, the Assessment Simulation Task Team was established to generate simulated data, compare candidate assessment models, and develop a realistic operating model to support future simulation and MSE work.
+
+The third Squid Workshop will be held from 29 July to 1 August 2026. Following the guidance provided by the Commission and the Scientific Committee, and building on the work developed through the Squid Working Group and the Assessment Simulation Task Team, the workshop will focus on two complementary components: first, advancing the stock assessment of jumbo flying squid and the associated scientific advice to the Scientific Committee and the Commission; and second, progressing the simulated assessment work needed to evaluate candidate models under alternative assumptions about population structure, fisheries, sampling and data availability. The workshop is expected to provide a clear basis for reporting to SC14, including assessment results where possible, key uncertainties, recommendations, and any additional work required after the workshop.
+
+## Objectives
+
+The workshop aims to advance the scientific basis for the assessment of jumbo flying squid in the SPRFMO Convention Area and to support the provision of scientific advice, following the guidance provided by the Commission and the Scientific Committee.
+
+1. Review and advance the stock assessment of jumbo flying squid, including available data, candidate models, assumptions, diagnostics, sensitivities and assessment results.
+2. Identify robust assessment conclusions and key uncertainties, including the implications of data limitations, model structure, fleet definitions and biological assumptions for scientific advice.
+3. Progress the simulated assessment work, including review of simulation scenarios, simulated datasets and candidate assessment experiments.
+4. Develop workshop outputs for SC14, including conclusions, recommendations, reporting responsibilities and a post-workshop workplan for any remaining assessment or simulation tasks.
+
+## Agenda
+
+### Day 1 (29/07): Introduction, data review and assessment setup
+
+#### Morning
+
+- Opening, adoption of agenda and confirmation of expected outputs.
+- Review of Commission guidance and recent SC recommendations on squid assessment.
+- Overview of assessment progress and available candidate stock assessment models.
+- Review of available assessment data: catch, effort, CPUE, and auxiliary data, including size and biological data.
+
+#### Afternoon
+
+- Presentation of pre-workshop assessment runs.
+- Agreement on priority model runs, sensitivities and report structure.
+- Review of model assumptions, input data and configuration choices.
+- Discussion of candidate base cases, sensitivities and uncertainty.
+
+### Day 2 (30/07): Stock assessment model runs and diagnostics
+
+#### Morning
+
+- Identification of issues requiring hands-on work during the workshop.
+- Hands-on assessment runs and troubleshooting.
+
+#### Afternoon
+
+- Review of diagnostics, fits and sensitivity results.
+- Review and comparison of updated assessment results.
+
+### Day 3 (31/07): Stock assessment results, interpretation and advice
+
+#### Morning
+
+- Identification of robust conclusions and remaining limitations.
+- Discussion of implications for scientific advice and future assessment work.
+
+#### Afternoon
+
+- Drafting of assessment conclusions and recommendations.
+
+### Day 4 (01/08): Simulated assessment: operating model and experiment design
+
+#### Morning
+
+- Introduction to the simulated assessment objectives.
+- Review of simulated datasets for candidate model testing.
+- Agreement on priority simulated assessment experiments.
+- Walkthrough of the experimental protocol.
+
+#### Afternoon
+
+- Discussion of how simulated assessment results will be completed and reported.
+- Drafting of simulated assessment conclusions, recommendations and post-workshop workplan.
+- Final review of workshop outputs, responsibilities and timeline to SC14.

@@ -1,0 +1,200 @@
+---
+title: "SPRFMO SC Third Squid Workshop (SCW18)"
+pagetitle: "SPRFMO SC Third Squid Workshop (SCW18)"
+format:
+  html:
+    output-file: "SCW18-SQWG-squid3-Meeting-report-2026.html"
+    self-contained: true
+    embed-resources: true
+    lightbox: true
+    html-math-method: katex
+    toc: true
+    toc-title: "Contents"
+    toc-depth: 2
+    toc-location: left
+    number-sections: false
+    number-depth: 2
+  pdf:
+    output-file: "SCW18-SQWG-squid3-Meeting-report-2026.pdf"
+    number-sections: false
+    number-depth: 2
+    title-block: false
+    geometry:
+      - margin=2.5cm
+    include-in-header:
+      text: |
+        \usepackage{fancyhdr}
+        \fancyhf{}
+        \fancyhead[R]{\textit{Third Squid Workshop (SCW18)}}
+        \fancyhead[L]{\textit{SCW16 Draft}}
+        \fancyfoot[C]{\thepage}
+        \fancypagestyle{plain}{
+          \fancyhf{}
+          \fancyhead[R]{\textit{Third Squid Workshop (SCW18)}}
+          \fancyhead[L]{\textit{SCW16 Draft}}
+          \fancyfoot[C]{\thepage}
+        }
+        \pagestyle{fancy}
+  docx:
+    output-file: "SCW18-SQWG-squid3-Meeting-report-2026.docx"
+    toc: true
+    number-sections: false
+    number-depth: 2
+    title-block: false
+execute:
+  warning: false
+  message: false
+  echo: false
+  results: false
+filters:
+  - narrative_paragraph_numbers.lua
+---
+
+```{r}
+date_stamp <- format(Sys.Date(), "%d %B %Y")
+time_stamp <- format(Sys.time(), "%H:%M %Z")
+```
+
+{{< include _includes/sprfmo-banner.html >}}
+
+::: {.content-visible when-format="pdf"}
+```{=latex}
+\thispagestyle{empty}
+\begin{center}
+\begin{minipage}[c]{0.18\textwidth}
+\centering
+\includegraphics[width=\linewidth]{_includes/logo.png}
+\end{minipage}\hfill
+\begin{minipage}[c]{0.76\textwidth}
+{\Huge \textbf{SPRFMO}}\par
+{\large South Pacific Regional Fisheries Management Organisation}\par
+\vspace{0.4em}
+{\Large \textbf{Squid Working Group}}
+\end{minipage}
+\end{center}
+\noindent\rule{\linewidth}{1pt}
+\begin{center}\Large\bfseries Third Squid Workshop (SCW18)\end{center}
+```
+:::
+
+::: {.content-visible when-format="docx"}
+| ![](_includes/logo.png){width=1.35in} | **SPRFMO**<br>South Pacific Regional Fisheries Management Organisation<br><br>**Squid Working Group** |
+|:---:|:---|
+
+*Third Squid Workshop (SCW18)*
+
+:::
+
+```{=html}
+<div style="font-style: italic; margin-top: 0.5rem;">Third Squid Workshop (SCW18)</div>
+<div style="margin-top: 0.35rem; margin-bottom: 0.35rem;"><a href="SCW18-SQWG-squid3-Meeting-report-2026.pdf">PDF-rendered version</a> | <a href="SCW18-SQWG-squid3-Meeting-report-2026.docx">MS Word version</a></div>
+```
+
+```{=html}
+<div class="paper-title">SPRFMO SC Third Squid Workshop (SCW18)</div>
+```
+
+::: {.content-visible when-format="pdf"}
+```{=latex}
+\begin{center}
+`r date_stamp`\\
+`r time_stamp`
+\end{center}
+```
+:::
+
+::: {.content-visible .no-para-number unless-format="pdf"}
+::: {.no-para-number style="text-align: center; margin-top: 0.75rem; margin-bottom: 1rem;"}
+`r date_stamp`<br>
+`r time_stamp`
+:::
+:::
+
+# Summary {.unnumbered}
+
+This report summarizes the 2026 Squid Working Group stock assessment meeting.
+It records the main workshop decisions, agreed recommendations, unresolved
+technical issues, and follow-up tasks needed to support the Scientific Committee review during SC14.
+
+The stock assessment meeting focused on assessment inputs, biological data and assumptions and assessment-model structure. The
+report was developed from meeting notes, technical presentations, comments, and
+working-group discussion. Artificial intelligence tools were used extensively to
+help convert notes and comments into report text, with content reviewed and
+edited by the report authors and meeting participants.
+
+# Meeting Details
+
+- Meeting: SPRFMO SC Third Squid Workshop (SCW18)
+- Date: 29 July - 01 August 2026
+- Location: Shanghai, China
+- Organisation: South Pacific Regional Fisheries Management Organisation
+- Working group: Squid Working Group (SQWG)
+- Host: China 
+- Chair: Gang Li
+- Meeting format: In person.
+
+# Opening of the Meeting
+
+The Chair opened the meeting and welcomed participants to the Third Squid Workshop (SCW18). The Chair noted that the workshop has a practical purpose: to convert a large set of technical contributions into clear stock assessment priorities, model-input decisions, and follow-up tasks for the SQWG.
+
+The Chair emphasized that the stock assessment material contains many sensitivities, including stock structure, index selection, catchability and availability, effort creep, selectivity, recruitment assumptions, biological inputs, and operating-model conditioning. The workshop should focus on which sensitivities materially affect advice, operating-model conditioning, and MSE readiness.
+
+Members were encouraged, to the extent practical, to supplement technical presentations with concise information on data extent, including years covered, spatial coverage, fleet or survey coverage, observation unit, sample sizes, treatment of missing data, and whether uncertainty is available for assessment use.
+
+The Chair also noted that work sessions and report-writing time are part of the technical work of the meeting. Each session should aim to leave behind short text on decisions, unresolved issues, data requests, and recommended follow-up.
+
+# Adoption of Agenda
+
+The meeting reviewed the draft agenda and agreed to organize the week around acoustic indices, CPUE indices, biological inputs, assessment-model development, projections, operating-model specifications, and final report adoption. A shortened agenda is provided in Appendix A.
+
+# Workshop Objectives
+
+The main objectives of the stock assessment meeting are to:
+
+1. Review and document candidate abundance indices and their suitability for assessment use, operating-model conditioning, and possible management-procedure input.
+2. Review biological inputs, including maturity, natural mortality, weight-at-age, length-weight relationships, and length-frequency information.
+3. Review the SC13 assessment base model and candidate simplifications for stock assessment and MSE use.
+4. Identify a defensible set of assessment-model alternatives, sensitivity runs, and diagnostics.
+5. Define operating-model conditioning priorities and uncertainty dimensions for the June 2026 MSE workshop.
+6. Document decisions, unresolved technical issues, and follow-up responsibilities in the meeting report.
+
+# Organization of Work
+
+The meeting work should be organized around technical sessions and smaller drafting or analysis groups. Where possible, each major topic should produce:
+
+- a short decision statement;
+- a list of accepted inputs or candidate inputs;
+- a list of sensitivities or diagnostics to run;
+- data or documentation requests;
+- text that can be inserted directly into the final workshop report.
+
+For contributors who are not working directly in GitHub, use Google Docs as the
+collaborative drafting layer and keep this Quarto report as the source of
+record. The recommended workflow is described in the
+[Report Collaboration Workflow](report-collaboration-workflow.html).
+
+# Key Discussion Summary
+
+## General data recommendations
+
+The meeting noted that many working papers and presentations analysed important
+abundance-index data, but did not consistently document the extent of the data
+used in each analysis. This limited the group's ability to evaluate
+representativeness, sample support, survey coverage, and whether uncertainty was
+adequately propagated. Members were requested to provide concise metadata for
+each candidate index or supporting analysis, including years covered, spatial
+extent, survey or fleet coverage, observation unit, number of observations or
+transects, number of biological samples or tows, expansion methods, whether
+lengths are fork length or total length, and the uncertainty available for
+assessment use.
+
+The catch and fishery data quality-check presentation emphasized that the SQWG
+has historically worked under a compressed assessment-data schedule. Members
+noted that the current data-submission templates and associated processing
+routines are pragmatic tools for meeting that schedule, and that development of
+Secretariat database infrastructure would not by itself resolve the immediate
+stock assessment needs. The meeting requested that the quality-check work be posted to
+the `jjmData` GitHub repository, and that the group clarify how members use terms
+such as sampling, coverage, and sample size. In particular, the meeting requested
+checks on the age-length-key sample-size reporting to identify discrepancies
+between reported numbers of ages and numbers of length measurements.

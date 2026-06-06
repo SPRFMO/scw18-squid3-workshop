@@ -1,0 +1,70 @@
+---
+title: "SPRFMO SC Third Squid Workshop (SCW18)"
+format:
+  html:
+    toc: true
+    toc-depth: 2
+    code-fold: true
+---
+
+## Overview
+
+The SPRFMO SC Third Squid Workshop (SCW18) will focus on the stock assessment and simulated assessment of jumbo flying squid (*Dosidicus gigas*) in the SPRFMO Convention Area.
+
+The workshop will support the work of the Squid Working Group and the Assessment Simulation Task Team by reviewing available assessment data, candidate stock assessment models, model assumptions, diagnostics, sensitivities, simulation scenarios, and expected outputs for consideration by SC14.
+
+The public materials for the workshop are maintained in this repository. Assessment data, model inputs, scripts, intermediate results, and confidential working files are maintained separately in the private repository `sprfmo-jumbo-squid-assessment`.
+
+## Workshop details
+
+| Item | Information |
+|---|---|
+| Workshop | SPRFMO SC Third Squid Workshop (SCW18) |
+| Topic | Stock Assessment and Simulated Assessment of Jumbo Flying Squid |
+| Dates | 29 July – 1 August 2026 |
+| Location | Shanghai, China |
+| Working Group | Squid Working Group |
+| Chairperson | Dr Gang Li |
+| Main outputs | Workshop report, assessment conclusions, simulated assessment workplan, and recommendations to SC14 |
+
+## Objectives
+
+The workshop aims to advance the scientific basis for the assessment of jumbo flying squid in the SPRFMO Convention Area and to support the provision of scientific advice, following the guidance provided by the Commission and the Scientific Committee.
+
+The main objectives are to:
+
+1. review and advance the stock assessment of jumbo flying squid, including available data, candidate models, assumptions, diagnostics, sensitivities and assessment results;
+2. identify robust assessment conclusions and key uncertainties, including the implications of data limitations, model structure, fleet definitions and biological assumptions for scientific advice;
+3. progress the simulated assessment work, including review of simulation scenarios, simulated datasets and candidate assessment experiments;
+4. develop workshop outputs for SC14, including conclusions, recommendations, reporting responsibilities and a post-workshop workplan for any remaining assessment or simulation tasks.
+
+## Documents
+
+| Document | Description | Files |
+|---|---|---|
+| SCW18-01 | [Terms of Reference and agenda](documents/SCW18-agenda.html) | [PDF](documents/SCW18-agenda.pdf) · [DOCX](documents/SCW18-agenda.docx) |
+| SCW18-02 | [Working draft report](SCW18-squid3_meeting_report.html) (to be updated during the meeting) | [PDF](SCW18-squid3_meeting_report.pdf) · [DOCX](SCW18-squid3_meeting_report.docx) |
+## Practical information
+
+Practical information will be added here as it becomes available, including:
+
+- meeting venue;
+- local logistics;
+- daily schedule;
+- document submission instructions;
+- remote participation details, if applicable;
+- contact points.
+
+## Repository and data access
+
+This public repository, `scw18-squid3-workshop`, contains workshop documents and public-facing outputs related to SCW18.
+
+Confidential assessment data, model inputs, scripts, intermediate model outputs, diagnostics and internal working files are maintained in the private repository `sprfmo-jumbo-squid-assessment`.
+
+Only agreed public outputs should be transferred from the private assessment repository to this public workshop repository.
+
+## Contact
+
+For questions about workshop organisation, please contact the SPRFMO Secretariat.
+
+For questions about technical content, please contact the Squid Working Group Chair or the workshop coordination team (details to come).
