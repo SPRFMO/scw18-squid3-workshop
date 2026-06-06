@@ -8,6 +8,8 @@ website:
     left:
       - href: index.qmd
         text: Home
+      - href: documents/SCW18-agenda.qmd
+        text: Agenda
       - href: SCW18-squid3_meeting_report.qmd
         text: Report
 

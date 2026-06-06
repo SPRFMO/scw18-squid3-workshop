@@ -44,8 +44,8 @@ The main objectives are to:
 
 | Document | Description | Files |
 |---|---|---|
-| SCW18-01 | [Terms of Reference and agenda](documents/SCW18-agenda.html) | [PDF](documents/SCW18-agenda.pdf) · [DOCX](documents/SCW18-agenda.docx) |
-| SCW18-02 | [Working draft report](SCW18-squid3_meeting_report.html) (to be updated during the meeting) | [PDF](SCW18-squid3_meeting_report.pdf) · [DOCX](SCW18-squid3_meeting_report.docx) |
+| SCW18-00 | [Terms of Reference and agenda](documents/SCW18-agenda.html) | [PDF](documents/SCW18-agenda.pdf) · [DOCX](documents/SCW18-agenda.docx) |
+| SCW18-01 | [Working draft report](SCW18-squid3_meeting_report.html) (to be updated during the meeting) | [PDF](SCW18-squid3_meeting_report.pdf) · [DOCX](SCW18-squid3_meeting_report.docx) |
 ## Practical information
 
 Practical information will be added here as it becomes available, including:
