@@ -12,7 +12,7 @@ website:
         text: Agenda
       - href: SCW18-squid3_meeting_report.qmd
         text: Report
-      - href: index.qmd/#Documents
+      - href: "index.qmd#documents"
         text: Documents
 
 format:
