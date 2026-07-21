@@ -1,0 +1,275 @@
+---
+title: "Development and Validation of the Jumbo Squid Catch Database for Stock Assessment"
+subtitle: "Proposed database for discussion and agreement"
+author: "Ricardo Oliveros Ramos"
+date: last-modified
+nocite: |
+  @*
+link-citations: true
+papersize: a4
+toc: false
+toc-depth: 2
+highlight-style: monochrome
+number-sections: true
+format:
+  html:
+    code-fold: true
+  docx:
+    reference-doc: ../_includes/quarto_latex_article_reference.docx
+  pdf:
+    documentclass: article
+    pdf-engine: lualatex
+    geometry:
+      - margin=2.5cm
+    colorlinks: false
+    tbl-cap-location: top
+    fig-cap-location: bottom
+    include-in-header:
+      text: |
+        \usepackage{booktabs}
+        \usepackage{longtable}
+        \usepackage{array}
+        \usepackage{etoolbox}
+        \AtBeginEnvironment{longtable}{\small}
+        \setlength{\emergencystretch}{3em}
+---
+
+
+```{=html}
+<div style="font-style: italic; margin-top: 0.5rem;">Third Squid Workshop (SCW18)</div>
+<div style="margin-top: 0.35rem; margin-bottom: 0.35rem;"><a href="SCW18-squid3_data.pdf">PDF version</a> | <a href="SCW18-squid3_data.docx">MS Word version</a></div>
+```
+
+```{=html}
+<div class="paper-title">Development and Validation of the Jumbo Squid Catch Database for Stock Assessment</div>
+```
+
+# Summary {.unnumbered}
+
+<!-- Briefly state the purpose, principal findings, and proposed monthly catch database for 1997–2025. -->
+
+# Scope and Intended Database
+
+## Assessment Period
+
+<!-- Describe the 1997–2025 assessment period and its rationale. -->
+
+## Database Structure
+
+<!-- Describe the temporal, fleet, area, catch, source, treatment, and provenance fields. -->
+
+## Terminology and Attribution Rules
+
+<!-- Define the essential terminology and summarise the agreed attribution assumptions. -->
+
+# Data Sources and Source Hierarchy
+
+## Member Submissions
+
+<!-- Summarise the files received from Members and their temporal resolution and coverage. -->
+
+## FAO Area 87 Reference Data
+
+<!-- Describe the FAO Area 87 annual series used for validation and reconstruction. -->
+
+## Additional National and Secondary Sources
+
+<!-- List the official national, public, and published sources retained for the analysis. -->
+
+## Source-Precedence Rules
+
+<!-- Present the agreed source hierarchy and note only material exceptions. -->
+
+## Member Communications and Confirmations
+
+<!-- Summarise confirmations that affect interpretation of missing values, zeros, areas, or fleet attribution. -->
+
+# Validation Approach
+
+## Annual Comparison with FAO Area 87
+
+<!-- Describe the aggregation and comparison of monthly series with annual FAO catches. -->
+
+## Diagnostic Criteria
+
+<!-- Describe the focus on relative differences above 5%, while retaining important absolute discrepancies. -->
+
+## Diagnostic Outputs
+
+<!-- List the tables, figures, and CSV diagnostics produced. -->
+
+# Validation and Proposed Treatment by Member
+
+## Chile
+
+### Data Coverage
+
+<!-- Placeholder. -->
+
+### FAO Consistency
+
+<!-- Placeholder. -->
+
+### Proposed Treatment
+
+<!-- Placeholder. -->
+
+## Peru
+
+### Artisanal Component
+
+<!-- Placeholder. -->
+
+### Industrial Component
+
+<!-- Address the historical Korea, Japan, and USSR catches attributed to Peru industrial, including the brief Japan 2012 exception and avoidance of double counting. -->
+
+### Proposed Peru Series
+
+<!-- Placeholder. -->
+
+## Ecuador
+
+### Data Coverage and Limitations
+
+<!-- Placeholder. -->
+
+### Reconstruction Sources and Approach
+
+<!-- Placeholder. -->
+
+### Proposed Ecuador Series
+
+<!-- Placeholder. -->
+
+## China
+
+### Data Coverage
+
+<!-- Placeholder. -->
+
+### FAO Consistency
+
+<!-- Placeholder. -->
+
+### Proposed Treatment
+
+<!-- Placeholder. -->
+
+## Korea
+
+### Historical Context and Data Coverage
+
+<!-- Placeholder. -->
+
+### FAO Consistency
+
+<!-- Placeholder. -->
+
+### Proposed Treatment
+
+<!-- Include reconstruction of 2012–2014 and explicit confirmed-zero years. -->
+
+## Chinese Taipei
+
+### Data Coverage
+
+<!-- Placeholder. -->
+
+### FAO Consistency
+
+<!-- Placeholder. -->
+
+### Proposed Treatment
+
+<!-- Include the confirmed interpretation of missing rows as zero catch. -->
+
+# Reconstruction and Temporal Imputation
+
+## General Approach
+
+<!-- Briefly describe how annual totals and monthly seasonal patterns are combined when reconstruction is required. -->
+
+## Member-Specific Applications
+
+<!-- Summarise the reconstructed or imputed periods by Member. -->
+
+# Proposed Final Database
+
+## Coverage
+
+<!-- Summarise final coverage by Member, fleet, area, period, and data status. -->
+
+## Summary of Modifications
+
+<!-- Insert the central modification table. -->
+
+## Database Fields
+
+<!-- List and define the final database fields. -->
+
+## Provenance and Versioning
+
+<!-- Describe source identifiers, status flags, versioning, and the modification log. -->
+
+# Additional Spatial and Operational Data
+
+## National Data Sources
+
+<!-- Summarise available port, spatial, fleet, or operational information from Peru, Chile, and Ecuador. -->
+
+## SPRFMO Open Data
+
+<!-- Summarise the potential use and reconciliation of spatial catch-and-effort data. -->
+
+# Future Work and Recommendations
+
+## Chile
+
+<!-- Placeholder. -->
+
+## Peru
+
+<!-- Placeholder. -->
+
+## Ecuador
+
+<!-- Placeholder. -->
+
+## China
+
+<!-- Placeholder. -->
+
+## Korea
+
+<!-- Placeholder. -->
+
+## Chinese Taipei
+
+<!-- Placeholder. -->
+
+## Group-Wide Recommendations
+
+<!-- Placeholder. -->
+
+# Annexes
+
+## Annex A. Data-Source Catalogue
+
+<!-- Placeholder. -->
+
+## Annex B. Availability Matrix
+
+<!-- Placeholder. -->
+
+## Annex C. FAO Diagnostic Table
+
+<!-- Placeholder. -->
+
+## Annex D. Modification Log
+
+<!-- Placeholder. -->
+
+## Annex E. Communications Log
+
+<!-- Placeholder. -->

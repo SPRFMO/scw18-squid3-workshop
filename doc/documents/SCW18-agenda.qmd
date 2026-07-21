@@ -1,6 +1,6 @@
 ---
 title: "SPRFMO SC Third Squid Workshop (SCW18)"
-subtitle: "Stock Assessment and Simulated Assessment of Jumbo Flying Squid"
+subtitle: "Agenda"
 date: last-modified
 nocite: |
   @*

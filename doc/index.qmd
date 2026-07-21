@@ -44,8 +44,17 @@ The main objectives are to:
 
 | Document | Description | Files |
 |---|---|---|
-| SCW18-00 | [Terms of Reference and agenda](documents/SCW18-agenda.html) | [PDF](documents/SCW18-agenda.pdf) · [DOCX](documents/SCW18-agenda.docx) |
-| SCW18-01 | [Working draft report](SCW18-squid3_meeting_report.html) (to be updated during the meeting) | [PDF](SCW18-squid3_meeting_report.pdf) · [DOCX](SCW18-squid3_meeting_report.docx) |
+| SCW18-Doc00 | [Terms of Reference and agenda](documents/SCW18-agenda.html) | [PDF](documents/SCW18-agenda.pdf) · [DOCX](documents/SCW18-agenda.docx) |
+| SCW18-Doc01 | [Working draft report](SCW18-squid3_meeting_report.html) (to be updated during the meeting) | [PDF](SCW18-squid3_meeting_report.pdf) · [DOCX](SCW18-squid3_meeting_report.docx) |
+| SCW18-Doc02 | [Squid data for stock assessment](documents/SCW18-squid3_data.html) | [PDF](documents/SCW18-squid3_data.pdf) · [DOCX](documents/SCW18-squid3_data.docx) |
+| SCW18-Doc03 | [Systematic Literature Review for *Dosidicus gigas*](documents/SCW18-squid3_literature_review.html) | [PDF](documents/SCW18-squid3_literature_review.pdf) · [DOCX](documents/SCW18-squid3_literature_review.docx) |
+| SCW18-Doc04 | [Conceptual model for *Dosidicus gigas* in the Southeastern Pacific](documents/SCW18-squid3_conceptual_model.html) (to be updated during the meeting) | [PDF](documents/SCW18-squid3_conceptual_model.pdf) · [DOCX](documents/SCW18-squid3_conceptual_model.docx) |
+| SCW18-Doc05 | [Stock Assessment using a Bayesian Production Model](documents/SCW18-squid3_bayesian_production_model.html) (CHN) | [PDF](documents/SCW18-squid3_bayesian_production_model.pdf) · [DOCX](documents/SCW18-squid3_bayesian_production_model.docx) |
+| SCW18-Doc06 | [Stock Assessment using SPiCT](documents/SCW18-squid3_spict.html) (CHL) | [PDF](documents/SCW18-squid3_spict.pdf) · [DOCX](documents/SCW18-squid3_spict.docx) |
+| SCW18-Doc07 | [Stock Assessment using JABBA](documents/SCW18-squid3_jabba.html) (Expert) | [PDF](documents/SCW18-squid3_jabba.pdf) · [DOCX](documents/SCW18-squid3_jabba.docx) |
+| SCW18-Doc08 | [Stock Assessment using an Integrated Production Model](documents/SCW18-squid3_integrated_production_model.html) (SC Chair) | [PDF](documents/SCW18-squid3_integrated_production_model.pdf) · [DOCX](documents/SCW18-squid3_integrated_production_model.docx) |
+
+
 ## Practical information
 
 Practical information will be added here as it becomes available, including:
