@@ -9,128 +9,128 @@
   {
     "objectID": "documents/SCW18-squid3_data.html",
     "href": "documents/SCW18-squid3_data.html",
-    "title": "Development and Validation of the Jumbo Squid Catch Database for Stock Assessment",
+    "title": "Jumbo Squid Data for Stock Assessment: Validation, Reconstruction and Proposed Database for 1997–2025",
     "section": "",
     "text": "Third Squid Workshop (SCW18)"
   },
   {
     "objectID": "documents/SCW18-squid3_data.html#assessment-period",
     "href": "documents/SCW18-squid3_data.html#assessment-period",
-    "title": "Development and Validation of the Jumbo Squid Catch Database for Stock Assessment",
+    "title": "Jumbo Squid Data for Stock Assessment: Validation, Reconstruction and Proposed Database for 1997–2025",
     "section": "1.1 Assessment Period",
     "text": "1.1 Assessment Period"
   },
   {
     "objectID": "documents/SCW18-squid3_data.html#database-structure",
     "href": "documents/SCW18-squid3_data.html#database-structure",
-    "title": "Development and Validation of the Jumbo Squid Catch Database for Stock Assessment",
+    "title": "Jumbo Squid Data for Stock Assessment: Validation, Reconstruction and Proposed Database for 1997–2025",
     "section": "1.2 Database Structure",
     "text": "1.2 Database Structure"
   },
   {
     "objectID": "documents/SCW18-squid3_data.html#terminology-and-attribution-rules",
     "href": "documents/SCW18-squid3_data.html#terminology-and-attribution-rules",
-    "title": "Development and Validation of the Jumbo Squid Catch Database for Stock Assessment",
+    "title": "Jumbo Squid Data for Stock Assessment: Validation, Reconstruction and Proposed Database for 1997–2025",
     "section": "1.3 Terminology and Attribution Rules",
     "text": "1.3 Terminology and Attribution Rules"
   },
   {
     "objectID": "documents/SCW18-squid3_data.html#member-submissions",
     "href": "documents/SCW18-squid3_data.html#member-submissions",
-    "title": "Development and Validation of the Jumbo Squid Catch Database for Stock Assessment",
+    "title": "Jumbo Squid Data for Stock Assessment: Validation, Reconstruction and Proposed Database for 1997–2025",
     "section": "2.1 Member Submissions",
-    "text": "2.1 Member Submissions"
+    "text": "2.1 Member Submissions\nMonthly data were received from Chile, China, Chinese Taipei, Ecuador, Korea and Peru. Most submissions used the common SPRFMO stock-assessment template, which records catches by Member, fleet type, fishing area, gear, year and month. Landings were reported in tonnes. Some submissions also included nominal effort, nominal catch per unit effort and standardised catch-rate information, although the present database compilation focuses on catches.\nThe temporal and operational coverage of the submissions is summarised below.\n\n\n\n\n\n\n\n\nMember\nPeriod covered\nResolution and principal coverage\n\n\n\n\nChile\n2000–2025\nMonthly EEZ catches separated by fleet type and gear.\n\n\nChina\n2003–2025\nMonthly industrial squid-jigging catches in the SPRFMO Area. The 2025 data were identified as preliminary.\n\n\nChinese Taipei\n2002–2025\nMonthly industrial catches in the SPRFMO Area for months with fishing activity. Missing rows were subsequently confirmed to represent zero catch.\n\n\nEcuador\n2018–2022\nMonthly artisanal hand-jigging catches in the Ecuadorian EEZ, derived from the IPIAP monitoring series.\n\n\nKorea\n2015–2024\nMonthly industrial catches in the SPRFMO Area for months with reported fishing activity. Korea subsequently confirmed zero catches for the missing years 2021–2023 and 2025.\n\n\nPeru\n2000–2025\nMonthly artisanal hand-jigging catches in the Peruvian EEZ.\n\n\n\nThe periods shown in the table describe the records contained in the submitted files and do not, by themselves, indicate that the series are complete or suitable for direct use. Each submission was therefore aggregated to annual totals, compared with the corresponding FAO Area 87 series, and assessed together with available national statistics and Member clarifications. Where a submission was incomplete or inconsistent with the annual reference, the final database used an alternative source or a documented reconstruction."
   },
   {
     "objectID": "documents/SCW18-squid3_data.html#fao-area-87-reference-data",
     "href": "documents/SCW18-squid3_data.html#fao-area-87-reference-data",
-    "title": "Development and Validation of the Jumbo Squid Catch Database for Stock Assessment",
+    "title": "Jumbo Squid Data for Stock Assessment: Validation, Reconstruction and Proposed Database for 1997–2025",
     "section": "2.2 FAO Area 87 Reference Data",
-    "text": "2.2 FAO Area 87 Reference Data"
+    "text": "2.2 FAO Area 87 Reference Data\nAnnual capture quantities for Dosidicus gigas in FAO Major Fishing Area 87 were used as the principal reference for evaluating the completeness and consistency of the submitted catch series. The reference file contains annual catches for Peru, China, Chile, Ecuador, the Republic of Korea, Chinese Taipei, Japan and the former USSR for the period 1950–2024. The present analysis uses the relevant portion of these series from 1997 onwards. FAO data were not yet available for 2025.\nFor each Member, monthly catches were aggregated by year and compared with the corresponding FAO annual total. These comparisons were used to identify missing periods, substantial differences in annual magnitude and cases requiring correction or reconstruction. Where a monthly series was reconstructed, the FAO value could be used as the annual control total, while the monthly distribution was obtained from Member data, official national statistics or another documented source.\nFor the historical Peruvian industrial component, the annual reference was constructed from the FAO catches reported by the Republic of Korea, Japan and the former USSR during the period in which these fleets operated in Peruvian waters. This attribution was applied through 2011, with Japan’s small 2012 catch also included in the Peruvian industrial component. Korean catches for 2012–2014 were treated separately as part of the Korean series.\nBecause the FAO data are annual and organised by reporting country or flag, they do not provide the monthly distribution of catches or independently distinguish catches taken within national waters from those taken in the SPRFMO Area. They are therefore used as an annual validation and reconstruction reference rather than as the default source of monthly observations."
   },
   {
     "objectID": "documents/SCW18-squid3_data.html#additional-national-and-secondary-sources",
     "href": "documents/SCW18-squid3_data.html#additional-national-and-secondary-sources",
-    "title": "Development and Validation of the Jumbo Squid Catch Database for Stock Assessment",
+    "title": "Jumbo Squid Data for Stock Assessment: Validation, Reconstruction and Proposed Database for 1997–2025",
     "section": "2.3 Additional National and Secondary Sources",
     "text": "2.3 Additional National and Secondary Sources"
   },
   {
     "objectID": "documents/SCW18-squid3_data.html#source-precedence-rules",
     "href": "documents/SCW18-squid3_data.html#source-precedence-rules",
-    "title": "Development and Validation of the Jumbo Squid Catch Database for Stock Assessment",
+    "title": "Jumbo Squid Data for Stock Assessment: Validation, Reconstruction and Proposed Database for 1997–2025",
     "section": "2.4 Source-Precedence Rules",
     "text": "2.4 Source-Precedence Rules"
   },
   {
     "objectID": "documents/SCW18-squid3_data.html#member-communications-and-confirmations",
     "href": "documents/SCW18-squid3_data.html#member-communications-and-confirmations",
-    "title": "Development and Validation of the Jumbo Squid Catch Database for Stock Assessment",
+    "title": "Jumbo Squid Data for Stock Assessment: Validation, Reconstruction and Proposed Database for 1997–2025",
     "section": "2.5 Member Communications and Confirmations",
     "text": "2.5 Member Communications and Confirmations"
   },
   {
     "objectID": "documents/SCW18-squid3_data.html#annual-comparison-with-fao-area-87",
     "href": "documents/SCW18-squid3_data.html#annual-comparison-with-fao-area-87",
-    "title": "Development and Validation of the Jumbo Squid Catch Database for Stock Assessment",
+    "title": "Jumbo Squid Data for Stock Assessment: Validation, Reconstruction and Proposed Database for 1997–2025",
     "section": "3.1 Annual Comparison with FAO Area 87",
-    "text": "3.1 Annual Comparison with FAO Area 87"
+    "text": "3.1 Annual Comparison with FAO Area 87\nFor each Member submission, monthly catches were aggregated by calendar year and compared with the corresponding annual catch reported to FAO for Major Fishing Area 87. Comparisons were conducted over the years common to both series. Years without a Member record were retained in the diagnostic dataset so that confirmed zero catches could be distinguished from missing or incomplete information.\nThe annual comparison considered both the absolute difference, calculated as the Member total minus the FAO total, and the relative difference expressed with respect to the FAO value. Positive differences indicate that the Member series exceeds the FAO total, while negative differences indicate that it is lower.\nWhere several fleet or area components were included in a submission, these were first combined to obtain a Member-level annual total for comparison with FAO. Component-level information was retained for subsequent interpretation and database construction.\nThe comparison with FAO was used as a diagnostic rather than as an automatic replacement rule. Differences were interpreted together with the temporal coverage of the submission, national statistics, known area or fleet distinctions, and clarifications received from Members."
   },
   {
     "objectID": "documents/SCW18-squid3_data.html#diagnostic-criteria",
     "href": "documents/SCW18-squid3_data.html#diagnostic-criteria",
-    "title": "Development and Validation of the Jumbo Squid Catch Database for Stock Assessment",
+    "title": "Jumbo Squid Data for Stock Assessment: Validation, Reconstruction and Proposed Database for 1997–2025",
     "section": "3.2 Diagnostic Criteria",
-    "text": "3.2 Diagnostic Criteria"
+    "text": "3.2 Diagnostic Criteria\nThe diagnostic review focused primarily on years where the absolute relative difference between the Member and FAO annual totals exceeded 5%. Smaller relative differences were generally considered compatible with rounding, revisions between reporting systems, or minor differences in data processing.\nThe 5% threshold was used to prioritise review and reporting, rather than as a strict acceptance criterion. Differences below this threshold were retained where the absolute quantity was important, where they formed part of a persistent pattern, or where they affected the attribution of catches among fleets, areas, or Members."
   },
   {
     "objectID": "documents/SCW18-squid3_data.html#diagnostic-outputs",
     "href": "documents/SCW18-squid3_data.html#diagnostic-outputs",
-    "title": "Development and Validation of the Jumbo Squid Catch Database for Stock Assessment",
+    "title": "Jumbo Squid Data for Stock Assessment: Validation, Reconstruction and Proposed Database for 1997–2025",
     "section": "3.3 Diagnostic Outputs",
-    "text": "3.3 Diagnostic Outputs"
+    "text": "3.3 Diagnostic Outputs\nThe validation produced three main outputs:\n\nannual comparison tables containing Member totals, FAO totals, absolute differences and relative differences;\nfigures showing annual relative differences between Member submissions and FAO Area 87; and\na consolidated CSV file containing the annual diagnostics for all Members.\n\nThese outputs support the identification of years requiring correction, reconstruction or further clarification and provide the basis for documenting the treatment applied in the proposed database."
   },
   {
     "objectID": "documents/SCW18-squid3_data.html#chile",
     "href": "documents/SCW18-squid3_data.html#chile",
-    "title": "Development and Validation of the Jumbo Squid Catch Database for Stock Assessment",
+    "title": "Jumbo Squid Data for Stock Assessment: Validation, Reconstruction and Proposed Database for 1997–2025",
     "section": "4.1 Chile",
-    "text": "4.1 Chile\n\n4.1.1 Data Coverage\n\n\n\n4.1.2 FAO Consistency\n\n\n\n4.1.3 Proposed Treatment"
+    "text": "4.1 Chile\nThe Chile submission covers 2000–2025 at monthly resolution. Annual totals for 2000–2002 were substantially below the corresponding FAO values, with relative differences of −25.3%, −88.3% and −75.1%, respectively. From 2003 to 2024, the series was consistent with FAO: the mean absolute relative difference was 0.8%, and no annual difference exceeded 5%.\nThe submission therefore provides a consistent monthly series from 2003 onwards, while the earlier years require reconstruction from other available sources."
   },
   {
     "objectID": "documents/SCW18-squid3_data.html#peru",
     "href": "documents/SCW18-squid3_data.html#peru",
-    "title": "Development and Validation of the Jumbo Squid Catch Database for Stock Assessment",
+    "title": "Jumbo Squid Data for Stock Assessment: Validation, Reconstruction and Proposed Database for 1997–2025",
     "section": "4.2 Peru",
-    "text": "4.2 Peru\n\n4.2.1 Artisanal Component\n\n\n\n4.2.2 Industrial Component\n\n\n\n4.2.3 Proposed Peru Series"
+    "text": "4.2 Peru\nThe Peru submission covers 2000–2025 and contains monthly artisanal landings from the Peruvian EEZ. Annual totals were below FAO in every comparable year. Relative differences ranged from −35.8% to −97.1%, with a median difference of −69.0%. Over the complete overlapping period, the submitted series represented approximately 32% of the cumulative FAO total.\nThe magnitude and persistence of these differences indicate that the submission does not represent total Peruvian catches and cannot be used as the national catch series. Reconstruction from other official national sources is required, including separate treatment of the artisanal and historical industrial components."
   },
   {
     "objectID": "documents/SCW18-squid3_data.html#ecuador",
     "href": "documents/SCW18-squid3_data.html#ecuador",
-    "title": "Development and Validation of the Jumbo Squid Catch Database for Stock Assessment",
+    "title": "Jumbo Squid Data for Stock Assessment: Validation, Reconstruction and Proposed Database for 1997–2025",
     "section": "4.3 Ecuador",
-    "text": "4.3 Ecuador\n\n4.3.1 Data Coverage and Limitations\n\n\n\n4.3.2 Reconstruction Sources and Approach\n\n\n\n4.3.3 Proposed Ecuador Series"
+    "text": "4.3 Ecuador\nThe Ecuador submission contains monthly artisanal catches for 2018–2022 derived from the IPIAP monitoring series. The relationship with FAO varied substantially among years. Relative differences ranged from −93.9% in 2018 to +8.2% in 2022, and exceeded 5% in every submitted year.\nThe variable level of coverage confirms that the submission is a monitoring series rather than a complete national catch series. It cannot be used directly to represent annual or monthly national catches, and a new series must be reconstructed from other official national sources."
   },
   {
     "objectID": "documents/SCW18-squid3_data.html#china",
     "href": "documents/SCW18-squid3_data.html#china",
-    "title": "Development and Validation of the Jumbo Squid Catch Database for Stock Assessment",
+    "title": "Jumbo Squid Data for Stock Assessment: Validation, Reconstruction and Proposed Database for 1997–2025",
     "section": "4.4 China",
-    "text": "4.4 China\n\n4.4.1 Data Coverage\n\n\n\n4.4.2 FAO Consistency\n\n\n\n4.4.3 Proposed Treatment"
+    "text": "4.4 China\nThe China submission provides complete monthly coverage for 2003–2025. Annual totals were generally consistent with FAO. The only relative difference exceeding 5% occurred in 2005, when the submitted total was 75,300 t compared with 86,000 t in FAO, a difference of −12.4%. In 2023, the absolute difference was larger, at −16,393 t, but represented only −3.3% of the FAO total.\nThe submitted monthly series is therefore suitable for direct use, except for 2005, when the monthly values should be adjusted proportionally to match the FAO annual total. The years before the Member series require completion from FAO and available monthly information."
   },
   {
     "objectID": "documents/SCW18-squid3_data.html#korea",
     "href": "documents/SCW18-squid3_data.html#korea",
-    "title": "Development and Validation of the Jumbo Squid Catch Database for Stock Assessment",
+    "title": "Jumbo Squid Data for Stock Assessment: Validation, Reconstruction and Proposed Database for 1997–2025",
     "section": "4.5 Korea",
-    "text": "4.5 Korea\n\n4.5.1 Historical Context and Data Coverage\n\n\n\n4.5.2 FAO Consistency\n\n\n\n4.5.3 Proposed Treatment"
+    "text": "4.5 Korea\nThe Korea submission contains monthly records for 2015–2020 and 2024. Annual totals were generally consistent with FAO. The largest relative difference occurred in 2024, at +9.9%, but this represented only 11.6 t because the annual catch was small. The other comparable years were within 5%, including a difference of +4.3% in 2018.\nThe submitted monthly data can therefore be retained without adjustment. Monthly catches for 2012–2014 require reconstruction, while the missing years 2021–2023 and 2025 are treated as confirmed zero catches."
   },
   {
     "objectID": "documents/SCW18-squid3_data.html#chinese-taipei",
     "href": "documents/SCW18-squid3_data.html#chinese-taipei",
-    "title": "Development and Validation of the Jumbo Squid Catch Database for Stock Assessment",
+    "title": "Jumbo Squid Data for Stock Assessment: Validation, Reconstruction and Proposed Database for 1997–2025",
     "section": "4.6 Chinese Taipei",
-    "text": "4.6 Chinese Taipei\n\n4.6.1 Data Coverage\n\n\n\n4.6.2 FAO Consistency\n\n\n\n4.6.3 Proposed Treatment"
+    "text": "4.6 Chinese Taipei\nThe Chinese Taipei submission covers 2002–2025 and contains monthly records for periods with fishing activity. Annual totals agree with FAO to rounding precision: the maximum absolute difference was less than 0.5 t, and the maximum relative difference was 0.03%.\nThe submitted monthly series can therefore be retained as provided. Missing rows are treated as zero catches, consistent with the clarification provided by Chinese Taipei."
   },
   {
     "objectID": "documents/SCW18-squid3_data.html#general-approach",
@@ -149,128 +149,128 @@
   {
     "objectID": "documents/SCW18-squid3_data.html#coverage",
     "href": "documents/SCW18-squid3_data.html#coverage",
-    "title": "Development and Validation of the Jumbo Squid Catch Database for Stock Assessment",
-    "section": "6.1 Coverage",
-    "text": "6.1 Coverage"
+    "title": "Jumbo Squid Data for Stock Assessment: Validation, Reconstruction and Proposed Database for 1997–2025",
+    "section": "5.1 Coverage",
+    "text": "5.1 Coverage\nThe proposed database integrates the final submitted and reconstructed series for Chile, China, Ecuador, the Republic of Korea, Peru and Chinese Taipei. It covers January 1997 to December 2025 and retains separate records by Member, fleet type, fishing area and gear where these distinctions are available. The final long-format database contains 3,794 records, while the corresponding catch table provides one total catch value per Member and month.\n\n\n\n\n\n\n\n\n\n\nMember\nFleet and gear\nArea\nPeriod\nData status\n\n\n\n\nChile\nArt_Boat, Art_Launch, Art_Others and Industrial; jigging, purse seine, trawl, mid-water trawl and other gears\nEEZ\n1997–2025\nZero catch was assigned for 1997–1999. The 2000 submission was retained. The 2001–2002 series combines submitted records with reconstructed Art_Others catches. Records from 2003 onwards were retained from the revised Member submission.\n\n\nChina\nIndustrial; squid jigger\nArea not specified for 1997–2002; SPRFMO Area for 2003–2025\n1997–2025\nZero catch was assigned for 1997–2000. Monthly catches for 2001–2002 were reconstructed from FAO annual totals and the mean 2003–2004 seasonality. Records from 2003 onwards were retained from the Member submission.\n\n\nEcuador\nArtisanal; other gear\nEEZ\n1997–2025\nPublic monthly patterns were retained and rescaled for years with available monthly information. Other years were reconstructed using the median seasonal pattern and the selected annual reference. Years without an annual reference were assigned zero catch. The 2013 total was corrected to 9,506 t and the 2025 total was estimated at 3,921 t.\n\n\nRepublic of Korea\nIndustrial; squid jigger\nSPRFMO Area where reported; area left blank for reconstructed and zero-catch records\n1997–2025\nZero catch was assigned for 1997–2011 to avoid double counting catches included in the Peruvian industrial reconstruction. Monthly catches for 2012–2014 were reconstructed from FAO totals and the mean 2015–2016 seasonality. Submitted records were retained for 2015–2020 and 2024, with omitted months represented as zero. Zero catch was confirmed for 2021–2023 and 2025.\n\n\nPeru\nArtisanal, hand jigger\nEEZ\n1997–2025\nThe series was reconstructed from public monthly sources and annual reference totals. Alternative public seasonality was used through 2012 and official PRODUCE monthly data from 2013 onwards. The 2025 PRODUCE series was retained because no FAO value was available.\n\n\nPeru\nIndustrial, squid jigger\nEEZ\n1997–2012\nThe series represents foreign industrial fishing attributed to the Peruvian EEZ. Annual totals correspond to FAO Japan plus Republic of Korea for 1997–2011 and FAO Japan for 2012, distributed using the Peruvian artisanal seasonality.\n\n\nChinese Taipei\nIndustrial; squid jigger/hand jig\nSPRFMO Area\n1997–2025\nZero catch was assigned for 1997–2001 and 2022–2024. Submitted records were retained for 2002–2021 and 2025. Months omitted from the submission were interpreted as zero catch following confirmation from Chinese Taipei.\n\n\n\nAll six Members have a Member-level monthly catch value in the wide catch table for every month from January 1997 to December 2025. The long-format database retains the more detailed fleet, area, gear, effort and CPUE information where it was included in the final Member files. Reconstructed records generally contain only the identifying fields, year, month and landing, with unavailable effort and CPUE fields left blank.\nJapan is not included as a separate Member series. Its catches relevant to the reconstruction were incorporated into the Peruvian industrial component."
   },
   {
     "objectID": "documents/SCW18-squid3_data.html#summary-of-modifications",
     "href": "documents/SCW18-squid3_data.html#summary-of-modifications",
-    "title": "Development and Validation of the Jumbo Squid Catch Database for Stock Assessment",
-    "section": "6.2 Summary of Modifications",
-    "text": "6.2 Summary of Modifications"
+    "title": "Jumbo Squid Data for Stock Assessment: Validation, Reconstruction and Proposed Database for 1997–2025",
+    "section": "5.2 Summary of Modifications",
+    "text": "5.2 Summary of Modifications\nTable X summarises the modifications applied to the submitted and complementary datasets to obtain complete monthly catch series from January 1997 to December 2025. When an annual total was rescaled, the selected monthly seasonal pattern was preserved and adjusted proportionally to the annual reference.\n\n\n\n\n\n\n\nMember\nModifications\n\n\n\n\nChile\n1997–1999: monthly zero catches were added. 2000: the Member submission was retained, including the reported annual total of 6.7 t. 2001–2002: submitted records were retained and the difference from the FAO annual total was reconstructed from SERNAPESCA monthly landings and assigned to Art_Others; effort and CPUE were left blank for the added catch. 2003–2025: submitted monthly data were retained.\n\n\nPeru\nThe original Peruvian submission was replaced by public data from PRODUCE, INFOPES and Wikipesca, with PRODUCE treated as the primary official source. Artisanal, 1997–2001: the monthly pattern was the median cumulative seasonality calculated from 1997, 1999, 2000 and 2001, excluding the incomplete 1998 series, and was scaled to each FAO Peru annual total. Artisanal, 2002–2012: each year’s alternative-source seasonality was scaled to FAO Peru. Artisanal, 2013–2024: official PRODUCE seasonality was scaled to FAO Peru. Artisanal, 2025: the PRODUCE monthly series and annual total of 712,155 t were retained because no FAO value was available. Industrial, 1997–2011: FAO Japan plus Republic of Korea catches were attributed to the Peruvian industrial fleet and distributed using the reconstructed Peruvian artisanal seasonality for the same year. Industrial, 2012: only the FAO Japan catch was used and distributed using the 2012 artisanal seasonality.\n\n\nEcuador\nYears with monthly public data—2013, 2014 and 2018–2022: the observed monthly pattern was retained and scaled to the selected annual reference. The 2013 FAO value was replaced by the agreed total of 9,506 t. Years without monthly data: the monthly pattern was the median cumulative seasonality calculated from all seven available years and was scaled to the FAO Ecuador annual total. Where FAO had no value, catch was set to zero while retaining all 12 months. 2025: an annual catch of 3,921 t, estimated from the Cancas–Chala–Tambo de Mora regression, was distributed using the median seasonal pattern.\n\n\nChina\n1997–2000: monthly zero catches were added. 2001–2002: the monthly pattern was calculated as the arithmetic mean of the 2003 and 2004 monthly seasonal proportions and scaled to the FAO annual totals. The single submitted fleet_type and gear combination was retained, while all other unavailable fields were left blank. 2003–2025: the Member submission was retained; 2005 was left unchanged.\n\n\nRepublic of Korea\n1997–2011: catch was set to zero because the corresponding FAO catches were included in the reconstructed Peruvian industrial series. 2012–2014: the monthly pattern was calculated as the arithmetic mean of the 2015 and 2016 monthly seasonal proportions and scaled to the FAO annual totals. The single submitted fleet_type and gear combination was retained, while all other unavailable fields were left blank. 2015–2020 and 2024: submitted records were retained. 2021–2023 and 2025: monthly zero catches were added following confirmation that no catch occurred.\n\n\nChinese Taipei\n1997–2001 and 2022–2024: monthly zero catches were added. 2002–2021 and 2025: submitted records were retained, and omitted months were interpreted as zero catch following confirmation from Chinese Taipei. For added zero-catch records, nominal effort and nominal CPUE were set to zero and the effort unit was recorded as fishing days.\n\n\n\nFor reconstructed Peru and Ecuador records, the identifying fields, year, month and landing were populated, while effort and CPUE fields were left blank. Japan was not represented as a separate Member series because its relevant catches were incorporated into the reconstructed Peruvian industrial component."
   },
   {
     "objectID": "documents/SCW18-squid3_data.html#database-fields",
     "href": "documents/SCW18-squid3_data.html#database-fields",
     "title": "Development and Validation of the Jumbo Squid Catch Database for Stock Assessment",
-    "section": "6.3 Database Fields",
-    "text": "6.3 Database Fields"
+    "section": "5.3 Database Fields",
+    "text": "5.3 Database Fields"
   },
   {
     "objectID": "documents/SCW18-squid3_data.html#provenance-and-versioning",
     "href": "documents/SCW18-squid3_data.html#provenance-and-versioning",
     "title": "Development and Validation of the Jumbo Squid Catch Database for Stock Assessment",
-    "section": "6.4 Provenance and Versioning",
-    "text": "6.4 Provenance and Versioning"
+    "section": "5.4 Provenance and Versioning",
+    "text": "5.4 Provenance and Versioning"
   },
   {
     "objectID": "documents/SCW18-squid3_data.html#national-data-sources",
     "href": "documents/SCW18-squid3_data.html#national-data-sources",
-    "title": "Development and Validation of the Jumbo Squid Catch Database for Stock Assessment",
-    "section": "7.1 National Data Sources",
-    "text": "7.1 National Data Sources"
+    "title": "Jumbo Squid Data for Stock Assessment: Validation, Reconstruction and Proposed Database for 1997–2025",
+    "section": "6.1 National Data Sources",
+    "text": "6.1 National Data Sources"
   },
   {
     "objectID": "documents/SCW18-squid3_data.html#sprfmo-open-data",
     "href": "documents/SCW18-squid3_data.html#sprfmo-open-data",
-    "title": "Development and Validation of the Jumbo Squid Catch Database for Stock Assessment",
-    "section": "7.2 SPRFMO Open Data",
-    "text": "7.2 SPRFMO Open Data"
+    "title": "Jumbo Squid Data for Stock Assessment: Validation, Reconstruction and Proposed Database for 1997–2025",
+    "section": "6.2 SPRFMO Open Data",
+    "text": "6.2 SPRFMO Open Data"
   },
   {
     "objectID": "documents/SCW18-squid3_data.html#chile-1",
     "href": "documents/SCW18-squid3_data.html#chile-1",
-    "title": "Development and Validation of the Jumbo Squid Catch Database for Stock Assessment",
-    "section": "8.1 Chile",
-    "text": "8.1 Chile"
+    "title": "Jumbo Squid Data for Stock Assessment: Validation, Reconstruction and Proposed Database for 1997–2025",
+    "section": "7.1 Chile",
+    "text": "7.1 Chile"
   },
   {
     "objectID": "documents/SCW18-squid3_data.html#peru-1",
     "href": "documents/SCW18-squid3_data.html#peru-1",
-    "title": "Development and Validation of the Jumbo Squid Catch Database for Stock Assessment",
-    "section": "8.2 Peru",
-    "text": "8.2 Peru"
+    "title": "Jumbo Squid Data for Stock Assessment: Validation, Reconstruction and Proposed Database for 1997–2025",
+    "section": "7.2 Peru",
+    "text": "7.2 Peru"
   },
   {
     "objectID": "documents/SCW18-squid3_data.html#ecuador-1",
     "href": "documents/SCW18-squid3_data.html#ecuador-1",
-    "title": "Development and Validation of the Jumbo Squid Catch Database for Stock Assessment",
-    "section": "8.3 Ecuador",
-    "text": "8.3 Ecuador"
+    "title": "Jumbo Squid Data for Stock Assessment: Validation, Reconstruction and Proposed Database for 1997–2025",
+    "section": "7.3 Ecuador",
+    "text": "7.3 Ecuador"
   },
   {
     "objectID": "documents/SCW18-squid3_data.html#china-1",
     "href": "documents/SCW18-squid3_data.html#china-1",
-    "title": "Development and Validation of the Jumbo Squid Catch Database for Stock Assessment",
-    "section": "8.4 China",
-    "text": "8.4 China"
+    "title": "Jumbo Squid Data for Stock Assessment: Validation, Reconstruction and Proposed Database for 1997–2025",
+    "section": "7.4 China",
+    "text": "7.4 China"
   },
   {
     "objectID": "documents/SCW18-squid3_data.html#korea-1",
     "href": "documents/SCW18-squid3_data.html#korea-1",
-    "title": "Development and Validation of the Jumbo Squid Catch Database for Stock Assessment",
-    "section": "8.5 Korea",
-    "text": "8.5 Korea"
+    "title": "Jumbo Squid Data for Stock Assessment: Validation, Reconstruction and Proposed Database for 1997–2025",
+    "section": "7.5 Korea",
+    "text": "7.5 Korea"
   },
   {
     "objectID": "documents/SCW18-squid3_data.html#chinese-taipei-1",
     "href": "documents/SCW18-squid3_data.html#chinese-taipei-1",
-    "title": "Development and Validation of the Jumbo Squid Catch Database for Stock Assessment",
-    "section": "8.6 Chinese Taipei",
-    "text": "8.6 Chinese Taipei"
+    "title": "Jumbo Squid Data for Stock Assessment: Validation, Reconstruction and Proposed Database for 1997–2025",
+    "section": "7.6 Chinese Taipei",
+    "text": "7.6 Chinese Taipei"
   },
   {
     "objectID": "documents/SCW18-squid3_data.html#group-wide-recommendations",
     "href": "documents/SCW18-squid3_data.html#group-wide-recommendations",
-    "title": "Development and Validation of the Jumbo Squid Catch Database for Stock Assessment",
-    "section": "8.7 Group-Wide Recommendations",
-    "text": "8.7 Group-Wide Recommendations"
+    "title": "Jumbo Squid Data for Stock Assessment: Validation, Reconstruction and Proposed Database for 1997–2025",
+    "section": "7.7 Group-Wide Recommendations",
+    "text": "7.7 Group-Wide Recommendations"
   },
   {
     "objectID": "documents/SCW18-squid3_data.html#annex-a.-data-source-catalogue",
     "href": "documents/SCW18-squid3_data.html#annex-a.-data-source-catalogue",
     "title": "Development and Validation of the Jumbo Squid Catch Database for Stock Assessment",
-    "section": "9.1 Annex A. Data-Source Catalogue",
-    "text": "9.1 Annex A. Data-Source Catalogue"
+    "section": "8.1 Annex A. Data-Source Catalogue",
+    "text": "8.1 Annex A. Data-Source Catalogue"
   },
   {
     "objectID": "documents/SCW18-squid3_data.html#annex-b.-availability-matrix",
     "href": "documents/SCW18-squid3_data.html#annex-b.-availability-matrix",
     "title": "Development and Validation of the Jumbo Squid Catch Database for Stock Assessment",
-    "section": "9.2 Annex B. Availability Matrix",
-    "text": "9.2 Annex B. Availability Matrix"
+    "section": "8.2 Annex B. Availability Matrix",
+    "text": "8.2 Annex B. Availability Matrix"
   },
   {
     "objectID": "documents/SCW18-squid3_data.html#annex-c.-fao-diagnostic-table",
     "href": "documents/SCW18-squid3_data.html#annex-c.-fao-diagnostic-table",
     "title": "Development and Validation of the Jumbo Squid Catch Database for Stock Assessment",
-    "section": "9.3 Annex C. FAO Diagnostic Table",
-    "text": "9.3 Annex C. FAO Diagnostic Table"
+    "section": "8.3 Annex C. FAO Diagnostic Table",
+    "text": "8.3 Annex C. FAO Diagnostic Table"
   },
   {
     "objectID": "documents/SCW18-squid3_data.html#annex-d.-modification-log",
     "href": "documents/SCW18-squid3_data.html#annex-d.-modification-log",
     "title": "Development and Validation of the Jumbo Squid Catch Database for Stock Assessment",
-    "section": "9.4 Annex D. Modification Log",
-    "text": "9.4 Annex D. Modification Log"
+    "section": "8.4 Annex D. Modification Log",
+    "text": "8.4 Annex D. Modification Log"
   },
   {
     "objectID": "documents/SCW18-squid3_data.html#annex-e.-communications-log",
     "href": "documents/SCW18-squid3_data.html#annex-e.-communications-log",
     "title": "Development and Validation of the Jumbo Squid Catch Database for Stock Assessment",
-    "section": "9.5 Annex E. Communications Log",
-    "text": "9.5 Annex E. Communications Log"
+    "section": "8.5 Annex E. Communications Log",
+    "text": "8.5 Annex E. Communications Log"
   },
   {
     "objectID": "documents/SCW18-agenda.html",
@@ -355,5 +355,12 @@
     "title": "SPRFMO SC Third Squid Workshop (SCW18)",
     "section": "Contact",
     "text": "Contact\nFor questions about workshop organisation, please contact the SPRFMO Secretariat.\nFor questions about technical content, please contact the Squid Working Group Chair or the workshop coordination team (details to come)."
+  },
+  {
+    "objectID": "documents/SCW18-squid3_data.html#proposed-treatment",
+    "href": "documents/SCW18-squid3_data.html#proposed-treatment",
+    "title": "Jumbo Squid Data for Stock Assessment: Validation, Reconstruction and Proposed Database for 1997–2025",
+    "section": "4.7 Proposed Treatment",
+    "text": "4.7 Proposed Treatment\n\n\n\n\n\n\n\n\nMember\nMember data retained\nReconstruction or adjustment\n\n\n\n\nChile\nMonthly Member data from 2003–2025\nReconstruct 1998–2002; assign zero catch to 1997\n\n\nPeru\nNone as the national catch series\nReconstruct the series from other official national sources and validate annual totals against FAO again\n\n\nEcuador\nNone as the national catch series\nReconstruct the series from other official national sources and validate annual totals against FAO again\n\n\nChina\nMonthly Member data from 2003–2025\nProportionally adjust 2005 to the FAO total; reconstruct 2001–2002; assign zero catch to 1997–2000\n\n\nKorea\nMonthly Member data for 2015–2020 and 2024\nReconstruct 2012–2014; assign confirmed zero catches to 2021–2023 and 2025\n\n\nChinese Taipei\nMonthly Member data from 2002–2025\nAssign zero catch to omitted months and confirmed zero years\n\n\n\nThe reconstruction of Peru and Ecuador requires further evaluation of official national monthly sources. The remaining treatments can be implemented directly from the Member submissions, FAO annual totals and confirmed zero-catch information."
   }
 ]
