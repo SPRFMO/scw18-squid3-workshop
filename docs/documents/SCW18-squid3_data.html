@@ -158,7 +158,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 <div style="font-style: italic; margin-top: 0.5rem;">Third Squid Workshop (SCW18)</div>
-<div style="margin-top: 0.35rem; margin-bottom: 0.35rem;"><a href="SCW18-squid3_data.pdf">PDF version</a> | <a href="SCW18-squid3_data.docx">MS Word version</a></div>
+<div style="margin-top: 0.35rem; margin-bottom: 0.35rem;"><a href="SCW18-squid3_data_rewritten.pdf">PDF version</a> | <a href="SCW18-squid3_data_rewritten.docx">MS Word version</a></div>
 <div class="paper-title">Development and Validation of the Jumbo Squid Catch Database for Stock Assessment</div>
 <section id="summary" class="level1 unnumbered">
 <h1 class="unnumbered">Summary</h1>
@@ -183,13 +183,13 @@ ul.task-list li input[type="checkbox"] {
 <h1 data-number="2"><span class="header-section-number">2</span> Data Sources and Source Hierarchy</h1>
 <section id="member-submissions" class="level2" data-number="2.1">
 <h2 data-number="2.1" class="anchored" data-anchor-id="member-submissions"><span class="header-section-number">2.1</span> Member Submissions</h2>
-<p>Monthly data were received from Chile, China, Chinese Taipei, Ecuador, Korea and Peru. Most submissions used the common SPRFMO stock-assessment template, which records catches by Member, fleet type, fishing area, gear, year and month. Landings were reported in tonnes. Some submissions also included nominal effort, nominal catch per unit effort and standardised catch-rate information, although the present database compilation focuses on catches.</p>
-<p>The temporal and operational coverage of the submissions is summarised below.</p>
+<p>Monthly data were received from Chile, China, Chinese Taipei, Ecuador, Korea and Peru. Most submissions followed the common SPRFMO stock-assessment template, which records catches by Member, fleet type, fishing area, gear, year and month. Landings were reported in tonnes. Some submissions also included nominal effort, nominal catch per unit effort and standardised catch-rate information. However, the present database compilation focuses on catches.</p>
+<p>The temporal and operational coverage of each submission is summarised below.</p>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 7%">
-<col style="width: 10%">
-<col style="width: 83%">
+<col style="width: 30%">
+<col style="width: 40%">
+<col style="width: 30%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -202,7 +202,7 @@ ul.task-list li input[type="checkbox"] {
 <tr class="odd">
 <td>Chile</td>
 <td style="text-align: right;">2000–2025</td>
-<td>Monthly EEZ catches separated by fleet type and gear.</td>
+<td>Monthly catches within the EEZ, separated by fleet type and gear.</td>
 </tr>
 <tr class="even">
 <td>China</td>
@@ -222,7 +222,7 @@ ul.task-list li input[type="checkbox"] {
 <tr class="odd">
 <td>Korea</td>
 <td style="text-align: right;">2015–2024</td>
-<td>Monthly industrial catches in the SPRFMO Area for months with reported fishing activity. Korea subsequently confirmed zero catches for the missing years 2021–2023 and 2025.</td>
+<td>Monthly industrial catches in the SPRFMO Area for months with reported fishing activity. Korea subsequently confirmed zero catch for the missing years 2021–2023 and 2025.</td>
 </tr>
 <tr class="even">
 <td>Peru</td>
@@ -231,25 +231,17 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 </tbody>
 </table>
-<p>The periods shown in the table describe the records contained in the submitted files and do not, by themselves, indicate that the series are complete or suitable for direct use. Each submission was therefore aggregated to annual totals, compared with the corresponding FAO Area 87 series, and assessed together with available national statistics and Member clarifications. Where a submission was incomplete or inconsistent with the annual reference, the final database used an alternative source or a documented reconstruction.</p>
+<p>The periods shown in the table describe the records included in the submitted files. They do not, by themselves, demonstrate that each series is complete or suitable for direct use. Therefore, each submission was aggregated to annual totals and compared with the corresponding FAO Area 87 series. The interpretation also considered available national statistics and clarifications provided by Members. Where a submission was incomplete or inconsistent with the annual reference, the final database used an alternative source or a documented reconstruction.</p>
 </section>
 <section id="fao-area-87-reference-data" class="level2" data-number="2.2">
 <h2 data-number="2.2" class="anchored" data-anchor-id="fao-area-87-reference-data"><span class="header-section-number">2.2</span> FAO Area 87 Reference Data</h2>
-<p>Annual capture quantities for <em>Dosidicus gigas</em> in FAO Major Fishing Area 87 were used as the principal reference for evaluating the completeness and consistency of the submitted catch series. The reference file contains annual catches for Peru, China, Chile, Ecuador, the Republic of Korea, Chinese Taipei, Japan and the former USSR for the period 1950–2024. The present analysis uses the relevant portion of these series from 1997 onwards. FAO data were not yet available for 2025.</p>
-<p>For each Member, monthly catches were aggregated by year and compared with the corresponding FAO annual total. These comparisons were used to identify missing periods, substantial differences in annual magnitude and cases requiring correction or reconstruction. Where a monthly series was reconstructed, the FAO value could be used as the annual control total, while the monthly distribution was obtained from Member data, official national statistics or another documented source.</p>
-<p>For the historical Peruvian industrial component, the annual reference was constructed from the FAO catches reported by the Republic of Korea, Japan and the former USSR during the period in which these fleets operated in Peruvian waters. This attribution was applied through 2011, with Japan’s small 2012 catch also included in the Peruvian industrial component. Korean catches for 2012–2014 were treated separately as part of the Korean series.</p>
-<p>Because the FAO data are annual and organised by reporting country or flag, they do not provide the monthly distribution of catches or independently distinguish catches taken within national waters from those taken in the SPRFMO Area. They are therefore used as an annual validation and reconstruction reference rather than as the default source of monthly observations.</p>
+<p>Annual capture quantities for <em>Dosidicus gigas</em> in FAO Major Fishing Area 87 were used as the principal reference for evaluating the completeness and consistency of the submitted catch series. The reference file contains annual catches for Peru, China, Chile, Ecuador, the Republic of Korea, Chinese Taipei, Japan and the former USSR for 1950–2024. The present analysis uses the relevant portion of these series from 1997 onwards. FAO data were not yet available for 2025.</p>
+<p>For each Member, monthly catches were aggregated by year and compared with the corresponding FAO annual total. These comparisons were used to identify missing periods, substantial differences in annual magnitude and cases requiring adjustment or reconstruction. Where a monthly series was reconstructed, the FAO value could be used as the annual control total. The monthly distribution was then obtained from Member data, official national statistics or another documented source.</p>
+<p>For the historical Peruvian industrial component, the annual reference was constructed from catches reported to FAO by the Republic of Korea, Japan and the former USSR during the period when these fleets operated in Peruvian waters. This attribution was applied through 2011. Japan’s small 2012 catch was also included in the Peruvian industrial component. In contrast, Korean catches for 2012–2014 were treated separately as part of the Korean series.</p>
+<p>FAO data are annual and organised by reporting country or flag. Consequently, they do not provide monthly catch distributions or independently distinguish catches taken within national waters from those taken in the SPRFMO Area. They were therefore used as an annual validation and reconstruction reference, rather than as the default source of monthly observations.</p>
 </section>
-<section id="additional-national-and-secondary-sources" class="level2" data-number="2.3">
-<h2 data-number="2.3" class="anchored" data-anchor-id="additional-national-and-secondary-sources"><span class="header-section-number">2.3</span> Additional National and Secondary Sources</h2>
-<!-- List the official national, public, and published sources retained for the analysis. -->
-</section>
-<section id="source-precedence-rules" class="level2" data-number="2.4">
-<h2 data-number="2.4" class="anchored" data-anchor-id="source-precedence-rules"><span class="header-section-number">2.4</span> Source-Precedence Rules</h2>
-<!-- Present the agreed source hierarchy and note only material exceptions. -->
-</section>
-<section id="member-communications-and-confirmations" class="level2" data-number="2.5">
-<h2 data-number="2.5" class="anchored" data-anchor-id="member-communications-and-confirmations"><span class="header-section-number">2.5</span> Member Communications and Confirmations</h2>
+<section id="member-communications-and-confirmations" class="level2" data-number="2.3">
+<h2 data-number="2.3" class="anchored" data-anchor-id="member-communications-and-confirmations"><span class="header-section-number">2.3</span> Member Communications and Confirmations</h2>
 <!-- Summarise confirmations that affect interpretation of missing values, zeros, areas, or fleet attribution. -->
 </section>
 </section>
@@ -257,67 +249,58 @@ ul.task-list li input[type="checkbox"] {
 <h1 data-number="3"><span class="header-section-number">3</span> Validation Approach</h1>
 <section id="annual-comparison-with-fao-area-87" class="level2" data-number="3.1">
 <h2 data-number="3.1" class="anchored" data-anchor-id="annual-comparison-with-fao-area-87"><span class="header-section-number">3.1</span> Annual Comparison with FAO Area 87</h2>
-<p>For each Member submission, monthly catches were aggregated by calendar year and compared with the corresponding annual catch reported to FAO for Major Fishing Area 87. Comparisons were conducted over the years common to both series. Years without a Member record were retained in the diagnostic dataset so that confirmed zero catches could be distinguished from missing or incomplete information.</p>
-<p>The annual comparison considered both the absolute difference, calculated as the Member total minus the FAO total, and the relative difference expressed with respect to the FAO value. Positive differences indicate that the Member series exceeds the FAO total, while negative differences indicate that it is lower.</p>
-<p>Where several fleet or area components were included in a submission, these were first combined to obtain a Member-level annual total for comparison with FAO. Component-level information was retained for subsequent interpretation and database construction.</p>
-<p>The comparison with FAO was used as a diagnostic rather than as an automatic replacement rule. Differences were interpreted together with the temporal coverage of the submission, national statistics, known area or fleet distinctions, and clarifications received from Members.</p>
+<p>For each Member submission, monthly catches were aggregated by calendar year and compared with the corresponding annual catch reported to FAO for Major Fishing Area 87. The comparison was conducted over the years common to both series. Years without a Member record were retained in the diagnostic dataset. This allowed confirmed zero catches to be distinguished from missing or incomplete information.</p>
+<p>Two measures were used in the annual comparison. The absolute difference was calculated as the Member total minus the FAO total. The relative difference was expressed with respect to the FAO value. Positive differences indicate that the Member series exceeds the FAO total, whereas negative differences indicate that it is lower.</p>
+<p>Where a submission included several fleet or area components, these components were first combined to obtain a Member-level annual total for comparison with FAO. However, the component-level information was retained for subsequent interpretation and construction of the database.</p>
+<p>The comparison with FAO was used as a diagnostic and not as an automatic replacement rule. In particular, differences were interpreted together with the temporal coverage of the submission, national statistics, known distinctions among areas or fleets, and clarifications received from Members.</p>
 </section>
 <section id="diagnostic-criteria" class="level2" data-number="3.2">
 <h2 data-number="3.2" class="anchored" data-anchor-id="diagnostic-criteria"><span class="header-section-number">3.2</span> Diagnostic Criteria</h2>
-<p>The diagnostic review focused primarily on years where the absolute relative difference between the Member and FAO annual totals exceeded 5%. Smaller relative differences were generally considered compatible with rounding, revisions between reporting systems, or minor differences in data processing.</p>
-<p>The 5% threshold was used to prioritise review and reporting, rather than as a strict acceptance criterion. Differences below this threshold were retained where the absolute quantity was important, where they formed part of a persistent pattern, or where they affected the attribution of catches among fleets, areas, or Members.</p>
-</section>
-<section id="diagnostic-outputs" class="level2" data-number="3.3">
-<h2 data-number="3.3" class="anchored" data-anchor-id="diagnostic-outputs"><span class="header-section-number">3.3</span> Diagnostic Outputs</h2>
-<p>The validation produced three main outputs:</p>
-<ul>
-<li>annual comparison tables containing Member totals, FAO totals, absolute differences and relative differences;</li>
-<li>figures showing annual relative differences between Member submissions and FAO Area 87; and</li>
-<li>a consolidated CSV file containing the annual diagnostics for all Members.</li>
-</ul>
-<p>These outputs support the identification of years requiring correction, reconstruction or further clarification and provide the basis for documenting the treatment applied in the proposed database.</p>
+<p>The diagnostic review focused primarily on years where the absolute relative difference between the Member and FAO annual totals exceeded 5%. Smaller relative differences were generally considered compatible with rounding, revisions between reporting systems or minor differences in data processing.</p>
+<p>However, the 5% threshold was used to prioritise review and reporting rather than as a strict acceptance criterion. Differences below this threshold were retained when the absolute quantity was important, when they formed part of a persistent pattern, or when they affected the attribution of catches among fleets, areas or Members.</p>
+<p>These diagnostics were used to identify years requiring correction, reconstruction or further clarification. They also provided the basis for documenting the treatment applied in the proposed database.</p>
 </section>
 </section>
 <section id="validation-and-proposed-treatment-by-member" class="level1" data-number="4">
 <h1 data-number="4"><span class="header-section-number">4</span> Validation and Proposed Treatment by Member</h1>
-<p>Annual totals derived from the Member submissions were compared with the corresponding FAO Area 87 catches through 2024. FAO data were not yet available for 2025. Four submissions were suitable for direct use with limited adjustments or reconstruction of missing periods, whereas the Peru and Ecuador submissions were not considered representative of total national catches.</p>
+<p>Annual totals derived from the Member submissions were compared with the corresponding FAO Area 87 catches through 2024. FAO data were not yet available for 2025. Four submissions were suitable for direct use after limited adjustment or reconstruction of missing periods. In contrast, the Peru and Ecuador submissions were not considered representative of total national catches.</p>
 <section id="chile" class="level2" data-number="4.1">
 <h2 data-number="4.1" class="anchored" data-anchor-id="chile"><span class="header-section-number">4.1</span> Chile</h2>
-<p>The Chile submission covers 2000–2025 at monthly resolution. Annual totals for 2000–2002 were substantially below the corresponding FAO values, with relative differences of −25.3%, −88.3% and −75.1%, respectively. From 2003 to 2024, the series was consistent with FAO: the mean absolute relative difference was 0.8%, and no annual difference exceeded 5%.</p>
-<p>The submission therefore provides a consistent monthly series from 2003 onwards, while the earlier years require reconstruction from other available sources.</p>
+<p>The Chile submission covers 2000–2025 at monthly resolution. Annual totals for 2000–2002 were substantially lower than the corresponding FAO values, with relative differences of −25.3%, −88.3% and −75.1%, respectively. From 2003 to 2024, the series was consistent with FAO. The mean absolute relative difference was 0.8%, and no annual difference exceeded 5%.</p>
+<p>Therefore, the submission provides a consistent monthly series from 2003 onwards. The earlier years require reconstruction from other available sources.</p>
 </section>
 <section id="peru" class="level2" data-number="4.2">
 <h2 data-number="4.2" class="anchored" data-anchor-id="peru"><span class="header-section-number">4.2</span> Peru</h2>
-<p>The Peru submission covers 2000–2025 and contains monthly artisanal landings from the Peruvian EEZ. Annual totals were below FAO in every comparable year. Relative differences ranged from −35.8% to −97.1%, with a median difference of −69.0%. Over the complete overlapping period, the submitted series represented approximately 32% of the cumulative FAO total.</p>
-<p>The magnitude and persistence of these differences indicate that the submission does not represent total Peruvian catches and cannot be used as the national catch series. Reconstruction from other official national sources is required, including separate treatment of the artisanal and historical industrial components.</p>
+<p>The Peru submission covers 2000–2025 and contains monthly artisanal landings from the Peruvian EEZ. Annual totals were lower than FAO in every comparable year. Relative differences ranged from −35.8% to −97.1%, with a median difference of −69.0%. Over the complete overlapping period, the submitted series represented approximately 32% of the cumulative FAO total.</p>
+<p>The magnitude and persistence of these differences indicate that the submission does not represent total Peruvian catches. Consequently, it cannot be used as the national catch series. Reconstruction from other official national sources is required, with separate treatment of the artisanal and historical industrial components.</p>
 </section>
 <section id="ecuador" class="level2" data-number="4.3">
 <h2 data-number="4.3" class="anchored" data-anchor-id="ecuador"><span class="header-section-number">4.3</span> Ecuador</h2>
-<p>The Ecuador submission contains monthly artisanal catches for 2018–2022 derived from the IPIAP monitoring series. The relationship with FAO varied substantially among years. Relative differences ranged from −93.9% in 2018 to +8.2% in 2022, and exceeded 5% in every submitted year.</p>
-<p>The variable level of coverage confirms that the submission is a monitoring series rather than a complete national catch series. It cannot be used directly to represent annual or monthly national catches, and a new series must be reconstructed from other official national sources.</p>
+<p>The Ecuador submission contains monthly artisanal catches for 2018–2022 derived from the IPIAP monitoring series. Its relationship with FAO varied substantially among years. Relative differences ranged from −93.9% in 2018 to +8.2% in 2022 and exceeded 5% in every submitted year.</p>
+<p>This variable coverage confirms that the submission represents a monitoring series rather than a complete national catch series. Therefore, it cannot be used directly to represent annual or monthly national catches. A new series must be reconstructed from other official national sources.</p>
 </section>
 <section id="china" class="level2" data-number="4.4">
 <h2 data-number="4.4" class="anchored" data-anchor-id="china"><span class="header-section-number">4.4</span> China</h2>
-<p>The China submission provides complete monthly coverage for 2003–2025. Annual totals were generally consistent with FAO. The only relative difference exceeding 5% occurred in 2005, when the submitted total was 75,300 t compared with 86,000 t in FAO, a difference of −12.4%. In 2023, the absolute difference was larger, at −16,393 t, but represented only −3.3% of the FAO total.</p>
-<p>The submitted monthly series is therefore suitable for direct use, except for 2005, when the monthly values should be adjusted proportionally to match the FAO annual total. The years before the Member series require completion from FAO and available monthly information.</p>
+<p>The China submission provides complete monthly coverage for 2003–2025. Annual totals were generally consistent with FAO. The only relative difference exceeding 5% occurred in 2005, when the submitted total was 75,300 t compared with 86,000 t in FAO, corresponding to a difference of −12.4%. In 2023, the absolute difference was larger, at −16,393 t, but represented only −3.3% of the FAO total.</p>
+<p>The submitted monthly series is therefore suitable for direct use, except for 2005, when the monthly values should be adjusted proportionally to match the FAO annual total. The years preceding the Member series require completion from FAO and available monthly information.</p>
 </section>
 <section id="korea" class="level2" data-number="4.5">
 <h2 data-number="4.5" class="anchored" data-anchor-id="korea"><span class="header-section-number">4.5</span> Korea</h2>
-<p>The Korea submission contains monthly records for 2015–2020 and 2024. Annual totals were generally consistent with FAO. The largest relative difference occurred in 2024, at +9.9%, but this represented only 11.6 t because the annual catch was small. The other comparable years were within 5%, including a difference of +4.3% in 2018.</p>
-<p>The submitted monthly data can therefore be retained without adjustment. Monthly catches for 2012–2014 require reconstruction, while the missing years 2021–2023 and 2025 are treated as confirmed zero catches.</p>
+<p>The Korea submission contains monthly records for 2015–2020 and 2024. Annual totals were generally consistent with FAO. The largest relative difference occurred in 2024, at +9.9%, but represented only 11.6 t because the annual catch was small. All other comparable years were within 5%, including a difference of +4.3% in 2018.</p>
+<p>The submitted monthly data can therefore be retained without adjustment. Monthly catches for 2012–2014 require reconstruction. The missing years 2021–2023 and 2025 are treated as confirmed zero catches.</p>
 </section>
 <section id="chinese-taipei" class="level2" data-number="4.6">
 <h2 data-number="4.6" class="anchored" data-anchor-id="chinese-taipei"><span class="header-section-number">4.6</span> Chinese Taipei</h2>
-<p>The Chinese Taipei submission covers 2002–2025 and contains monthly records for periods with fishing activity. Annual totals agree with FAO to rounding precision: the maximum absolute difference was less than 0.5 t, and the maximum relative difference was 0.03%.</p>
+<p>The Chinese Taipei submission covers 2002–2025 and contains monthly records for periods with fishing activity. Annual totals agree with FAO to rounding precision. The maximum absolute difference was less than 0.5 t, and the maximum relative difference was 0.03%.</p>
 <p>The submitted monthly series can therefore be retained as provided. Missing rows are treated as zero catches, consistent with the clarification provided by Chinese Taipei.</p>
 </section>
 <section id="proposed-treatment" class="level2" data-number="4.7">
 <h2 data-number="4.7" class="anchored" data-anchor-id="proposed-treatment"><span class="header-section-number">4.7</span> Proposed Treatment</h2>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 8%">
-<col style="width: 26%">
-<col style="width: 65%">
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -329,51 +312,51 @@ ul.task-list li input[type="checkbox"] {
 <tbody>
 <tr class="odd">
 <td>Chile</td>
-<td>Monthly Member data from 2003–2025</td>
-<td>Reconstruct 1998–2002; assign zero catch to 1997</td>
+<td>Monthly Member data for 2003–2025.</td>
+<td>Reconstruct 1998–2002 and assign zero catch to 1997.</td>
 </tr>
 <tr class="even">
 <td>Peru</td>
-<td>None as the national catch series</td>
-<td>Reconstruct the series from other official national sources and validate annual totals against FAO again</td>
+<td>None as the national catch series.</td>
+<td>Reconstruct the series from other official national sources and validate the annual totals again against FAO.</td>
 </tr>
 <tr class="odd">
 <td>Ecuador</td>
-<td>None as the national catch series</td>
-<td>Reconstruct the series from other official national sources and validate annual totals against FAO again</td>
+<td>None as the national catch series.</td>
+<td>Reconstruct the series from other official national sources and validate the annual totals again against FAO.</td>
 </tr>
 <tr class="even">
 <td>China</td>
-<td>Monthly Member data from 2003–2025</td>
-<td>Proportionally adjust 2005 to the FAO total; reconstruct 2001–2002; assign zero catch to 1997–2000</td>
+<td>Monthly Member data for 2003–2025.</td>
+<td>Adjust 2005 proportionally to the FAO total, reconstruct 2001–2002 and assign zero catch to 1997–2000.</td>
 </tr>
 <tr class="odd">
 <td>Korea</td>
-<td>Monthly Member data for 2015–2020 and 2024</td>
-<td>Reconstruct 2012–2014; assign confirmed zero catches to 2021–2023 and 2025</td>
+<td>Monthly Member data for 2015–2020 and 2024.</td>
+<td>Reconstruct 2012–2014 and assign confirmed zero catches to 2021–2023 and 2025.</td>
 </tr>
 <tr class="even">
 <td>Chinese Taipei</td>
-<td>Monthly Member data from 2002–2025</td>
-<td>Assign zero catch to omitted months and confirmed zero years</td>
+<td>Monthly Member data for 2002–2025.</td>
+<td>Assign zero catch to omitted months and confirmed zero years.</td>
 </tr>
 </tbody>
 </table>
-<p>The reconstruction of Peru and Ecuador requires further evaluation of official national monthly sources. The remaining treatments can be implemented directly from the Member submissions, FAO annual totals and confirmed zero-catch information.</p>
+<p>The reconstruction of the Peru and Ecuador series requires further evaluation of official national monthly sources. The remaining treatments can be implemented directly from the Member submissions, FAO annual totals and confirmed zero-catch information.</p>
 </section>
 </section>
 <section id="proposed-final-database" class="level1" data-number="5">
 <h1 data-number="5"><span class="header-section-number">5</span> Proposed Final Database</h1>
 <section id="coverage" class="level2" data-number="5.1">
 <h2 data-number="5.1" class="anchored" data-anchor-id="coverage"><span class="header-section-number">5.1</span> Coverage</h2>
-<p>The proposed database integrates the final submitted and reconstructed series for Chile, China, Ecuador, the Republic of Korea, Peru and Chinese Taipei. It covers January 1997 to December 2025 and retains separate records by Member, fleet type, fishing area and gear where these distinctions are available. The final long-format database contains 3,794 records, while the corresponding catch table provides one total catch value per Member and month.</p>
+<p>The proposed database integrates the final submitted and reconstructed series for Chile, China, Ecuador, the Republic of Korea, Peru and Chinese Taipei. It covers January 1997 to December 2025. Separate records by Member, fleet type, fishing area and gear are retained where these distinctions are available. The final long-format database contains 3,794 records, while the corresponding catch table provides one total catch value for each Member and month.</p>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 3%">
-<col style="width: 19%">
-<col style="width: 14%">
-<col style="width: 1%">
-<col style="width: 61%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -404,7 +387,7 @@ ul.task-list li input[type="checkbox"] {
 <td>Artisanal; other gear</td>
 <td>EEZ</td>
 <td>1997–2025</td>
-<td>Public monthly patterns were retained and rescaled for years with available monthly information. Other years were reconstructed using the median seasonal pattern and the selected annual reference. Years without an annual reference were assigned zero catch. The 2013 total was corrected to 9,506 t and the 2025 total was estimated at 3,921 t.</td>
+<td>Public monthly patterns were retained and rescaled for years with available monthly information. Other years were reconstructed using the median seasonal pattern and the selected annual reference. Years without an annual reference were assigned zero catch. The 2013 total was corrected to 9,506 t, and the 2025 total was estimated at 3,921 t.</td>
 </tr>
 <tr class="even">
 <td><strong>Republic of Korea</strong></td>
@@ -415,17 +398,17 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="odd">
 <td><strong>Peru</strong></td>
-<td>Artisanal, hand jigger</td>
+<td>Artisanal; hand jigger</td>
 <td>EEZ</td>
 <td>1997–2025</td>
-<td>The series was reconstructed from public monthly sources and annual reference totals. Alternative public seasonality was used through 2012 and official PRODUCE monthly data from 2013 onwards. The 2025 PRODUCE series was retained because no FAO value was available.</td>
+<td>The series was reconstructed from public monthly sources and annual reference totals. Alternative public seasonality was used through 2012, and official PRODUCE monthly data were used from 2013 onwards. The 2025 PRODUCE series was retained because no FAO value was available.</td>
 </tr>
 <tr class="even">
 <td><strong>Peru</strong></td>
-<td>Industrial, squid jigger</td>
+<td>Industrial; squid jigger</td>
 <td>EEZ</td>
 <td>1997–2012</td>
-<td>The series represents foreign industrial fishing attributed to the Peruvian EEZ. Annual totals correspond to FAO Japan plus Republic of Korea for 1997–2011 and FAO Japan for 2012, distributed using the Peruvian artisanal seasonality.</td>
+<td>The series represents foreign industrial fishing attributed to the Peruvian EEZ. Annual totals correspond to FAO Japan plus Republic of Korea for 1997–2011 and FAO Japan for 2012. These totals were distributed using the Peruvian artisanal seasonality.</td>
 </tr>
 <tr class="odd">
 <td><strong>Chinese Taipei</strong></td>
@@ -436,16 +419,16 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 </tbody>
 </table>
-<p>All six Members have a Member-level monthly catch value in the wide catch table for every month from January 1997 to December 2025. The long-format database retains the more detailed fleet, area, gear, effort and CPUE information where it was included in the final Member files. Reconstructed records generally contain only the identifying fields, year, month and landing, with unavailable effort and CPUE fields left blank.</p>
+<p>The wide catch table contains one Member-level catch value for every month from January 1997 to December 2025 for all six Members. The long-format database retains the more detailed fleet, area, gear, effort and CPUE information where these fields were included in the final Member files. Reconstructed records generally contain only the identifying fields, year, month and landing. Unavailable effort and CPUE fields were left blank.</p>
 <p>Japan is not included as a separate Member series. Its catches relevant to the reconstruction were incorporated into the Peruvian industrial component.</p>
 </section>
 <section id="summary-of-modifications" class="level2" data-number="5.2">
 <h2 data-number="5.2" class="anchored" data-anchor-id="summary-of-modifications"><span class="header-section-number">5.2</span> Summary of Modifications</h2>
-<p>Table X summarises the modifications applied to the submitted and complementary datasets to obtain complete monthly catch series from January 1997 to December 2025. When an annual total was rescaled, the selected monthly seasonal pattern was preserved and adjusted proportionally to the annual reference.</p>
+<p>Table X summarises the modifications applied to the submitted and complementary datasets to obtain complete monthly catch series from January 1997 to December 2025. Where an annual total was rescaled, the selected monthly seasonal pattern was preserved and adjusted proportionally to the annual reference.</p>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 2%">
-<col style="width: 97%">
+<col style="width: 50%">
+<col style="width: 50%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -456,15 +439,15 @@ ul.task-list li input[type="checkbox"] {
 <tbody>
 <tr class="odd">
 <td><strong>Chile</strong></td>
-<td><strong>1997–1999:</strong> monthly zero catches were added. <strong>2000:</strong> the Member submission was retained, including the reported annual total of 6.7 t. <strong>2001–2002:</strong> submitted records were retained and the difference from the FAO annual total was reconstructed from SERNAPESCA monthly landings and assigned to <code>Art_Others</code>; effort and CPUE were left blank for the added catch. <strong>2003–2025:</strong> submitted monthly data were retained.</td>
+<td><strong>1997–1999:</strong> monthly zero catches were added. <strong>2000:</strong> the Member submission was retained, including the reported annual total of 6.7 t. <strong>2001–2002:</strong> submitted records were retained, and the difference from the FAO annual total was reconstructed from SERNAPESCA monthly landings and assigned to <code>Art_Others</code>. Effort and CPUE were left blank for the added catch. <strong>2003–2025:</strong> submitted monthly data were retained.</td>
 </tr>
 <tr class="even">
 <td><strong>Peru</strong></td>
-<td>The original Peruvian submission was replaced by public data from PRODUCE, INFOPES and Wikipesca, with PRODUCE treated as the primary official source. <strong>Artisanal, 1997–2001:</strong> the monthly pattern was the median cumulative seasonality calculated from 1997, 1999, 2000 and 2001, excluding the incomplete 1998 series, and was scaled to each FAO Peru annual total. <strong>Artisanal, 2002–2012:</strong> each year’s alternative-source seasonality was scaled to FAO Peru. <strong>Artisanal, 2013–2024:</strong> official PRODUCE seasonality was scaled to FAO Peru. <strong>Artisanal, 2025:</strong> the PRODUCE monthly series and annual total of 712,155 t were retained because no FAO value was available. <strong>Industrial, 1997–2011:</strong> FAO Japan plus Republic of Korea catches were attributed to the Peruvian industrial fleet and distributed using the reconstructed Peruvian artisanal seasonality for the same year. <strong>Industrial, 2012:</strong> only the FAO Japan catch was used and distributed using the 2012 artisanal seasonality.</td>
+<td>The original Peruvian submission was replaced by public data from PRODUCE, INFOPES and Wikipesca, with PRODUCE treated as the primary official source. <strong>Artisanal, 1997–2001:</strong> the monthly pattern was obtained from the median cumulative seasonality calculated from 1997, 1999, 2000 and 2001. The incomplete 1998 series was excluded. This pattern was scaled to each FAO Peru annual total. <strong>Artisanal, 2002–2012:</strong> the alternative-source seasonality for each year was scaled to FAO Peru. <strong>Artisanal, 2013–2024:</strong> official PRODUCE seasonality was scaled to FAO Peru. <strong>Artisanal, 2025:</strong> the PRODUCE monthly series and annual total of 712,155 t were retained because no FAO value was available. <strong>Industrial, 1997–2011:</strong> FAO Japan plus Republic of Korea catches were attributed to the Peruvian industrial fleet and distributed using the reconstructed Peruvian artisanal seasonality for the same year. <strong>Industrial, 2012:</strong> only the FAO Japan catch was used and distributed using the 2012 artisanal seasonality.</td>
 </tr>
 <tr class="odd">
 <td><strong>Ecuador</strong></td>
-<td><strong>Years with monthly public data—2013, 2014 and 2018–2022:</strong> the observed monthly pattern was retained and scaled to the selected annual reference. The 2013 FAO value was replaced by the agreed total of 9,506 t. <strong>Years without monthly data:</strong> the monthly pattern was the median cumulative seasonality calculated from all seven available years and was scaled to the FAO Ecuador annual total. Where FAO had no value, catch was set to zero while retaining all 12 months. <strong>2025:</strong> an annual catch of 3,921 t, estimated from the Cancas–Chala–Tambo de Mora regression, was distributed using the median seasonal pattern.</td>
+<td><strong>Years with monthly public data—2013, 2014 and 2018–2022:</strong> the observed monthly pattern was retained and scaled to the selected annual reference. The 2013 FAO value was replaced by the agreed total of 9,506 t. <strong>Years without monthly data:</strong> the monthly pattern was obtained from the median cumulative seasonality calculated from all seven available years and scaled to the FAO Ecuador annual total. Where FAO had no value, catch was set to zero while retaining all 12 months. <strong>2025:</strong> an annual catch of 3,921 t, estimated from the Cancas–Chala–Tambo de Mora regression, was distributed using the median seasonal pattern.</td>
 </tr>
 <tr class="even">
 <td><strong>China</strong></td>
@@ -476,11 +459,11 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="even">
 <td><strong>Chinese Taipei</strong></td>
-<td><strong>1997–2001 and 2022–2024:</strong> monthly zero catches were added. <strong>2002–2021 and 2025:</strong> submitted records were retained, and omitted months were interpreted as zero catch following confirmation from Chinese Taipei. For added zero-catch records, nominal effort and nominal CPUE were set to zero and the effort unit was recorded as <code>fishing days</code>.</td>
+<td><strong>1997–2001 and 2022–2024:</strong> monthly zero catches were added. <strong>2002–2021 and 2025:</strong> submitted records were retained, and omitted months were interpreted as zero catch following confirmation from Chinese Taipei. For added zero-catch records, nominal effort and nominal CPUE were set to zero, and the effort unit was recorded as <code>fishing days</code>.</td>
 </tr>
 </tbody>
 </table>
-<p>For reconstructed Peru and Ecuador records, the identifying fields, year, month and landing were populated, while effort and CPUE fields were left blank. Japan was not represented as a separate Member series because its relevant catches were incorporated into the reconstructed Peruvian industrial component.</p>
+<p>For reconstructed Peru and Ecuador records, the identifying fields, year, month and landing were populated. Effort and CPUE fields were left blank. Japan was not represented as a separate Member series because its relevant catches were incorporated into the reconstructed Peruvian industrial component.</p>
 </section>
 </section>
 <section id="additional-spatial-and-operational-data" class="level1" data-number="6">
