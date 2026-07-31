@@ -49,7 +49,7 @@ The main objectives are to:
 | SCW18-Doc02 | [Squid data for stock assessment](documents/SCW18-squid3_data.html) | [PDF](documents/SCW18-squid3_data.pdf) · [DOCX](documents/SCW18-squid3_data.docx) |
 | SCW18-Doc03 | [Systematic Literature Review for *Dosidicus gigas*](documents/SCW18-squid3_literature_review.html) | [PDF](documents/SCW18-squid3_literature_review.pdf) · [DOCX](documents/SCW18-squid3_literature_review.docx) |
 | SCW18-Doc04 | [Stock assessment of Jumbo squid in the South Pacific using E-BSP](presentations/BSPM.pptx) (CHN) | [PPTX](presentations/CHN-BSPM.pptx) · [PDF](presentations/CHN-BSPM.pdf) |
-| SCW18-Doc05 | [Stock Assessment using SPiCT](presentations/CHL-SPiCT.pptx) (CHL) | [PPTX](presentations/SPiCT.pptx) · [PDF](presentations/CHL-SPiCT.pdf) |
+| SCW18-Doc05 | [Stock assessment of jumbo flying squid (Dosidicus gigas) in the FAO Area 87 using SPiCT](presentations/CHL-SPiCT.pptx) (CHL) | [PPTX](presentations/CHL-SPiCT.pptx) · [PDF](presentations/CHL-SPiCT.pdf) |
 
 
 
