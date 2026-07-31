@@ -48,23 +48,43 @@ The main objectives are to:
 | SCW18-Doc01 | [Working draft report](SCW18-squid3_meeting_report.html) (to be updated during the meeting) | [PDF](SCW18-squid3_meeting_report.pdf) · [DOCX](SCW18-squid3_meeting_report.docx) |
 | SCW18-Doc02 | [Squid data for stock assessment](documents/SCW18-squid3_data.html) | [PDF](documents/SCW18-squid3_data.pdf) · [DOCX](documents/SCW18-squid3_data.docx) |
 | SCW18-Doc03 | [Systematic Literature Review for *Dosidicus gigas*](documents/SCW18-squid3_literature_review.html) | [PDF](documents/SCW18-squid3_literature_review.pdf) · [DOCX](documents/SCW18-squid3_literature_review.docx) |
-| SCW18-Doc04 | [Conceptual model for *Dosidicus gigas* in the Southeastern Pacific](documents/SCW18-squid3_conceptual_model.html) (to be updated during the meeting) | [PDF](documents/SCW18-squid3_conceptual_model.pdf) · [DOCX](documents/SCW18-squid3_conceptual_model.docx) |
-| SCW18-Doc05 | [Stock Assessment using a Bayesian Production Model](documents/SCW18-squid3_bayesian_production_model.html) (CHN) | [PDF](documents/SCW18-squid3_bayesian_production_model.pdf) · [DOCX](documents/SCW18-squid3_bayesian_production_model.docx) |
-| SCW18-Doc06 | [Stock Assessment using SPiCT](documents/SCW18-squid3_spict.html) (CHL) | [PDF](documents/SCW18-squid3_spict.pdf) · [DOCX](documents/SCW18-squid3_spict.docx) |
-| SCW18-Doc07 | [Stock Assessment using JABBA](documents/SCW18-squid3_jabba.html) (Expert) | [PDF](documents/SCW18-squid3_jabba.pdf) · [DOCX](documents/SCW18-squid3_jabba.docx) |
-| SCW18-Doc08 | [Stock Assessment using an Integrated Production Model](documents/SCW18-squid3_integrated_production_model.html) (SC Chair) | [PDF](documents/SCW18-squid3_integrated_production_model.pdf) · [DOCX](documents/SCW18-squid3_integrated_production_model.docx) |
+| SCW18-Doc04 | [Stock assessment of Jumbo squid in the South Pacific using E-BSP](presentations/BSPM.pptx) (CHN) | [PPTX](presentations/CHN-BSPM.pptx) · [PDF](presentations/CHN-BSPM.pdf) |
+| SCW18-Doc05 | [Stock Assessment using SPiCT](presentations/CHL-SPiCT.pptx) (CHL) | [PPTX](presentations/SPiCT.pptx) · [PDF](presentations/CHL-SPiCT.pdf) |
+
 
 
 ## Practical information
 
-Practical information will be added here as it becomes available, including:
+The SPRFMO Scientific Committee Stock Assessment and Simulated Assessment Workshop of Jumbo Flying Squid (SCW18) is an in-person workshop held in Shanghai, China, from 29 July to 1 August 2026. Registrations closed on 15 July 2026.
 
-- meeting venue;
-- local logistics;
-- daily schedule;
-- document submission instructions;
-- remote participation details, if applicable;
-- contact points.
+| Item | Information |
+|---|---|
+| Workshop | 2026 Squid Stock Assessment Workshop (SCW18) |
+| Location | Shanghai, China |
+| Dates | 29 July – 1 August 2026 |
+| Chairperson | Dr Gang Li |
+| Registration deadline | 15 July 2026 |
+| Daily schedule | 08:30–17:00 hrs |
+
+### Venue
+
+The workshop venue is:
+
+**Hotel Indigo Shanghai Harbour City**  
+No. 15, Lane 50, Shuiyun Road  
+Nanhui New Town, Pudong New Area  
+Shanghai, China
+
+### Workshop scope and daily programme
+
+SCW18 focuses on the stock assessment and simulated assessment of jumbo flying squid (*Dosidicus gigas*) in the SPRFMO Convention Area. The workshop supports the work of the Squid Working Group and the Assessment Simulation Task Team by reviewing available assessment data, candidate stock assessment models, model assumptions, diagnostics, sensitivities, simulation scenarios and expected outputs for consideration by SC14.
+
+The agenda is structured around four main themes:
+
+- **Day 1 (29 July):** introduction, data review and assessment setup;
+- **Day 2 (30 July):** stock assessment model runs and diagnostics;
+- **Day 3 (31 July):** stock assessment results, interpretation and scientific advice; and
+- **Day 4 (1 August):** simulated assessment, operating model development and experiment design.
 
 ## Repository and data access
 
@@ -78,4 +98,4 @@ Only agreed public outputs should be transferred from the private assessment rep
 
 For questions about workshop organisation, please contact the SPRFMO Secretariat.
 
-For questions about technical content, please contact the Squid Working Group Chair or the workshop coordination team (details to come).
+For questions about technical content, please contact the Squid Working Group Chair or the workshop coordination team.
