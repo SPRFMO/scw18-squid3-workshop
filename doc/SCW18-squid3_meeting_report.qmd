@@ -118,11 +118,11 @@ The workshop will focus on two complementary components: advancing the stock ass
 
 # Meeting Details
 
-The SPRFMO SC Third Squid Workshop (SCW18) was held in person in Shanghai, China, from 29 July to 1 August 2026. The workshop focused on the stock assessment and simulated assessment of jumbo flying squid and was conducted under the auspices of the South Pacific Regional Fisheries Management Organisation through the Squid Working Group (SQWG), chaired by Dr Gang Li.
+The SPRFMO SC Third Squid Workshop (SCW18) was held in person in Shanghai, China, from 29 July to 1 August 2026. The workshop focused on the stock assessment and simulated assessment of jumbo flying squid and was conducted under the South Pacific Regional Fisheries Management Organisation through the Squid Working Group (SQWG), chaired by Dr Gang Li.
 
 # Opening of the Meeting
 
-The Third Squid Workshop (SCW18) opened on 29 July 2026 in Shanghai, China, with welcoming remarks and introductions by the participants. The workshop brought together representatives of SPRFMO Members, invited experts and observers to advance the stock assessment and simulated assessment work for jumbo flying squid (*Dosidicus gigas*).
+The Third Squid Workshop (SCW18) opened on 29 July 2026 in Shanghai, China, with welcoming remarks and introductions by the participants. The workshop brought together representatives of SPRFMO Members, invited experts and Observers to advance the stock assessment and simulated assessment work for jumbo flying squid (*Dosidicus gigas*).
 
 # Adoption of the Agenda
 
@@ -141,16 +141,245 @@ The main objectives are to:
 
 # Key Discussion Summary
 
+The workshop organised its technical discussions around the development of a common assessment dataset, the review of available abundance indices, the identification of the principal structural assumptions affecting the assessment, and the design of a common framework for model testing. The discussion focused on distinguishing uncertainty arising from the input data from uncertainty associated with CPUE standardisation, model structure and parameter assumptions.
+
 ## Data and assessment inputs
+
+The SC Chairperson, Dr Ricardo Oliveros Ramos, presented SCW18-Doc02, which described the validation, reconstruction and integration of monthly jumbo flying squid (*Dosidicus gigas*) catch series for 1997–2025. The proposed database combined information submitted by Chile, China, Chinese Taipei, Ecuador, the Republic of Korea and Peru. Monthly submissions were aggregated and compared with FAO Area 87 annual catches, while official national statistics and other documented sources were used when the submitted information was incomplete or did not represent total national catches.
+
+The workshop noted that the Member submissions differed in their temporal coverage, operational detail and completeness. The Chilean, Chinese, Korean and Chinese Taipei series could be retained after completing missing periods or applying limited reconstruction. In contrast, the submissions from Peru and Ecuador represented monitoring or sampling information rather than complete national catches and therefore required reconstruction from complementary official sources.
+
+| Member | Principal treatment in the proposed database | Main issue identified |
+|---|---|---|
+| Chile | Monthly Member records were retained for 2000–2025, with 2001–2002 supplemented using official SERNAPESCA information. | Recovery and reconciliation of earlier monthly records remained desirable. |
+| Peru | National catches were reconstructed from official PRODUCE statistics and complementary documented sources, distinguishing artisanal catches from historical industrial catches. | The submitted series did not represent complete national catches, and the historical industrial component required assumptions regarding fleet and area attribution. |
+| Ecuador | Available monthly patterns were combined with selected annual reference totals from official and documented sources. | Temporal coverage was incomplete and some annual totals required clarification. |
+| China | Monthly Member data were retained for 2003–2025; 2001–2002 were reconstructed from FAO annual totals and adjacent-year seasonality. | Differences with FAO statistics in some years and the absence of original monthly data for 2001–2002 required further review. |
+| Republic of Korea | Submitted monthly data were retained for 2015–2020 and 2024; 2012–2014 were reconstructed and confirmed zero catches were included for 2021–2023 and 2025. | Earlier catches associated with fishing off Peru required careful treatment to avoid double counting. |
+| Chinese Taipei | Submitted monthly data were retained for 2002–2025, with omitted months and confirmed missing years treated as zero catch. | No additional annual reconstruction was considered necessary. |
+
+The workshop recognised that FAO statistics provided a useful annual reference for evaluating the magnitude and completeness of national series, but did not provide the monthly, spatial or fleet resolution required for the assessment database. FAO values were therefore used as annual control totals or diagnostic references, while monthly distributions were derived from Member submissions, official national data or documented seasonal patterns.
+
+Particular attention was given to the historical attribution of catches by Japan and the Republic of Korea within and outside the Peruvian exclusive economic zone. The workshop noted that some catches taken by foreign fleets off Peru had historically been represented within the Peruvian industrial series, whereas catches in later years were reported by the respective flag States. Participants agreed that these records should be examined carefully to prevent double counting and to maintain a transparent allocation among fleets and fishing areas.
+
+The workshop further noted that, for a production model without fleet-specific selectivity, the principal assessment requirement was an accurate time series of total removals. Correct allocation by flag, fleet and fishing area nevertheless remained important for the traceability and internal consistency of the database and for future analyses using spatial or fleet-specific information.
+
+Both the original Member submissions and the reconstructed assessment series were retained. The workshop considered that this distinction was particularly important for Peru and Ecuador, where the submitted information differed from the reconstructed national totals. Maintaining both versions would allow the reconstruction assumptions to be reviewed and revised without altering the original records.
+
+The workshop identified several priorities for improving the catch database. These included recovering original monthly records for reconstructed periods, further comparison with official SPRFMO statistics, obtaining additional historical information from Japan, and examining the availability of more highly resolved catch and effort information. The workshop also noted the potential value of port-level information where fishing locations were unavailable, while recognising that landing locations should not be interpreted directly as fishing locations.
+
+Lee Qi presented an overview of the catch, effort and CPUE information available from the participating fleets. The information included annual and monthly catch series, fishing effort, nominal CPUE and standardised indices, with substantial differences among fleets in temporal coverage, units of effort and degree of standardisation. The workshop agreed that a common inventory of the available indices was required before their selection and weighting in the assessment.
+
+Peru had provided a monthly nominal CPUE series, while previous assessment work had used an annual standardised Peruvian index obtained from national reports. Participants noted that the construction, coverage and representativeness of these series required clarification by Peru. The workshop considered that the available Peruvian information could be used for exploratory testing, but that its role in the final assessment should be explicitly documented and confirmed.
+
+The preliminary set of indices considered for evaluation included standardised Chinese and Chilean indices, the nominal Chinese Taipei series, and additional national indices subject to further review. Participants emphasised that the final selection should reflect the temporal and spatial coverage of each fleet, the quality of the underlying data, the standardisation method and the relationship between each index and the component of the stock sampled by the fishery.
 
 ## CPUE standardisation and environmental variability
 
+The workshop reviewed the methods used to derive the Chinese standardised CPUE series. The approach presented used a generalised additive model incorporating temporal, spatial and environmental covariates, including ENSO conditions, sea surface temperature, sea surface salinity, latitude, longitude and spatial interactions. Fishing effort was represented by operational days within fine-resolution spatial cells.
+
+Participants distinguished between fitting the CPUE model and deriving the standardised abundance index. The workshop noted that averaging predictions over the observations used to fit the model could retain the unequal sampling intensity of the fishing fleet and give greater influence to repeatedly sampled combinations of space, time and environmental conditions. A separate prediction dataset representing an agreed spatial and temporal domain was therefore considered necessary to obtain a standardised index that was not determined by the distribution of the observed fishing operations.
+
+Differences between nominal and standardised CPUE were examined. The workshop noted that the magnitude and temporal pattern of the standardised Chinese series differed substantially from the nominal observations in some months, including periods corresponding to peaks in the standardised index. Participants considered that the contribution of individual covariates, spatial cells and model components to these differences should be investigated before the index was used as a principal abundance indicator.
+
+The current monthly standardised Chinese series covered only a limited number of recent years. Given the short lifespan of jumbo flying squid, participants noted that this period represented relatively few generations and might not include a sufficient range of productivity and environmental conditions. The workshop therefore encouraged extension of the standardised series using the longest period for which suitable operational data could be assembled.
+
+The workshop discussed whether vessel size, capacity or other measures of fishing power should be included in the Chinese standardisation. Participants proposed testing these effects during the period for which detailed vessel-level information was available. If vessel effects were shown to be negligible, a reduced model could subsequently be applied to earlier years for which vessel characteristics were unavailable. Where individual vessel information was retained, vessel identity could be represented as a random effect and excluded from predictions of the standardised index.
+
+The workshop recommended preserving the highest reliable resolution of the fishery data, even where environmental covariates were available only at a coarser resolution. Participants cautioned against deriving one index for the entire fishing area without evaluating spatial heterogeneity in fleet operations, squid distribution and catchability. The spatial domain and prediction grid used to calculate the index should therefore be documented explicitly.
+
+The Chilean CPUE standardisation process for the artisanal jigging fleet was presented. Nominal CPUE was expressed as tonnes per trip, with trips generally representing fishing operations completed within one day. The mixed-effects model included year, month and region as fixed effects and vessel as a random effect.
+
+The workshop discussed the implications of using additive year and month effects in the Chilean model. Participants noted that this structure imposed the same seasonal pattern in each year unless an interaction or another time-varying seasonal term was included. The standardised and nominal series should therefore be compared to determine whether the model retained meaningful interannual variation in seasonal abundance and whether alternative year-month or year-quarter formulations should be evaluated.
+
+Set-level fishing positions were not available for the Chilean artisanal fleet. Potential approaches for incorporating environmental information included linking observations to regional conditions, using environmental information near the landing port, or including large-scale climate indicators. The workshop noted that any spatial linkage should reflect the short duration and likely operating range of the trips and should be supported by an explicit rationale.
+
+Participants discussed published guidance cautioning against temporal smoothing in a CPUE index intended for use in a surplus production model. Excessive smoothing could introduce temporal dependence into the abundance index and overlap with the population dynamics that the assessment model was intended to estimate. At the same time, the workshop noted that annual effects could be too coarse for a short-lived species. Year-month or year-quarter factors were identified as alternatives requiring further evaluation.
+
+The workshop distinguished two potential pathways through which environmental variability could affect the assessment. Environmental conditions could alter the availability or catchability of squid and should then be addressed through CPUE standardisation. They could also affect biological productivity and population dynamics, in which case the relationship should be represented within the assessment model or examined through complementary analyses.
+
+Participants noted that El Niño conditions may alter the depth and spatial distribution of jumbo flying squid, including movement towards more southern fishing grounds, thereby affecting fleet accessibility and observed catch rates. Failure to distinguish changes in availability from changes in abundance could bias the interpretation of CPUE and stock status. However, the workshop recognised that the short time series, limited number of major ENSO events and spatial differences among fleets and phenotypes constrained the statistical identification of these effects.
+
+Niño 1+2 and Niño 3.4 were identified as initial candidate indices. The Peruvian Coastal Thermal Index (PCTI) was also presented as a regional indicator of coastal environmental variability. Participants noted that broad-scale indices might not adequately describe conditions in the principal fishing grounds and encouraged the development or evaluation of regional indices tailored to the spatial domains occupied by the fisheries and relevant phenotypes.
+
+The workshop did not select a single environmental indicator. It agreed that oceanic and coastal indicators should remain available for comparative analyses and that different indices could be appropriate for different fleets or mechanisms. Environmental variables used in CPUE standardisation should be distinguished from those used to represent variability in production-model parameters.
+
+Participants also emphasised the importance of information from the current fishing season when interpreting assessment results and developing scientific advice. Chile indicated that it was preparing information on its current artisanal fishery for SC14. The workshop noted that recent fishery information could be particularly relevant if management decisions were based on assessment data that did not fully represent rapidly changing stock and environmental conditions.
+
+The workshop recognised the need for further dedicated work on CPUE standardisation. It proposed that the available operational data, model specifications, prediction procedures and resulting indices be reviewed before the SC14. This review should include direct comparisons of nominal and standardised series and an examination of the observations, covariates and spatial cells responsible for prominent features in the standardised indices.
+
 ## Assessment framework and principal assumptions
+
+The workshop reviewed candidate production-model approaches presented by China (B-SPM) and Chile (SPiCT). Participants agreed that comparisons among assessment methods should focus on model structure and assumptions rather than on differences in the input data. Candidate models should therefore be fitted, as far as their structures permitted, to a common catch series and a common set of abundance indices.
+
+The workshop agreed to establish a common database and common stock assessment framework for the next phase of model testing. The framework would include an agreed set of input data, consistent baseline assumptions and common prior specifications for the principal production-model parameters. Alternative configurations would be compared against this reference framework.
+
+The purpose of the common framework was to ensure that differences among assessment results could be attributed to identifiable assumptions or model structures rather than to inconsistent data preparation. The framework would allow the effects of assessment period, temporal resolution, CPUE selection and weighting, environmental configuration and prior assumptions to be examined systematically.
+
+The appropriate starting year for the assessment received substantial discussion. Participants noted that the reconstructed catch series extended to 1997, but that the composition and development of the fisheries changed during the early part of the series. Low catches before the expansion of several fisheries could reflect limited fishing activity rather than low biomass or productivity and could consequently influence estimates of $r$ and $K$.
+
+Other participants noted that a short assessment period might represent only one productivity regime and provide limited information about the response of the stock under contrasting environmental conditions. A longer series could improve the representation of increasing and decreasing production phases and provide more environmental variation, but only if the early catch and abundance information was sufficiently reliable.
+
+The workshop considered that the effect of the starting year should be evaluated through model diagnostics and sensitivity analyses rather than resolved only through conceptual discussion. Configurations beginning in 2001 and 2012 were identified for initial comparison, representing a longer period with broader historical coverage and a shorter period with more complete recent fishery information, respectively. The final role of each period was to be determined from the comparative model results.
+
+Annual, quarterly and monthly assessment time steps were discussed. Participants noted that reliable monthly catch information was principally available from the early 2000s onwards, which constrained the period available for fine-resolution models. The choice of time step therefore involved a trade-off between the length of the time series and the temporal resolution of the population and fishery dynamics.
+
+Given the short lifespan, rapid growth and semelparous life history of jumbo flying squid, participants considered that an annual time step might be too coarse to represent within-year changes in production, abundance and fishing activity. Monthly and quarterly configurations were therefore proposed for evaluation. The workshop did not select a reference time step at this stage and agreed that the results and diagnostics should be examined before determining the most appropriate configuration.
+
+The workshop distinguished the temporal resolution of the scientific assessment from the period over which management advice might ultimately be expressed. Participants noted that a monthly or quarterly model could still produce annual summaries or advice, while a scientifically appropriate time step should not be rejected solely because existing management processes operated annually. The implications of alternative time scales for monitoring and advice were to be considered after the model results were reviewed.
+
+The potential implications of population structure and phenotypic variation were also discussed. Participants noted that the Chinese and Chilean fisheries might sample different components or phenotypes of the jumbo flying squid population. Under the working assumption of a single stock, production-model parameters would represent aggregate or synthetic population properties, while differences among fleet indices could reflect availability, catchability, spatial distribution or phenotype composition.
+
+The workshop recognised that a single-stock production model could not fully represent changes in the relative contribution, productivity and growth of different phenotypes. Simulation was identified as an appropriate approach for evaluating the robustness of the assessment model to these processes. For the current assessment work, the single-stock assumption was retained as a practical simplification and identified as an important source of uncertainty.
+
+The workshop discussed whether the available abundance information should be combined into a single index or fitted as separate fleet-specific indices. Participants noted that a combined index required an explicit weighting method and could give excessive influence to a high-catch but less reliable nominal series. Conversely, fitting separate indices allowed each series to have its own catchability coefficient and observation error, but could produce conflicting signals and greater model instability.
+
+The standardised Chinese and Chilean indices were initially considered likely to receive relatively greater influence, while nominal indices with more limited documentation or spatial representation could receive lower influence or be restricted to sensitivity analyses. The workshop did not agree final weights. It considered that relative influence could be represented through explicit weights, index-specific observation-error assumptions or alternative subsets of indices and should be evaluated within the common model-comparison framework.
+
+Prior distributions for $r$, $K$, catchability and initial biomass were discussed. Participants noted that the posterior estimate of $r$ in some presented configurations remained close to its prior, raising questions about the information available in the data. More than one prior configuration was therefore required to evaluate the dependence of the assessment results on prior assumptions.
+
+The workshop discussed the use of broad uniform priors and informative normal or log-normal priors as alternative configurations. Participants also noted that prior specifications could not always be transferred directly among model structures and time steps. In particular, rate parameters required consistent treatment when moving from annual to quarterly or monthly models, while the carrying-capacity parameter should remain on a comparable biomass scale.
+
+The workshop identified five principal decision axes for the comparative assessment: the starting year, the selection and relative influence of CPUE indices, the temporal resolution, the treatment of environmental variability, and the prior distributions for the principal production-model parameters. These axes provided the basis for constructing the model-testing framework.
 
 ## Model testing, diagnostics and agreed configurations
 
+The workshop proposed organising the assessment work through a decision matrix containing the principal data and structural assumptions identified during the discussion, as a means of comparing candidate configurations systematically and maintaining a transparent record of the assumptions associated with each model run.
 
-# Participants
+The matrix was intended to include alternative assessment periods, temporal resolutions, CPUE combinations or weights, environmental treatments and prior specifications. Participants noted that the complete factorial combination of all options would be unnecessarily large. The workshop would therefore select a limited set of reference, sensitivity and exploratory runs that isolated the effects of the principal assumptions.
+
+The initial model-configuration table developed during the workshop was treated as a working structure rather than a definitive list of models or terminology. It provided fields for the scenario dimensions, prior specifications, model identifiers and individual runs. The definitive naming convention and list of configurations were to be agreed only after the workshop had reviewed the feasibility, diagnostics and information requirements of the candidate cases.
+
+Participants considered that candidate configurations should be evaluated using a common set of diagnostics. These included model convergence, residual patterns, consistency between fitted and observed indices, retrospective behaviour, retrospective analysis, and comparison between prior and posterior parameter distributions. The plausibility and stability of biomass, fishing mortality and management-relevant outputs were also considered important.
+
+The workshop noted that passing a limited set of statistical diagnostics did not by itself demonstrate that a model was biologically or scientifically appropriate. Conversely, a failure under one configuration should not automatically be addressed by shortening the time series without examining the cause. Model diagnostics were to be interpreted together with the data history, fishery development, biological assumptions and intended use of the assessment.
+
+Differences among the candidate production models meant that identical parameterisations could not always be imposed. For example, some approaches allowed productivity to vary through time, whereas others treated $r$ as constant. The workshop nevertheless considered that the models could use the same catch and CPUE inputs and could apply comparable assumptions where their structures permitted.
+
+<!-- DAY 3 PLACEHOLDER: Summarise the common reference configuration used for the hands-on model runs. Include the catch series, CPUE indices, starting year, time step, environmental treatment, priors and error assumptions. -->
+
+<!-- DAY 3 PLACEHOLDER: Summarise the model diagnostics and results reviewed by the workshop. Organise the paragraphs by the effects of assessment period, temporal resolution, CPUE selection or weighting, environmental treatment and priors, rather than by the chronological order of presentations. -->
+
+<!-- DAY 3 PLACEHOLDER: State which conclusions were robust across models and configurations, which results remained sensitive, and which configurations were rejected or deferred. Do not infer agreement from the early model-configuration table. -->
+
+The final model-testing framework was to be agreed as the last technical decision of the stock-assessment component of the workshop. The final table should identify the reference configuration, targeted sensitivity analyses, structural alternatives, exploratory cases and any runs assigned for completion after the workshop.
+
+<!-- Replace the table below with the final Day 3 decision matrix. -->
+
+- Model Scenarios with Naming Convention
+
+| Code   | Variable     | Values                                                                                                                                       | Priority                               |
+| -------------- | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------- |
+| y1, y2         | startYear    | 1) 2001<br>2) 2012                                                                                                                           | 1) High<br>2) High                     |
+| t1, t2, t3     | Timescale    | 1) Yearly<br>2) Quarterly<br>3) Monthly                                                                                                      | 1) Low<br>2) High<br>3) High           |
+| e0, e1, e2, e3 | Env_r        | 0) No environmental index<br>1) 1+2 El Niño<br>2) 3.4 El Niño<br>3) PCT                                                                      | 0) High<br>1) High<br>2) Low<br>3) Low |
+| r1, r2         | Rprior       | 1) $r \sim N(1.5, 0.2)$<br>2) $r \sim U(.05, 2.5)$                                                                                           | 1) Low<br>2) High                      |
+| w1, w2, w3     | CPUE weights | 1) Scaled by expert judgement<br>CHL = 0.2, CHN = 0.3, TPE = 0.1, PER = 0.2, KOR = 0.1<br>2) Equal weights<br>3) Peruvian CPUE with 0 weight | 1) High<br><br>2) Low<br>3) Low        |
+| d1, d2         | Data series  | 1) All five indices<br>2) Three indices: CHN, CHL, PER                                                                                       | 1) High<br>2) Low                      |
+| q0, q1         | Env_q        | 0) No environmental index<br>1) q_CHL ~ 1+2 ENSO (or local env), q_CHN ~ 1+2 ENSO, q_PER ~ PCT                                               | 0) High<br>1) High                     |
+| p0, p1         | Perucpue     | 0) Nominal annual CPUE provided by Peru<br>1) Annual CPUE series from national report<br>                                                    | 0) High<br>1) Low                      |
+
+
+- Prior Specifications
+
+| Parameter               | Distribution | Hyper-parameters | Values               | Notes                                |
+| ----------------------- | ------------ | ---------------- | -------------------- | ------------------------------------ |
+| r                       | Normal       | Mean, sd         | N(1.5, 0.2)          | Meta-analysis from IFOP presentation |
+| r                       | Uniform      | a, b             | U(0.5, 2.5)          | SPiCT uses log of these              |
+| K                       | Uniform      | a, b             | U(1x, 15x max catch) | Max catch = 1 300 000 tons           |
+| Ratio between B_1 and K | Uniform      | a, b             | U(0.01, 1)           | SPiCT default N(0.5, 1)              |
+| q                       | Uniform      | a, b             | U(0, 1)              |                                      |
+| Shape parameter         | Uniform      | a, b             | U(1, 5)              |                                      |
+
+As an example, the model name: *y2t1e0r1w2d1q0* will correspond to:
+
+| Variable                   | Scenarios   |
+| -------------------------- | ----------- |
+| Start year                 | 2012        |
+| Time scale                 | Yearly      |
+| Environmental index_r      | None        |
+| Prior distribution for $r$ | N(1.5, 0.2) |
+| CPUE weights               | Equal       |
+| Data series                | All five    |
+| Environmental index_q      | None        |
+
+
+<!-- DAY 3 PLACEHOLDER: Record the final assignments, deadlines and expected outputs associated with the model runs. -->
+
+## Simulated Assessment
+
+<!-- DAY 4 PLACEHOLDER: Final runs, updated deadline (2027), priority for the assessment. -->
+
+# Decisions and agreements
+
+| No. | Topic                                 | Decision or agreement                                                                                                                                                                | Responsibility |
+| --: | ------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------- |
+|   1 | Common catch database                 | Maintain a common, traceable catch database as the basis for all assessment models.                                                                                                  | SQWG           |
+|   2 | Original and reconstructed catches    | Retain both the original Member submissions and the reconstructed assessment series until better information is available.                                                                                                 | SQWG           |
+|   3 | Historical catch allocation           | Review the allocation of historical catches by Japan, the Republic of Korea and Peru within and outside national EEZs to avoid double counting.                                      | SQWG           |
+|   4 | Historical Japanese data              | Seek additional historical catch information from Japan to complete and validate the database.                                                                                       | Secretariat    |
+|   5 | Catch database updates                | Continue updating the common database as additional national or historical information becomes available.                                                                            | SQWG           |
+|   6 | CPUE inventory                        | Maintain a common inventory describing the coverage, effort units, standardisation method and limitations of each available abundance index.                                         | SQWG           |
+|   7 | CPUE selection                        | Evaluate the available CPUE indices jointly and document explicitly which indices are included, excluded or used only in sensitivity analyses.                                       | SQWG           |
+|   8 | CPUE weighting                        | Test alternative approaches for representing the relative influence of CPUE indices, including index selection, explicit weighting and index-specific observation error.             | SQWG           |
+|   9 | Peruvian CPUE                         | Use the available Peruvian nominal CPUE series for exploratory analyses pending confirmation of their construction and representativeness.                                           | SQWG           |
+|  10 | Peruvian CPUE                         | Enquire Peru for technical details and availability of a standardised CPUE abundance index.                                                                                          | Secretariat    |
+|  11 | Chinese CPUE coverage                 | Extend the standardised Chinese CPUE series backwards using the longest period for which suitable operational data are available.                                                    | China          |
+|  12 | Chinese nominal and standardised CPUE | Investigate differences between nominal and standardised Chinese CPUE and identify the observations, covariates and model components responsible for prominent discrepancies.        | China          |
+|  13 | Chinese prediction procedure          | Derive the standardised Chinese index using an explicit prediction dataset that represents the agreed assessment domain rather than the distribution of observed fishing operations. | China          |
+|  14 | Chinese vessel effects                | Test the effects of vessel size, capacity and other fishing-power variables using the period with detailed vessel-level data.                                                        | China          |
+|  15 | Chinese spatial structure             | Evaluate spatial heterogeneity in the Chinese fishery and the potential need for separate or spatially structured CPUE indices.                                                      | China          |
+|  16 | Fishery-data resolution               | Retain the highest reliable resolution of operational fishery data, even where environmental data are available at a coarser resolution.                                             | China          |
+|  17 | Chilean nominal and standardised CPUE | Compare the Chilean nominal and standardised CPUE series and investigate differences in their temporal and seasonal patterns.                                                        | Chile          |
+|  18 | Chilean temporal formulation          | Evaluate alternatives to additive year and month effects, including year-month or year-quarter formulations, while avoiding inappropriate temporal smoothing.                        | Chile          |
+|  19 | Chilean environmental covariates      | Evaluate regional and large-scale environmental covariates suitable for the Chilean artisanal fishery.                                                                               | Chile          |
+|  20 | CPUE standardisation review           | Convene a dedicated review of CPUE data, model assumptions, prediction procedures and resulting indices before their subsequent assessment use.                                      | SQWG           |
+|  21 | Common assessment framework           | Use a common catch database, common CPUE inputs and consistent baseline assumptions to compare candidate assessment models.                                                          | SQWG           |
+|  22 | Model comparability                   | Apply comparable data and assumptions across candidate assessment models where their structures permit.                                                                              | SQWG           |
+|  23 | Assessment periods                    | Compare assessment configurations beginning in 2001 and 2012.                                                                                                                        | SQWG           |
+|  24 | Temporal resolution                   | Evaluate annual, quarterly and monthly assessment configurations.                                                                                                                    | SQWG           |
+|  25 | Reference time scale                  | Select the reference temporal resolution only after reviewing model results, diagnostics and biological plausibility.                                                                | SQWG           |
+|  26 | Environmental indices                 | Evaluate Niño 1+2, Niño 3.4, the Peruvian Coastal Thermal Index and suitable regionalised environmental indices.                                                                     | SQWG           |
+|  27 | Environmental effects in models       | Test configurations in which environmental variability affects production-model parameters, including (r), (K), or their relationship.                                               | SQWG           |
+|  28 | Population structure                  | Retain the single-stock assumption for the current comparative assessment while recognising phenotypic and fleet-specific differences as important uncertainties.                    | SQWG           |
+|  29 | Reference and sensitivity runs        | Define a limited set of reference, sensitivity, structural-alternative and exploratory configurations rather than testing every factorial combination.                               | SQWG           |
+|  30 | Prior distributions                   | Evaluate more than one prior configuration, including broad and informative alternatives.                                                                                            | SQWG           |
+|  31 | Common diagnostics                    | Evaluate candidate runs using convergence, residual, Q–Q, retrospective, prior–posterior and sensitivity diagnostics.                                                                | SQWG           |
+|  32 | Interpretation of diagnostics         | Interpret statistical diagnostics together with biological plausibility, fishery history and model assumptions; satisfactory residuals alone will not determine model acceptance.    | SQWG           |
+|  33 | Baseline model runs                   | Prioritise the agreed baseline runs before undertaking additional sensitivities and model refinements.                                                                               | SQWG           |
+|  34 | Reporting of model runs               | Present complete diagnostics with all accepted assessment runs.                                                                                                                      | SQWG           |
+|  35 | Retrospective analyses                | Conduct retrospective analyses and evaluate sensitivity to the removal of recent observations.                                                                                       | SQWG           |
+|  36 | Final model configurations            | Agree the final model-testing matrix as reported in the Appendix.                                                                                                                    | SQWG           |
+|  37 | Follow-up model review                | Hold an online follow-up meeting before the pre-SC workshop if additional review of completed model runs is required.                                                                | SQWG Chair     |
+
+
+# Conclusions
+
+# Recommendations to SC14
+
+## Data
+
+## CPUE standardisation
+
+## Stock assessment
+
+## Current-season monitoring and advice
+
+## Simulated assessment
+
+## Future workshops and intersessional work
+
+
+# Post-SCW18 plan
+
+| Task | Lead | Contributors | Output | Deadline | Intended use |
+| ---- | ---- | ------------ | ------ | -------- | ------------ |
+
+# Appendices {.unnumbered}
+
+## A. Agenda {.unnumbered}
+
+## Participants {.unnumbered}
 
 | Name | Delegation | Email |
 |------|--------------------|-------|
@@ -165,13 +394,17 @@ The main objectives are to:
 | Mingfeng Jiang | China | jmf822221@163.com |
 | Han-Ching Chuang | Chinese Taipei | hanching@ms1.fa.gov.tw |
 | Laura Molina | Panamá | lmolina@arap.gob.pa | 
-| Bronwen Dale Golder | DSCC | bronwen@deep-sea-conservation.org |
 | Felipe Paredes Vargas | Oceana | fparedes@oceana.org |
-| Ashley Rowan Wilson | PEW | awilson@pewtrusts.org |
 | Quentin Hanich | ANCORS | hanich@uow.edu.au |
 | Juan‑Carlos Quiroz | CALAMASUR | jcquiroz@facilevisual.com |
 | Rocio Joo Arakawa | GFW | rocio.joo@globalfishingwatch.org |
 | Lee Qi | Invited Expert | leeqi@uw.edu |
 | Bernard Vigga | Secretariat | bvigga@sprfmo.int |
+| Bronwen Dale Golder | DSCC | bronwen@deep-sea-conservation.org |
+| Ashley Rowan Wilson | PEW | awilson@pewtrusts.org |
+
+## C. Workshop documents {.unnumbered}
+
+## D. Final model-configuration matrix  {.unnumbered}
 
 
