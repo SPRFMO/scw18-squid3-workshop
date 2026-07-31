@@ -51,8 +51,6 @@ The main objectives are to:
 | SCW18-Doc04 | [Stock assessment of Jumbo squid in the South Pacific using E-BSP](presentations/BSPM.pptx) (CHN) | [PPTX](presentations/CHN-BSPM.pptx) · [PDF](presentations/CHN-BSPM.pdf) |
 | SCW18-Doc05 | [Stock assessment of jumbo flying squid (Dosidicus gigas) in the FAO Area 87 using SPiCT](presentations/CHL-SPiCT.pptx) (CHL) | [PPTX](presentations/CHL-SPiCT.pptx) · [PDF](presentations/CHL-SPiCT.pdf) |
 
-
-
 ## Practical information
 
 The SPRFMO Scientific Committee Stock Assessment and Simulated Assessment Workshop of Jumbo Flying Squid (SCW18) is an in-person workshop held in Shanghai, China, from 29 July to 1 August 2026. Registrations closed on 15 July 2026.

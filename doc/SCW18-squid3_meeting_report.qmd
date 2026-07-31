@@ -120,6 +120,14 @@ The workshop will focus on two complementary components: advancing the stock ass
 
 The SPRFMO SC Third Squid Workshop (SCW18) was held in person in Shanghai, China, from 29 July to 1 August 2026. The workshop focused on the stock assessment and simulated assessment of jumbo flying squid and was conducted under the auspices of the South Pacific Regional Fisheries Management Organisation through the Squid Working Group (SQWG), chaired by Dr Gang Li.
 
+# Opening of the Meeting
+
+The Third Squid Workshop (SCW18) opened on 29 July 2026 in Shanghai, China, with welcoming remarks and introductions by the participants. The workshop brought together representatives of SPRFMO Members, invited experts and observers to advance the stock assessment and simulated assessment work for jumbo flying squid (*Dosidicus gigas*).
+
+# Adoption of the Agenda
+
+The workshop adopted the agenda contained in SCW18-Doc00. The agenda organised the work into an initial review of the available data and assessment approaches, followed by hands-on stock assessment runs and diagnostics, interpretation of the assessment results, and development of the simulated assessment framework. The workshop also confirmed that its expected outputs would include assessment conclusions and recommendations, agreement on priority simulated assessment experiments, reporting responsibilities, and a post-workshop workplan for submission to SC14.
+
 # Workshop Objectives
 
 The workshop aims to advance the scientific basis for the assessment of jumbo flying squid in the SPRFMO Convention Area and to support the provision of scientific advice, following the guidance provided by the Commission and the Scientific Committee.
@@ -130,3 +138,40 @@ The main objectives are to:
 2. Identify robust assessment conclusions and key uncertainties, including the implications of data limitations, model structure, fleet definitions and biological assumptions for scientific advice.
 3. Progress the simulated assessment work, including review of simulation scenarios, simulated datasets and candidate assessment experiments.
 4. Develop workshop outputs for SC14, including conclusions, recommendations, reporting responsibilities and a post-workshop workplan for any remaining assessment or simulation tasks.
+
+# Key Discussion Summary
+
+## Data and assessment inputs
+
+## CPUE standardisation and environmental variability
+
+## Assessment framework and principal assumptions
+
+## Model testing, diagnostics and agreed configurations
+
+
+# Participants
+
+| Name | Delegation | Email |
+|------|--------------------|-------|
+| Gang Li | SQWG Chair | g-li@shou.edu.cn |
+| Ricardo Oliveros Ramos | SC Chair | ricardo.oliveros@ird.fr |
+| Ignacio Payá Contreras | Chile | ignacio.paya@ifop.cl |
+| Romina Paillán | Chile | rpaillan@subpesca.cl |
+| Sebastián Vásquez Pastene | Chile | svasquez@inpesca.cl |
+| Aquiles Sepulveda | Chile | asepulveda@inpesca.cl |
+| Congcong Wang | China | ccwang@shou.edu.cn |
+| Wei Yu | China | wyu@shou.edu.cn |
+| Mingfeng Jiang | China | jmf822221@163.com |
+| Han-Ching Chuang | Chinese Taipei | hanching@ms1.fa.gov.tw |
+| Laura Molina | Panamá | lmolina@arap.gob.pa | 
+| Bronwen Dale Golder | DSCC | bronwen@deep-sea-conservation.org |
+| Felipe Paredes Vargas | Oceana | fparedes@oceana.org |
+| Ashley Rowan Wilson | PEW | awilson@pewtrusts.org |
+| Quentin Hanich | ANCORS | hanich@uow.edu.au |
+| Juan‑Carlos Quiroz | CALAMASUR | jcquiroz@facilevisual.com |
+| Rocio Joo Arakawa | GFW | rocio.joo@globalfishingwatch.org |
+| Lee Qi | Invited Expert | leeqi@uw.edu |
+| Bernard Vigga | Secretariat | bvigga@sprfmo.int |
+
+

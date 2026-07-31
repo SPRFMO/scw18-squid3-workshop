@@ -5,3 +5,10 @@
 .positai
 
 sandbox/
+
+# Quarto-generated website
+/docs/
+
+# Quarto working directories
+/.quarto/
+/doc/.quarto/

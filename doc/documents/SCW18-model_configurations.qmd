@@ -1,0 +1,75 @@
+---
+title: "SPRFMO SC Third Squid Workshop (SCW18)"
+subtitle: "SPRFMO Jumbo Flying Squid Assessment: Candidate Model Configurations and Sensitivity Framework"
+date: last-modified
+nocite: |
+  @*
+link-citations: true
+papersize: a4
+toc: false
+toc-depth: 2
+highlight-style: monochrome
+number-sections: true
+format:
+  html:
+    code-fold: true
+  docx:
+    reference-doc: ../_includes/quarto_latex_article_reference.docx
+  pdf:
+    documentclass: article
+    pdf-engine: lualatex
+    geometry:
+      - margin=2.5cm
+    colorlinks: false
+    tbl-cap-location: top
+    fig-cap-location: bottom
+    include-in-header:
+      text: |
+        \usepackage{booktabs}
+        \usepackage{longtable}
+        \usepackage{array}
+        \usepackage{etoolbox}
+        \AtBeginEnvironment{longtable}{\small}
+        \setlength{\emergencystretch}{3em}
+---
+
+## Introduction
+
+To identify the most robust model configuration for the assessment, we systematically evaluate structural uncertainty across five key decision axes: 
+
+1. Start year of the time series: 2001 and 2012.
+
+2012 was chosen because the data start to be better.
+
+2. Selection and weighting of CPUE series:
+  - Chinese CPUE
+  - Chilean Artisanal CPUE
+  - Peru nominal CPUE
+  - Peru area-weighted from reports, for yearly models only
+  - 
+
+3. Temporal resolution: monthly, quarterly, annual.
+
+
+4. Environmental configurations:
+
+  4.1 Choice of environmental index: El Niño 1.2, El Niño 3.4, or Coastal Peruvian Thermal Index.
+
+  4.2 Parameter affected by environmental index: r, K, q.
+
+5. Prior specifications for model parameters: r, K, q.
+
+# Model configurations
+
+y0.01
+q0.01
+m0.01
+
+0.00 |   
+0.01 | 
+0.02 | 
+0.03 | 
+0.04 | 
+0.05 | 
+0.06 | 
+
