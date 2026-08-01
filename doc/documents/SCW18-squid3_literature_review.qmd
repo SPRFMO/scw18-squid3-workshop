@@ -1,0 +1,145 @@
+---
+title: "Systematic Bibliographic search methodology for jumbo flying squid literature"
+subtitle: "English, Spanish, and proposed Chinese-language search"
+date: "2026-08-01"
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    number-sections: true
+---
+
+## Objective
+
+This document summarises the methodology used to compile the current bibliographic database on jumbo squid (*Dosidicus gigas*) and defines the equivalent request for Chinese colleagues to extend the search to Chinese-language literature, particularly through CNKI.
+
+The purpose of the database is to support the classification of research lines on jumbo squid and, more specifically, to identify literature relevant to ecology, biology, life history, fisheries, habitat, stock structure, and population dynamics.
+
+## Search scope and terminology
+
+The English and Spanish searches were designed to be broad. Searches were conducted using scientific and common names in the title and abstract fields, using simple search terms rather than complex Boolean expressions.
+
+| Type | English | Spanish | Chinese (Simplified) | Pinyin | Notes |
+|---|---|---|---|---|---|
+| Scientific name | *Dosidicus gigas* | *Dosidicus gigas* | *Dosidicus gigas* 茎柔鱼 | jīng róu yú | Standard Chinese name. This term should be mandatory in the Chinese search. |
+| Common name 1 | jumbo flying squid | pota | 秘鲁鱿鱼 | bì lǔ yóu yú | Literally “Peruvian squid”. Common in Chinese fisheries literature and the closest equivalent to *pota*. |
+| Common name 2 | Humboldt squid | jibia | 美洲大赤鱿 | měi zhōu dà chì yóu | Literally “American large red squid”. Used in some Chinese taxonomic or older literature. |
+
+We request these Chinese terms above be checked by Chinese colleagues before the final search is conducted, particularly to confirm whether additional historical, regional, or industry-specific terms are commonly used in CNKI records.
+
+## Methodology used for the current English and Spanish database
+
+### Bibliographic search
+
+The bibliographic search was conducted using Publish or Perish, which retrieves bibliographic metadata from academic search engines. Google Scholar was used as the search engine.
+
+The initial search used the phrase `"Dosidicus gigas"`. Because the first search, limited to a maximum of 1,000 records, did not retrieve all available records, the query was split into two publication periods:
+
+- 1900--1999
+- 2000--2026
+
+Each search was limited to a maximum of 1,000 records. The search results were exported to Microsoft Excel, where the two outputs were consolidated and cleaned. 
+
+The English and Spanish searches were subsequently broadened using the following terms:
+
+- English: `Dosidicus gigas`; `jumbo flying squid`; `jumbo squid`; `Humboldt squid`
+- Spanish: `Dosidicus gigas`; `pota`; `jibia`
+
+The searches focused on title and abstract fields, to maximise the probability of retrieving records directly related to jumbo squid.
+
+After consolidation and removal of duplicate or unsuitable entries, the database contained 1,592 bibliographic records.
+
+### PDF acquisition
+
+From the consolidated bibliographic database, 895 documents were downloaded in PDF format. The remaining records were mainly duplicates or publications for which the full text was not available.
+
+Downloaded publications were classified into three access levels:
+
+- **Easy access:** documents downloaded directly from the URL associated with the bibliographic record.
+- **Moderate access:** documents obtained mainly through alternative repositories.
+- **Difficult access:** documents requiring additional searches across different internet sources, mainly using Google.
+
+When a publication was not related to the life cycle, biology, ecology, or fisheries of *D. gigas*, and also had moderate or difficult access, no additional effort was made to obtain the full text.
+
+### Zotero database construction
+
+All downloaded PDFs were incorporated into Zotero. Metadata were checked and standardised manually. For each document, the following information was recorded whenever possible:
+
+- publication type;
+- author(s);
+- title;
+- year of publication;
+- journal, publisher, or source;
+- country;
+- abstract.
+
+The country associated with each publication was assigned using the country of the first institutional affiliation of the first author.
+
+## Request to Chinese colleagues
+
+### General request
+
+We request the support of Chinese colleagues to reproduce an equivalent bibliographic search for Chinese-language literature on jumbo squid, mainly through CNKI and, where possible, through any additional Chinese academic databases that may contain relevant fisheries, oceanography, biology, or food science literature.
+
+The search should aim to recover literature on all major research lines related to jumbo squid, not only papers directly related to stock assessment. This includes ecology, biology, life history, distribution, habitat, fisheries, stock structure, physiology, food science, processing, product development, and socioeconomics.
+
+### Search terms
+
+At minimum, the following terms should be searched in title and abstract fields:
+
+| Search term | Role in the search | Notes |
+|---|---|---|
+| 茎柔鱼 | Mandatory scientific/common Chinese name | This should be included in all searches if possible. |
+| 秘鲁鱿鱼 | Common Chinese name | Especially relevant for fisheries and applied literature. |
+| 美洲大赤鱿 | Additional common/taxonomic name | May recover older or taxonomic records. |
+| *Dosidicus gigas* | Latin scientific name | Should recover records that use the scientific name directly. |
+
+
+### Suggested search structure
+
+For CNKI, we suggest running separate searches for each term rather than relying only on one combined search. The minimum search design would be:
+
+1. `茎柔鱼` in title and abstract;
+2. `秘鲁鱿鱼` in title and abstract;
+3. `美洲大赤鱿` in title and abstract;
+4. `Dosidicus gigas` in title and abstract.
+
+If CNKI allows advanced searches, the search can also be run as a combined query using OR logic. However, separate searches are preferred for transparency, because they allow us to evaluate which terms retrieve unique records.
+
+No initial restriction by year is recommended. If CNKI returns too many records or has export limits, the search should be split by publication period following the same logic used for the Google Scholar search.
+
+### PDF download and access classification
+
+Please download the PDF when it is accessible. As in the current database, each record should be classified according to access difficulty:
+
+- **Easy access:** direct download from CNKI or another source available to the searcher.
+- **Moderate access:** document available after an additional search or through institutional access.
+- **Difficult access:** document found bibliographically, but full text difficult to obtain.
+- **Unavailable:** bibliographic record found, but no full text could be obtained.
+
+For records not directly related to jumbo squid biology, ecology, life history, population dynamics, fisheries, or stock structure, no major effort is required to obtain difficult full texts. However, bibliographic metadata should still be retained so that the research line can be classified later.
+
+### Priority topics
+
+The highest priority should be given to documents addressing:
+
+- life history, growth, maturity, reproduction, spawning, early life stages, and recruitment;
+- diet, trophic ecology, predator--prey interactions, and ecosystem role;
+- spatial distribution, habitat, environmental drivers, and climate variability;
+- fisheries, catch, CPUE, effort, fishing grounds, and stock assessment;
+- stock structure, genetics, connectivity, and migration;
+- physiology, hypoxia tolerance, temperature tolerance, metabolism, and vertical migration.
+
+Food science, processing, product development, and value-chain studies are also relevant for the full classification of jumbo squid research lines, but they are lower priority for the conceptual population-dynamics model.
+
+### Suggested deliverables
+
+The requested outputs are:
+
+1. downloaded PDFs, preferably with consistent file names;
+2. a short summary of the searches conducted, including database, search date, search terms, fields searched, number of records recovered, and number of PDFs downloaded;
+3. notes on any additional Chinese names or terms that should be considered in future searches.
+
+## Reference
+
+Harzing, A. W. (2007). *Publish or Perish*. Available from <https://harzing.com/resources/publish-or-perish>.

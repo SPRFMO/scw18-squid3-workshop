@@ -323,7 +323,7 @@ As an example, the model name: *y2t1e0r1w2d1q0* will correspond to:
 |   7 | CPUE selection                        | Evaluate the available CPUE indices jointly and document explicitly which indices are included, excluded or used only in sensitivity analyses.                                       | SQWG           |
 |   8 | CPUE weighting                        | Test alternative approaches for representing the relative influence of CPUE indices, including index selection, explicit weighting and index-specific observation error.             | SQWG           |
 |   9 | Peruvian CPUE                         | Use the available Peruvian nominal CPUE series for exploratory analyses pending confirmation of their construction and representativeness.                                           | SQWG           |
-|  10 | Peruvian CPUE                         | Enquire Peru for technical details and availability of a standardised CPUE abundance index.                                                                                          | Secretariat    |
+|  10 | Peruvian CPUE                         | Request technical details from Peru and enquire about the availability of a standardised CPUE abundance index.                                                                                          | Secretariat    |
 |  11 | Chinese CPUE coverage                 | Extend the standardised Chinese CPUE series backwards using the longest period for which suitable operational data are available.                                                    | China          |
 |  12 | Chinese nominal and standardised CPUE | Investigate differences between nominal and standardised Chinese CPUE and identify the observations, covariates and model components responsible for prominent discrepancies.        | China          |
 |  13 | Chinese prediction procedure          | Derive the standardised Chinese index using an explicit prediction dataset that represents the agreed assessment domain rather than the distribution of observed fishing operations. | China          |
@@ -340,7 +340,7 @@ As an example, the model name: *y2t1e0r1w2d1q0* will correspond to:
 |  24 | Temporal resolution                   | Evaluate annual, quarterly and monthly assessment configurations.                                                                                                                    | SQWG           |
 |  25 | Reference time scale                  | Select the reference temporal resolution only after reviewing model results, diagnostics and biological plausibility.                                                                | SQWG           |
 |  26 | Environmental indices                 | Evaluate Niño 1+2, Niño 3.4, the Peruvian Coastal Thermal Index and suitable regionalised environmental indices.                                                                     | SQWG           |
-|  27 | Environmental effects in models       | Test configurations in which environmental variability affects production-model parameters, including (r), (K), or their relationship.                                               | SQWG           |
+|  27 | Environmental effects in models       | Test configurations in which environmental variability affects production-model parameters, including *r*, *K*, or their relationship.                                               | SQWG           |
 |  28 | Population structure                  | Retain the single-stock assumption for the current comparative assessment while recognising phenotypic and fleet-specific differences as important uncertainties.                    | SQWG           |
 |  29 | Reference and sensitivity runs        | Define a limited set of reference, sensitivity, structural-alternative and exploratory configurations rather than testing every factorial combination.                               | SQWG           |
 |  30 | Prior distributions                   | Evaluate more than one prior configuration, including broad and informative alternatives.                                                                                            | SQWG           |
@@ -372,8 +372,8 @@ As an example, the model name: *y2t1e0r1w2d1q0* will correspond to:
 
 # Post-SCW18 plan
 
-| Task | Lead | Contributors | Output | Deadline | Intended use |
-| ---- | ---- | ------------ | ------ | -------- | ------------ |
+| Task | Lead | Output | Deadline | 
+| ---- | ---- | ---------------------------- | -------- |
 
 # Appendices {.unnumbered}
 
