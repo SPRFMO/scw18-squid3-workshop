@@ -352,6 +352,7 @@ As an example, the model name: *y2t1e0r1w2d1q0* will correspond to:
 |  34 | Reporting of model runs               | Present complete diagnostics with all accepted assessment runs.                                                                                                                      | SQWG           |
 |  36 | Final model configurations            | Agree on the final model-testing matrix as reported in the Appendix D.                                                                                                                    | SQWG           |
 |  37 | Follow-up model review                | Hold an online follow-up meeting before the pre-SC workshop if additional review of completed model runs is required.                                                                | SQWG Chair     |
+|  37 | pre-SC Squid Workshop                | Hold an in-person whole-day pre-SC Workshop (5 September 2026) to discuss assessment results and draft recommendations to SC14.                                                                | SQWG Chair     |
 
 
 # Conclusions
@@ -376,6 +377,11 @@ The workshop recommended that all stock assessment models discussed during SCW18
 
 The workshop noted the progress made in developing the operating model (SQUIDSIM) and updated the simulated assessment workplan and timeline for the 2026–2027 intersessional period.
 
+## Participation
+
+The workshop recommended that SC14 encourage all Members, particularly those participating in the jumbo flying squid fishery, to contribute actively to the scientific work of the SQWG and to participate in the workshops proposed for the 2026–2027 intersessional period.
+
+
 # Post-SCW18 plan
 
 | Task                                                                            | Lead           | Output                                                                 | Deadline        |
@@ -383,7 +389,9 @@ The workshop noted the progress made in developing the operating model (SQUIDSIM
 | Complete the stock assessment using E-BSP.                                      | China          | Assessment results.                                                    | 28 August 2026  |
 | Complete the stock assessment using SPiCT.                                      | Chile          | Assessment results.                                                    | 28 August 2026  |
 
+## Meeting closure
 
+The meeting was closed at 1709 2026.08.01.
 
 # Appendices {.unnumbered}
 
@@ -402,6 +410,7 @@ The workshop noted the progress made in developing the operating model (SQUIDSIM
 | Congcong Wang | China | ccwang@shou.edu.cn |
 | Wei Yu | China | wyu@shou.edu.cn |
 | Mingfeng Jiang | China | jmf822221@163.com |
+| Ce Liu | China | liuce@cofa.net.cn |
 | Han-Ching Chuang | Chinese Taipei | hanching@ms1.fa.gov.tw |
 | Laura Molina | Panamá | lmolina@arap.gob.pa | 
 | Felipe Paredes Vargas | Oceana | fparedes@oceana.org |
