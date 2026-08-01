@@ -182,7 +182,7 @@ Participants distinguished between fitting the CPUE model and deriving the stand
 
 Differences between nominal and standardised CPUE were examined. The workshop noted that the magnitude and temporal pattern of the standardised Chinese series differed substantially from the nominal observations in some months, including periods corresponding to peaks in the standardised index. Participants considered that the contribution of individual covariates, spatial cells and model components to these differences should be investigated before the index was used as a principal abundance indicator.
 
-The current monthly standardised Chinese series covered only a limited number of recent years. Given the short lifespan of jumbo flying squid, participants noted that this period represented relatively few generations and might not include a sufficient range of productivity and environmental conditions. The workshop therefore encouraged extension of the standardised series using the longest period for which suitable operational data could be assembled.
+The current Chinese logbook detailed data series covered only a limited number of recent years and fishing vessels, starting in 2011, even if in recent years the logbook data covers 100% of fishing vessels. The proposed index extended back to 2003 using aggregated data. 
 
 The workshop discussed whether vessel size, capacity or other measures of fishing power should be included in the Chinese standardisation. Participants proposed testing these effects during the period for which detailed vessel-level information was available. If vessel effects were shown to be negligible, a reduced model could subsequently be applied to earlier years for which vessel characteristics were unavailable. Where individual vessel information was retained, vessel identity could be represented as a random effect and excluded from predictions of the standardised index.
 
@@ -204,7 +204,7 @@ Niño 1+2 and Niño 3.4 were identified as initial candidate indices. The Peruvi
 
 The workshop did not select a single environmental indicator. It agreed that oceanic and coastal indicators should remain available for comparative analyses and that different indices could be appropriate for different fleets or mechanisms. Environmental variables used in CPUE standardisation should be distinguished from those used to represent variability in production-model parameters.
 
-Participants also emphasised the importance of information from the current fishing season when interpreting assessment results and developing scientific advice. Chile indicated that it was preparing information on its current artisanal fishery for SC14. The workshop noted that recent fishery information could be particularly relevant if management decisions were based on assessment data that did not fully represent rapidly changing stock and environmental conditions.
+Participants also emphasised the importance of information from the current fishing season when interpreting assessment results and developing scientific advice. Chile indicated that it was preparing information of the current fishing season 2026 for SC14. The workshop noted that recent fishery information could be particularly relevant if management decisions were based on assessment data that did not fully represent rapidly changing stock and environmental conditions.
 
 The workshop recognised the need for further dedicated work on CPUE standardisation. It proposed that the available operational data, model specifications, prediction procedures and resulting indices be reviewed before the SC14. This review should include direct comparisons of nominal and standardised series and an examination of the observations, covariates and spatial cells responsible for prominent features in the standardised indices.
 
@@ -359,21 +359,30 @@ As an example, the model name: *y2t1e0r1w2d1q0* will correspond to:
 
 ## Data
 
+The workshop recommended that a dedicated data workshop be convened during the 2026–2027 intersessional period, ideally during the first semester of 2027, in coordination with the Ecosystem Working Group. Its primary objective would be to review CPUE standardisation methods, with particular emphasis on spatio-temporal models incorporating environmental effects, and to consider relevant environmental indices and ecological interactions. 
+
+The workshop further recommended that SC14 encourage Members to provide the fishery and operational data required to support this work.
+
 ## CPUE standardisation
+
+The workshop recommended that the technical improvements identified during SCW18 be implemented before the next assessment iteration.
 
 ## Stock assessment
 
-## Current-season monitoring and advice
+The workshop recommended that all stock assessment models discussed during SCW18 be finalised, while prioritising completion of the agreed high-priority models for presentation at the pre-SC Squid Workshop.
 
 ## Simulated assessment
 
-## Future workshops and intersessional work
-
+The workshop noted the progress made in developing the operating model (SQUIDSIM) and updated the simulated assessment workplan and timeline for the 2026–2027 intersessional period.
 
 # Post-SCW18 plan
 
-| Task | Lead | Output | Deadline | 
-| ---- | ---- | ---------------------------- | -------- |
+| Task                                                                            | Lead           | Output                                                                 | Deadline        |
+| ------------------------------------------------------------------------------- | -------------- | ---------------------------------------------------------------------- | --------------- |
+| Complete the stock assessment using E-BSP.                                      | China          | Assessment results.                                                    | 28 August 2026  |
+| Complete the stock assessment using SPiCT.                                      | Chile          | Assessment results.                                                    | 28 August 2026  |
+
+
 
 # Appendices {.unnumbered}
 
