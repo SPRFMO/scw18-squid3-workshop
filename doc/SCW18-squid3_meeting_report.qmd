@@ -228,7 +228,7 @@ Given the short lifespan, rapid growth and semelparous life history of jumbo fly
 
 The workshop distinguished the temporal resolution of the scientific assessment from the period over which management advice might ultimately be expressed. Participants noted that a monthly or quarterly model could still produce annual summaries or advice, while a scientifically appropriate time step should not be rejected solely because existing management processes operated annually. The implications of alternative time scales for monitoring and advice were to be considered after the model results were reviewed.
 
-The potential implications of population structure and phenotypic variation were also discussed. Participants noted that the Chinese and Chilean fisheries might sample different components or phenotypes of the jumbo flying squid population. Under the working assumption of a single stock, production-model parameters would represent aggregate or synthetic population properties, while differences among fleet indices could reflect availability, catchability, spatial distribution or phenotype composition.
+The potential implications of population structure and phenotypic variation were also discussed. Participants noted that the Chinese and Chilean fisheries might sample different components or phenotypes of the jumbo flying squid population. Under the working assumption of a single stock, production-model parameters would represent aggregate or synthetic population properties, while differences among fleet indices could reflect availability, catchability, spatial distribution or phenotype composition. Alternative hypothesis should be considered in future stock assessments using more complex models (e.g. stage-structured models or integrated models). 
 
 The workshop recognised that a single-stock production model could not fully represent changes in the relative contribution, productivity and growth of different phenotypes. Simulation was identified as an appropriate approach for evaluating the robustness of the assessment model to these processes. For the current assessment work, the single-stock assumption was retained as a practical simplification and identified as an important source of uncertainty.
 
@@ -240,17 +240,20 @@ Prior distributions for $r$, $K$, catchability and initial biomass were discusse
 
 The workshop discussed the use of broad uniform priors and informative normal or log-normal priors as alternative configurations. Participants also noted that prior specifications could not always be transferred directly among model structures and time steps. In particular, rate parameters required consistent treatment when moving from annual to quarterly or monthly models, while the carrying-capacity parameter should remain on a comparable biomass scale.
 
-The workshop identified five principal decision axes for the comparative assessment: the starting year, the selection and relative influence of CPUE indices, the temporal resolution, the treatment of environmental variability, and the prior distributions for the principal production-model parameters. These axes provided the basis for constructing the model-testing framework.
+The workshop noted that the Peruvian CPUE index reported in the national stock assessment showed a different trend from the nominal CPUE series submitted for the workshop. The workshop recommended that SC14 invite Peru to provide additional information on the construction, status and availability of the standardised index, and to clarify the reasons for the differences between the two series.
+
+The workshop identified seven principal decision axes for the comparative assessment: the starting year, the selection and relative influence of CPUE indices, the temporal resolution, the treatment of environmental variability for q and r, the shape parameter of the production function, and the prior distributions for the principal production-model parameters. These axes provided the basis for constructing the model-testing framework.
+
 
 ## Model testing, diagnostics and agreed configurations
 
 The workshop proposed organising the assessment work through a decision matrix containing the principal data and structural assumptions identified during the discussion, as a means of comparing candidate configurations systematically and maintaining a transparent record of the assumptions associated with each model run.
 
-The matrix was intended to include alternative assessment periods, temporal resolutions, CPUE combinations or weights, environmental treatments and prior specifications. Participants noted that the complete factorial combination of all options would be unnecessarily large. The workshop would therefore select a limited set of reference, sensitivity and exploratory runs that isolated the effects of the principal assumptions.
+The matrix was intended to include alternative assessment periods, temporal resolutions, CPUE combinations or weights, environmental treatments and prior specifications. Participants noted that the complete factorial combination of all options would be unnecessarily large. The workshop therefore selected a limited set of reference, sensitivity and exploratory runs that isolated the effects of the principal assumptions.
 
-The initial model-configuration table developed during the workshop was treated as a working structure rather than a definitive list of models or terminology. It provided fields for the scenario dimensions, prior specifications, model identifiers and individual runs. The definitive naming convention and list of configurations were to be agreed only after the workshop had reviewed the feasibility, diagnostics and information requirements of the candidate cases.
+The initial model-configuration table developed during the workshop was treated as a working structure rather than a definitive list of models or terminology. It provided fields for the scenario dimensions, prior specifications, model identifiers and individual runs. The definitive naming convention and list of configurations were agreed and it is included as an appendix to this report.
 
-Participants considered that candidate configurations should be evaluated using a common set of diagnostics. These included model convergence, residual patterns, consistency between fitted and observed indices, retrospective behaviour, retrospective analysis, and comparison between prior and posterior parameter distributions. The plausibility and stability of biomass, fishing mortality and management-relevant outputs were also considered important.
+Participants agreed that candidate configurations should be evaluated using a common set of diagnostics. These included model convergence, residual patterns, consistency between fitted and observed indices, retrospective behaviour, retrospective analysis, and comparison between prior and posterior parameter distributions. The plausibility and stability of biomass, fishing mortality and management-relevant outputs were also considered important.
 
 The workshop noted that passing a limited set of statistical diagnostics did not by itself demonstrate that a model was biologically or scientifically appropriate. Conversely, a failure under one configuration should not automatically be addressed by shortening the time series without examining the cause. Model diagnostics were to be interpreted together with the data history, fishery development, biological assumptions and intended use of the assessment.
 
@@ -262,7 +265,7 @@ Differences among the candidate production models meant that identical parameter
 
 <!-- DAY 3 PLACEHOLDER: State which conclusions were robust across models and configurations, which results remained sensitive, and which configurations were rejected or deferred. Do not infer agreement from the early model-configuration table. -->
 
-The final model-testing framework was to be agreed as the last technical decision of the stock-assessment component of the workshop. The final table should identify the reference configuration, targeted sensitivity analyses, structural alternatives, exploratory cases and any runs assigned for completion after the workshop.
+The final model-testing framework was agreed as the last technical decision of the stock-assessment component of the workshop. The final table identifies the reference configuration, targeted sensitivity analyses, structural alternatives, exploratory cases and any runs assigned for completion after the workshop.
 
 <!-- Replace the table below with the final Day 3 decision matrix. -->
 
