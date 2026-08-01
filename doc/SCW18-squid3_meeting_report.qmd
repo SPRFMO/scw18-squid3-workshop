@@ -400,8 +400,6 @@ As an example, the model name: *y2t1e0r1w2d1q0* will correspond to:
 | Rocio Joo Arakawa | GFW | rocio.joo@globalfishingwatch.org |
 | Lee Qi | Invited Expert | leeqi@uw.edu |
 | Bernard Vigga | Secretariat | bvigga@sprfmo.int |
-| Bronwen Dale Golder | DSCC | bronwen@deep-sea-conservation.org |
-| Ashley Rowan Wilson | PEW | awilson@pewtrusts.org |
 
 ## C. Workshop documents {.unnumbered}
 

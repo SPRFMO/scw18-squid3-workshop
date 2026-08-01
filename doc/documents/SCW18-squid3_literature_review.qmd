@@ -1,5 +1,5 @@
 ---
-title: "Systematic Bibliographic search methodology for jumbo flying squid literature"
+title: "Systematic Bibliographic Search Methodology for Jumbo Flying Squid Literature"
 subtitle: "English, Spanish, and proposed Chinese-language search"
 date: "2026-08-01"
 format:
