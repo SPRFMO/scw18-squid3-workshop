@@ -432,12 +432,69 @@ The meeting was closed at 1709 2026.08.01.
 
 ## D. Final model-configuration matrix  {.unnumbered}
 
-
-```{r}
-library(tidyverse)
-
-read_csv(here::here("presentations", "modelruns.csv")) %>%
-  kableExtra::kbl(booktabs = TRUE, linesep = "", caption = "Final model-configuration matrix") %>%
-  kableExtra::kable_styling(latex_options = c("hold_position", "scale_down"))
-
-```
+| model | code             | startyear | timescale | env_r     | prior_r     | wt            | env_q         | perucpue | shape    |
+| ----- | ---------------- | --------- | --------- | --------- | ----------- | ------------- | ------------- | -------- | -------- |
+| 1     | y1t1e0r2w1q0p0s1 | 2001      | yearly    | no_env    | U(0.05,2.5) | expert        | no_env        | peru_nom | schaefer |
+| 2     | y1t1e0r2w1q0p0s2 | 2001      | yearly    | no_env    | U(0.05,2.5) | expert        | no_env        | peru_nom | free     |
+| 3     | y1t1e0r2w1q1p0s1 | 2001      | yearly    | no_env    | U(0.05,2.5) | expert        | cpue_specific | peru_nom | schaefer |
+| 4     | y1t1e0r2w1q1p0s2 | 2001      | yearly    | no_env    | U(0.05,2.5) | expert        | cpue_specific | peru_nom | free     |
+| 5     | y1t1e0r2w4q0p0s1 | 2001      | yearly    | no_env    | U(0.05,2.5) | reduce_kortpe | no_env        | peru_nom | schaefer |
+| 6     | y1t1e0r2w4q0p0s2 | 2001      | yearly    | no_env    | U(0.05,2.5) | reduce_kortpe | no_env        | peru_nom | free     |
+| 7     | y1t1e0r2w4q1p0s1 | 2001      | yearly    | no_env    | U(0.05,2.5) | reduce_kortpe | cpue_specific | peru_nom | schaefer |
+| 8     | y1t1e0r2w4q1p0s2 | 2001      | yearly    | no_env    | U(0.05,2.5) | reduce_kortpe | cpue_specific | peru_nom | free     |
+| 9     | y1t1e1r2w1q0p0s1 | 2001      | yearly    | 1+2elnino | U(0.05,2.5) | expert        | no_env        | peru_nom | schaefer |
+| 10    | y1t1e1r2w1q0p0s2 | 2001      | yearly    | 1+2elnino | U(0.05,2.5) | expert        | no_env        | peru_nom | free     |
+| 11    | y1t1e1r2w1q1p0s1 | 2001      | yearly    | 1+2elnino | U(0.05,2.5) | expert        | cpue_specific | peru_nom | schaefer |
+| 12    | y1t1e1r2w1q1p0s2 | 2001      | yearly    | 1+2elnino | U(0.05,2.5) | expert        | cpue_specific | peru_nom | free     |
+| 13    | y1t1e1r2w4q0p0s1 | 2001      | yearly    | 1+2elnino | U(0.05,2.5) | reduce_kortpe | no_env        | peru_nom | schaefer |
+| 14    | y1t1e1r2w4q0p0s2 | 2001      | yearly    | 1+2elnino | U(0.05,2.5) | reduce_kortpe | no_env        | peru_nom | free     |
+| 15    | y1t1e1r2w4q1p0s1 | 2001      | yearly    | 1+2elnino | U(0.05,2.5) | reduce_kortpe | cpue_specific | peru_nom | schaefer |
+| 16    | y1t1e1r2w4q1p0s2 | 2001      | yearly    | 1+2elnino | U(0.05,2.5) | reduce_kortpe | cpue_specific | peru_nom | free     |
+| 17    | y1t2e0r2w1q0p0s1 | 2001      | quarterly | no_env    | U(0.05,2.5) | expert        | no_env        | peru_nom | schaefer |
+| 18    | y1t2e0r2w1q0p0s2 | 2001      | quarterly | no_env    | U(0.05,2.5) | expert        | no_env        | peru_nom | free     |
+| 19    | y1t2e0r2w1q1p0s1 | 2001      | quarterly | no_env    | U(0.05,2.5) | expert        | cpue_specific | peru_nom | schaefer |
+| 20    | y1t2e0r2w1q1p0s2 | 2001      | quarterly | no_env    | U(0.05,2.5) | expert        | cpue_specific | peru_nom | free     |
+| 21    | y1t2e0r2w4q0p0s1 | 2001      | quarterly | no_env    | U(0.05,2.5) | reduce_kortpe | no_env        | peru_nom | schaefer |
+| 22    | y1t2e0r2w4q0p0s2 | 2001      | quarterly | no_env    | U(0.05,2.5) | reduce_kortpe | no_env        | peru_nom | free     |
+| 23    | y1t2e0r2w4q1p0s1 | 2001      | quarterly | no_env    | U(0.05,2.5) | reduce_kortpe | cpue_specific | peru_nom | schaefer |
+| 24    | y1t2e0r2w4q1p0s2 | 2001      | quarterly | no_env    | U(0.05,2.5) | reduce_kortpe | cpue_specific | peru_nom | free     |
+| 25    | y1t2e1r2w1q0p0s1 | 2001      | quarterly | 1+2elnino | U(0.05,2.5) | expert        | no_env        | peru_nom | schaefer |
+| 26    | y1t2e1r2w1q0p0s2 | 2001      | quarterly | 1+2elnino | U(0.05,2.5) | expert        | no_env        | peru_nom | free     |
+| 27    | y1t2e1r2w1q1p0s1 | 2001      | quarterly | 1+2elnino | U(0.05,2.5) | expert        | cpue_specific | peru_nom | schaefer |
+| 28    | y1t2e1r2w1q1p0s2 | 2001      | quarterly | 1+2elnino | U(0.05,2.5) | expert        | cpue_specific | peru_nom | free     |
+| 29    | y1t2e1r2w4q0p0s1 | 2001      | quarterly | 1+2elnino | U(0.05,2.5) | reduce_kortpe | no_env        | peru_nom | schaefer |
+| 30    | y1t2e1r2w4q0p0s2 | 2001      | quarterly | 1+2elnino | U(0.05,2.5) | reduce_kortpe | no_env        | peru_nom | free     |
+| 31    | y1t2e1r2w4q1p0s1 | 2001      | quarterly | 1+2elnino | U(0.05,2.5) | reduce_kortpe | cpue_specific | peru_nom | schaefer |
+| 32    | y1t2e1r2w4q1p0s2 | 2001      | quarterly | 1+2elnino | U(0.05,2.5) | reduce_kortpe | cpue_specific | peru_nom | free     |
+| 33    | y2t1e0r2w1q0p0s1 | 2012      | yearly    | no_env    | U(0.05,2.5) | expert        | no_env        | peru_nom | schaefer |
+| 34    | y2t1e0r2w1q0p0s2 | 2012      | yearly    | no_env    | U(0.05,2.5) | expert        | no_env        | peru_nom | free     |
+| 35    | y2t1e0r2w1q1p0s1 | 2012      | yearly    | no_env    | U(0.05,2.5) | expert        | cpue_specific | peru_nom | schaefer |
+| 36    | y2t1e0r2w1q1p0s2 | 2012      | yearly    | no_env    | U(0.05,2.5) | expert        | cpue_specific | peru_nom | free     |
+| 37    | y2t1e0r2w4q0p0s1 | 2012      | yearly    | no_env    | U(0.05,2.5) | reduce_kortpe | no_env        | peru_nom | schaefer |
+| 38    | y2t1e0r2w4q0p0s2 | 2012      | yearly    | no_env    | U(0.05,2.5) | reduce_kortpe | no_env        | peru_nom | free     |
+| 39    | y2t1e0r2w4q1p0s1 | 2012      | yearly    | no_env    | U(0.05,2.5) | reduce_kortpe | cpue_specific | peru_nom | schaefer |
+| 40    | y2t1e0r2w4q1p0s2 | 2012      | yearly    | no_env    | U(0.05,2.5) | reduce_kortpe | cpue_specific | peru_nom | free     |
+| 41    | y2t1e1r2w1q0p0s1 | 2012      | yearly    | 1+2elnino | U(0.05,2.5) | expert        | no_env        | peru_nom | schaefer |
+| 42    | y2t1e1r2w1q0p0s2 | 2012      | yearly    | 1+2elnino | U(0.05,2.5) | expert        | no_env        | peru_nom | free     |
+| 43    | y2t1e1r2w1q1p0s1 | 2012      | yearly    | 1+2elnino | U(0.05,2.5) | expert        | cpue_specific | peru_nom | schaefer |
+| 44    | y2t1e1r2w1q1p0s2 | 2012      | yearly    | 1+2elnino | U(0.05,2.5) | expert        | cpue_specific | peru_nom | free     |
+| 45    | y2t1e1r2w4q0p0s1 | 2012      | yearly    | 1+2elnino | U(0.05,2.5) | reduce_kortpe | no_env        | peru_nom | schaefer |
+| 46    | y2t1e1r2w4q0p0s2 | 2012      | yearly    | 1+2elnino | U(0.05,2.5) | reduce_kortpe | no_env        | peru_nom | free     |
+| 47    | y2t1e1r2w4q1p0s1 | 2012      | yearly    | 1+2elnino | U(0.05,2.5) | reduce_kortpe | cpue_specific | peru_nom | schaefer |
+| 48    | y2t1e1r2w4q1p0s2 | 2012      | yearly    | 1+2elnino | U(0.05,2.5) | reduce_kortpe | cpue_specific | peru_nom | free     |
+| 49    | y2t2e0r2w1q0p0s1 | 2012      | quarterly | no_env    | U(0.05,2.5) | expert        | no_env        | peru_nom | schaefer |
+| 50    | y2t2e0r2w1q0p0s2 | 2012      | quarterly | no_env    | U(0.05,2.5) | expert        | no_env        | peru_nom | free     |
+| 51    | y2t2e0r2w1q1p0s1 | 2012      | quarterly | no_env    | U(0.05,2.5) | expert        | cpue_specific | peru_nom | schaefer |
+| 52    | y2t2e0r2w1q1p0s2 | 2012      | quarterly | no_env    | U(0.05,2.5) | expert        | cpue_specific | peru_nom | free     |
+| 53    | y2t2e0r2w4q0p0s1 | 2012      | quarterly | no_env    | U(0.05,2.5) | reduce_kortpe | no_env        | peru_nom | schaefer |
+| 54    | y2t2e0r2w4q0p0s2 | 2012      | quarterly | no_env    | U(0.05,2.5) | reduce_kortpe | no_env        | peru_nom | free     |
+| 55    | y2t2e0r2w4q1p0s1 | 2012      | quarterly | no_env    | U(0.05,2.5) | reduce_kortpe | cpue_specific | peru_nom | schaefer |
+| 56    | y2t2e0r2w4q1p0s2 | 2012      | quarterly | no_env    | U(0.05,2.5) | reduce_kortpe | cpue_specific | peru_nom | free     |
+| 57    | y2t2e1r2w1q0p0s1 | 2012      | quarterly | 1+2elnino | U(0.05,2.5) | expert        | no_env        | peru_nom | schaefer |
+| 58    | y2t2e1r2w1q0p0s2 | 2012      | quarterly | 1+2elnino | U(0.05,2.5) | expert        | no_env        | peru_nom | free     |
+| 59    | y2t2e1r2w1q1p0s1 | 2012      | quarterly | 1+2elnino | U(0.05,2.5) | expert        | cpue_specific | peru_nom | schaefer |
+| 60    | y2t2e1r2w1q1p0s2 | 2012      | quarterly | 1+2elnino | U(0.05,2.5) | expert        | cpue_specific | peru_nom | free     |
+| 61    | y2t2e1r2w4q0p0s1 | 2012      | quarterly | 1+2elnino | U(0.05,2.5) | reduce_kortpe | no_env        | peru_nom | schaefer |
+| 62    | y2t2e1r2w4q0p0s2 | 2012      | quarterly | 1+2elnino | U(0.05,2.5) | reduce_kortpe | no_env        | peru_nom | free     |
+| 63    | y2t2e1r2w4q1p0s1 | 2012      | quarterly | 1+2elnino | U(0.05,2.5) | reduce_kortpe | cpue_specific | peru_nom | schaefer |
+| 64    | y2t2e1r2w4q1p0s2 | 2012      | quarterly | 1+2elnino | U(0.05,2.5) | reduce_kortpe | cpue_specific | peru_nom | free     |
