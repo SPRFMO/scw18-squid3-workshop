@@ -114,7 +114,7 @@ time_stamp <- format(Sys.time(), "%H:%M %Z")
 
 This is the working draft report for the SPRFMO SC Third Squid Workshop (SCW18), focused on the stock assessment and simulated assessment of jumbo flying squid (*Dosidicus gigas*).
 
-The workshop will focus on two complementary components: advancing the stock assessment of jumbo flying squid and the associated scientific advice to the Scientific Committee and the Commission; and progressing the simulated assessment work needed to evaluate candidate models under alternative assumptions about population structure, fisheries, sampling and data availability.
+The workshop focused on two complementary components: advancing the stock assessment of jumbo flying squid and the associated scientific advice to the Scientific Committee and the Commission; and progressing the simulated assessment work needed to evaluate candidate models under alternative assumptions about population structure, fisheries, sampling and data availability.
 
 # Meeting Details
 
@@ -130,7 +130,7 @@ The workshop adopted the agenda contained in SCW18-Doc00. The agenda organised t
 
 # Workshop Objectives
 
-The workshop aims to advance the scientific basis for the assessment of jumbo flying squid in the SPRFMO Convention Area and to support the provision of scientific advice, following the guidance provided by the Commission and the Scientific Committee.
+The workshop aimed to advance the scientific basis for the assessment of jumbo flying squid in the SPRFMO Convention Area and to support the provision of scientific advice, following guidance provided by the Commission and the Scientific Committee.
 
 The main objectives are to:
 
@@ -144,7 +144,7 @@ The main objectives are to:
 The workshop organised its technical discussions around the development of a common assessment dataset, the review of available abundance indices, the identification of the principal structural assumptions affecting the assessment, and the design of a common framework for model testing. The discussion focused on distinguishing uncertainty arising from the input data from uncertainty associated with CPUE standardisation, model structure and parameter assumptions.
 
 ## Data and assessment inputs
-
+### Fishery-dependent data
 The SC Chairperson, Dr Ricardo Oliveros Ramos, presented SCW18-Doc02, which described the validation, reconstruction and integration of monthly jumbo flying squid (*Dosidicus gigas*) catch series for 1997–2025. The proposed database combined information submitted by Chile, China, Chinese Taipei, Ecuador, the Republic of Korea and Peru. Monthly submissions were aggregated and compared with FAO Area 87 annual catches, while official national statistics and other documented sources were used when the submitted information was incomplete or did not represent total national catches.
 
 The workshop noted that the Member submissions differed in their temporal coverage, operational detail and completeness. The Chilean, Chinese, Korean and Chinese Taipei series could be retained after completing missing periods or applying limited reconstruction. In contrast, the submissions from Peru and Ecuador represented monitoring or sampling information rather than complete national catches and therefore required reconstruction from complementary official sources.
@@ -174,8 +174,8 @@ Peru had provided a monthly nominal CPUE series, while previous assessment work 
 
 The preliminary set of indices considered for evaluation included standardised Chinese and Chilean indices, the nominal Chinese Taipei series, and additional national indices subject to further review. Participants emphasised that the final selection should reflect the temporal and spatial coverage of each fleet, the quality of the underlying data, the standardisation method and the relationship between each index and the component of the stock sampled by the fishery.
 
-## CPUE standardisation and environmental variability
-
+## Fishery-independent data
+### Chinese CPUE standardisation
 The workshop reviewed the methods used to derive the Chinese standardised CPUE series. The approach presented used a generalised additive model incorporating temporal, spatial and environmental covariates, including ENSO conditions, sea surface temperature, sea surface salinity, latitude, longitude and spatial interactions. Fishing effort was represented by operational days within fine-resolution spatial cells.
 
 Participants distinguished between fitting the CPUE model and deriving the standardised abundance index. The workshop noted that averaging predictions over the observations used to fit the model could retain the unequal sampling intensity of the fishing fleet and give greater influence to repeatedly sampled combinations of space, time and environmental conditions. A separate prediction dataset representing an agreed spatial and temporal domain was therefore considered necessary to obtain a standardised index that was not determined by the distribution of the observed fishing operations.
@@ -188,6 +188,7 @@ The workshop discussed whether vessel size, capacity or other measures of fishin
 
 The workshop recommended preserving the highest reliable resolution of the fishery data, even where environmental covariates were available only at a coarser resolution. Participants cautioned against deriving one index for the entire fishing area without evaluating spatial heterogeneity in fleet operations, squid distribution and catchability. The spatial domain and prediction grid used to calculate the index should therefore be documented explicitly.
 
+### Chilean CPUE standardisation
 The Chilean CPUE standardisation process for the artisanal jigging fleet was presented. Nominal CPUE was expressed as tonnes per trip, with trips generally representing fishing operations completed within one day. The mixed-effects model included year, month and region as fixed effects and vessel as a random effect.
 
 The workshop discussed the implications of using additive year and month effects in the Chilean model. Participants noted that this structure imposed the same seasonal pattern in each year unless an interaction or another time-varying seasonal term was included. The standardised and nominal series should therefore be compared to determine whether the model retained meaningful interannual variation in seasonal abundance and whether alternative year-month or year-quarter formulations should be evaluated.
@@ -196,13 +197,15 @@ Set-level fishing positions were not available for the Chilean artisanal fleet. 
 
 Participants discussed published guidance cautioning against temporal smoothing in a CPUE index intended for use in a surplus production model. Excessive smoothing could introduce temporal dependence into the abundance index and overlap with the population dynamics that the assessment model was intended to estimate. At the same time, the workshop noted that annual effects could be too coarse for a short-lived species. Year-month or year-quarter factors were identified as alternatives requiring further evaluation.
 
+### Environmental variability
 The workshop distinguished two potential pathways through which environmental variability could affect the assessment. Environmental conditions could alter the availability or catchability of squid and should then be addressed through CPUE standardisation. They could also affect biological productivity and population dynamics, in which case the relationship should be represented within the assessment model or examined through complementary analyses.
 
 Participants noted that El Niño conditions may alter the depth and spatial distribution of jumbo flying squid, including movement towards more southern fishing grounds, thereby affecting fleet accessibility and observed catch rates. Failure to distinguish changes in availability from changes in abundance could bias the interpretation of CPUE and stock status. However, the workshop recognised that the short time series, limited number of major ENSO events and spatial differences among fleets and phenotypes constrained the statistical identification of these effects.
 
 Niño 1+2 and Niño 3.4 were identified as initial candidate indices. The Peruvian Coastal Thermal Index (PCTI) was also presented as a regional indicator of coastal environmental variability. Participants noted that broad-scale indices might not adequately describe conditions in the principal fishing grounds and encouraged the development or evaluation of regional indices tailored to the spatial domains occupied by the fisheries and relevant phenotypes.
 
-The workshop did not select a single environmental indicator. It agreed that oceanic and coastal indicators should remain available for comparative analyses and that different indices could be appropriate for different fleets or mechanisms. Environmental variables used in CPUE standardisation should be distinguished from those used to represent variability in production-model parameters.
+### Conclusions
+The workshop did not select a single environmental indicator. Participants agreed that oceanic and coastal indicators should remain available for comparative analyses and that different indices could be appropriate for different fleets or mechanisms. Environmental variables used in CPUE standardisation should be distinguished from those used to represent variability in production-model parameters.
 
 Participants also emphasised the importance of information from the current fishing season when interpreting assessment results and developing scientific advice. Chile indicated that it was preparing information of the current fishing season 2026 for SC14. The workshop noted that recent fishery information could be particularly relevant if management decisions were based on assessment data that did not fully represent rapidly changing stock and environmental conditions.
 
@@ -210,44 +213,49 @@ The workshop recognised the need for further dedicated work on CPUE standardisat
 
 ## Assessment framework and principal assumptions
 
-The workshop reviewed candidate production-model approaches presented by China (B-SPM) and Chile (SPiCT). Participants agreed that comparisons among assessment methods should focus on model structure and assumptions rather than on differences in the input data. Candidate models should therefore be fitted, as far as their structures permitted, to a common catch series and a common set of abundance indices.
+The workshop reviewed candidate production-model approaches presented by China (B-SPM) and Chile (SPiCT). Participants agreed that comparisons among assessment methods should focus on model structure and assumptions rather than on differences in the input data. Candidate models should therefore be fitted, as far as their structures permit, to a common catch series and a common set of abundance indices.
 
 The workshop agreed to establish a common database and common stock assessment framework for the next phase of model testing. The framework would include an agreed set of input data, consistent baseline assumptions and common prior specifications for the principal production-model parameters. Alternative configurations would be compared against this reference framework.
 
 The purpose of the common framework was to ensure that differences among assessment results could be attributed to identifiable assumptions or model structures rather than to inconsistent data preparation. The framework would allow the effects of assessment period, temporal resolution, CPUE selection and weighting, environmental configuration and prior assumptions to be examined systematically.
 
+### Model start year
 The appropriate starting year for the assessment received substantial discussion. Participants noted that the reconstructed catch series extended to 1997, but that the composition and development of the fisheries changed during the early part of the series. Low catches before the expansion of several fisheries could reflect limited fishing activity rather than low biomass or productivity and could consequently influence estimates of $r$ and $K$.
 
 Other participants noted that a short assessment period might represent only one productivity regime and provide limited information about the response of the stock under contrasting environmental conditions. A longer series could improve the representation of increasing and decreasing production phases and provide more environmental variation, but only if the early catch and abundance information was sufficiently reliable.
 
-The workshop considered that the effect of the starting year should be evaluated through model diagnostics and sensitivity analyses rather than resolved only through conceptual discussion. Configurations beginning in 2001 and 2012 were identified for initial comparison, representing a longer period with broader historical coverage and a shorter period with more complete recent fishery information, respectively. The final role of each period was to be determined from the comparative model results.
+The workshop considered that the impact of the start year should be evaluated through model diagnostics and sensitivity analyses rather than resolved only through conceptual discussion. Configurations beginning in 2001 and 2012 were identified for initial comparison, representing a longer period with broader historical coverage and a shorter period with more complete recent fishery information, respectively. The final decision for the model start year would be determined from comparative model results.
 
-Annual, quarterly and monthly assessment time steps were discussed. Participants noted that reliable monthly catch information was principally available from the early 2000s onwards, which constrained the period available for fine-resolution models. The choice of time step therefore involved a trade-off between the length of the time series and the temporal resolution of the population and fishery dynamics.
+### Model time scale
+Annual, quarterly and monthly assessment time steps were discussed. Participants noted that reliable monthly catch information was principally available beginning in the early 2000s, which constrained the data available for fine-resolution models. The choice of time step therefore involved a trade-off between the length of the time series and the temporal resolution of the population and fishery dynamics.
 
 Given the short lifespan, rapid growth and semelparous life history of jumbo flying squid, participants considered that an annual time step might be too coarse to represent within-year changes in production, abundance and fishing activity. Monthly and quarterly configurations were therefore proposed for evaluation. The workshop did not select a reference time step at this stage and agreed that the results and diagnostics should be examined before determining the most appropriate configuration.
 
 The workshop distinguished the temporal resolution of the scientific assessment from the period over which management advice might ultimately be expressed. Participants noted that a monthly or quarterly model could still produce annual summaries or advice, while a scientifically appropriate time step should not be rejected solely because existing management processes operated annually. The implications of alternative time scales for monitoring and advice were to be considered after the model results were reviewed.
 
+### CPUE selection and weighting
+The workshop discussed whether the available abundance information should be combined into a single index or fitted as separate fleet-specific indices. Participants noted that a combined index required an explicit weighting method and could give excessive influence to a high-catch but less reliable nominal series. Conversely, fitting separate indices allowed each series to have its own catchability coefficient and observation error, but could produce conflicting signals and greater model instability.
+
+The standardised Chinese and Chilean indices were initially considered likely to receive relatively greater influence, while nominal indices with more limited documentation or spatial representation could receive lower influence or be restricted to sensitivity analyses. The workshop did not agree on final weights for each index of abundance. It considered that the relative influence of each data series could be represented through explicit weights, index-specific observation-error assumptions, or alternative subsets of indices. This should be evaluated within the common model-comparison framework.
+
+The workshop noted that the Peruvian CPUE index reported in the national stock assessment showed a different trend from the nominal CPUE series submitted for the workshop. The workshop recommended that SC14 invite Peru to provide additional information on the construction, status and availability of the standardised index, and to clarify the reasons for the differences between the two series.
+
+### Other topics
 The potential implications of population structure and phenotypic variation were also discussed. Participants noted that the Chinese and Chilean fisheries might sample different components or phenotypes of the jumbo flying squid population. Under the working assumption of a single stock, production-model parameters would represent aggregate or synthetic population properties, while differences among fleet indices could reflect availability, catchability, spatial distribution or phenotype composition. Alternative hypothesis should be considered in future stock assessments using more complex models (e.g. stage-structured models or integrated models). 
 
 The workshop recognised that a single-stock production model could not fully represent changes in the relative contribution, productivity and growth of different phenotypes. Simulation was identified as an appropriate approach for evaluating the robustness of the assessment model to these processes. For the current assessment work, the single-stock assumption was retained as a practical simplification and identified as an important source of uncertainty.
-
-The workshop discussed whether the available abundance information should be combined into a single index or fitted as separate fleet-specific indices. Participants noted that a combined index required an explicit weighting method and could give excessive influence to a high-catch but less reliable nominal series. Conversely, fitting separate indices allowed each series to have its own catchability coefficient and observation error, but could produce conflicting signals and greater model instability.
-
-The standardised Chinese and Chilean indices were initially considered likely to receive relatively greater influence, while nominal indices with more limited documentation or spatial representation could receive lower influence or be restricted to sensitivity analyses. The workshop did not agree final weights. It considered that relative influence could be represented through explicit weights, index-specific observation-error assumptions or alternative subsets of indices and should be evaluated within the common model-comparison framework.
 
 Prior distributions for $r$, $K$, catchability and initial biomass were discussed. Participants noted that the posterior estimate of $r$ in some presented configurations remained close to its prior, raising questions about the information available in the data. More than one prior configuration was therefore required to evaluate the dependence of the assessment results on prior assumptions.
 
 The workshop discussed the use of broad uniform priors and informative normal or log-normal priors as alternative configurations. Participants also noted that prior specifications could not always be transferred directly among model structures and time steps. In particular, rate parameters required consistent treatment when moving from annual to quarterly or monthly models, while the carrying-capacity parameter should remain on a comparable biomass scale.
 
-The workshop noted that the Peruvian CPUE index reported in the national stock assessment showed a different trend from the nominal CPUE series submitted for the workshop. The workshop recommended that SC14 invite Peru to provide additional information on the construction, status and availability of the standardised index, and to clarify the reasons for the differences between the two series.
-
-The workshop identified seven principal decision axes for the comparative assessment: the starting year, the selection and relative influence of CPUE indices, the temporal resolution, the treatment of environmental variability for q and r, the shape parameter of the production function, and the prior distributions for the principal production-model parameters. These axes provided the basis for constructing the model-testing framework.
+### Conclusions
+The workshop identified seven principal decision axes for the comparative assessment: 1) the starting year, 2)the selection and relative influence of CPUE indices, 3) the temporal resolution, 4/5) the treatment of environmental variability for q and r, 6) the shape parameter of the production function, and 7) the prior distributions for the main production-model parameters. These axes provided the basis for constructing the model-testing framework.
 
 
 ## Model testing, diagnostics and agreed configurations
 
-The workshop proposed organising the assessment work through a decision matrix containing the principal data and structural assumptions identified during the discussion, as a means of comparing candidate configurations systematically and maintaining a transparent record of the assumptions associated with each model run.
+The workshop proposed organising the assessment work through a decision matrix containing the principal data and structural assumptions identified during the discussions. This would allow for systemati comparison across candidate configurations, while maintaining a transparent record of the assumptions associated with each model run.
 
 The matrix was intended to include alternative assessment periods, temporal resolutions, CPUE combinations or weights, environmental treatments and prior specifications. Participants noted that the complete factorial combination of all options would be unnecessarily large. The workshop therefore selected a limited set of reference, sensitivity and exploratory runs that isolated the effects of the principal assumptions.
 
@@ -255,7 +263,7 @@ The initial model-configuration table developed during the workshop was treated 
 
 Participants agreed that candidate configurations should be evaluated using a common set of diagnostics. These included model convergence, residual patterns, consistency between fitted and observed indices, retrospective behaviour, retrospective analysis, and comparison between prior and posterior parameter distributions. The plausibility and stability of biomass, fishing mortality and management-relevant outputs were also considered important.
 
-The workshop noted that passing a limited set of statistical diagnostics did not by itself demonstrate that a model was biologically or scientifically appropriate. Conversely, a failure under one configuration should not automatically be addressed by shortening the time series without examining the cause. Model diagnostics were to be interpreted together with the data history, fishery development, biological assumptions and intended use of the assessment.
+The workshop noted that passing a limited set of statistical diagnostics did not by itself demonstrate that a model was biologically or scientifically appropriate. Conversely, a failure in convergence under one configuration should not automatically be addressed by shortening the time series without examining the cause. Model diagnostics were to be interpreted together with the data history, fishery development, biological assumptions and intended use of the assessment.
 
 Differences among the candidate production models meant that identical parameterisations could not always be imposed. For example, some approaches allowed productivity to vary through time, whereas others treated $r$ as constant. The workshop nevertheless considered that the models could use the same catch and CPUE inputs and could apply comparable assumptions where their structures permitted.
 
@@ -425,3 +433,11 @@ The meeting was closed at 1709 2026.08.01.
 ## D. Final model-configuration matrix  {.unnumbered}
 
 
+```{r}
+library(tidyverse)
+
+read_csv(here::here("presentations", "modelruns.csv")) %>%
+  kableExtra::kbl(booktabs = TRUE, linesep = "", caption = "Final model-configuration matrix") %>%
+  kableExtra::kable_styling(latex_options = c("hold_position", "scale_down"))
+
+```
