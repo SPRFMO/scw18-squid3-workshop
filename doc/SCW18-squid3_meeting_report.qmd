@@ -315,11 +315,36 @@ As an example, the model name: *y2t1e0r1w2d1q0* will correspond to:
 | Environmental index_q      | None        |
 
 
-<!-- DAY 3 PLACEHOLDER: Record the final assignments, deadlines and expected outputs associated with the model runs. -->
+During the hands-on assessment work, the workshop prepared common monthly and quarterly input datasets for use across the candidate assessment models. These included the reconstructed total catch series and the available CPUE indices for Chile, China, Chinese Taipei, the Republic of Korea and Peru. For the provisional quarterly analyses, catches were aggregated as the sum of monthly catches and CPUE indices as the mean of the corresponding monthly values. The workshop recognised that CPUE indices should eventually be standardised directly at the temporal resolution used in the assessment, and therefore treated this aggregation as a practical approach for the current assessment exercise.
+
+The workshop prioritised implementation of baseline configurations in E-BSP and SPiCT before expanding the analyses to the complete set of sensitivities. Participants recognised that the number of candidate configurations, the computational requirements of some models and the time required for adequate diagnostic review precluded completion of all agreed analyses during SCW18. The workshop therefore agreed that additional model runs, sensitivity analyses, retrospective analyses and model refinements would be completed following the workshop.
+
+The model runs and discussions conducted during SCW18 reinforced the importance of several sources of uncertainty identified earlier in the workshop, particularly the selection and relative influence of CPUE indices, temporal resolution, assessment period, environmental effects, prior assumptions and the form of the production function. Participants agreed that assessment configurations should be evaluated using complete diagnostics, including convergence, residual and Q–Q diagnostics, retrospective behaviour and comparisons between prior and posterior distributions. The workshop further noted that satisfactory statistical diagnostics alone were not sufficient for model acceptance and should be considered together with biological plausibility, fishery history and model assumptions.
+
+The workshop did not adopt a final stock-status estimate or management-relevant assessment result from the preliminary runs undertaken during SCW18. Instead, it agreed on a common model-testing framework and prioritised the analyses required to provide a more robust comparison before SC14. The final configuration matrix identifies the assessment periods, temporal resolutions, CPUE treatments, environmental effects, prior specifications and production-function alternatives to be evaluated, together with their relative priorities. High-priority E-BSP and SPiCT assessments were scheduled for completion by 28 August 2026, with the results to be reviewed before and during the pre-SC Squid Workshop on 5 September 2026.
 
 ## Simulated Assessment
 
-<!-- DAY 4 PLACEHOLDER: Final runs, updated deadline (2027), priority for the assessment. -->
+The workshop reviewed progress of the Assessment Simulation Task Team (ASTT) and the development of the operating model, SquidSim. The objective of the ASTT is to evaluate the robustness of candidate jumbo flying squid assessment models to uncertainty in population structure, biological and life-history characteristics, and data availability. The operating model is also intended to provide a realistic representation of jumbo flying squid population dynamics that could subsequently be used in a management strategy evaluation framework.
+
+The workshop reviewed the simulation plan and the biological and fishery hypotheses to be represented in SquidSim. The population scenarios range from a single-morphotype control to configurations with three morphotypes whose occurrence is determined either spatially or by environmental conditions. Morphotypes may differ in growth, mortality and reproductive parameters. Alternative fishery structures represent either two broad fisheries, separating artisanal and industrial fleets, or four fisheries representing the Equatorial, Peruvian, Chilean and high-seas components. Fishing mortality and selectivity are specified separately by fishery, with temporal variability in fishing mortality intended to reproduce historical patterns.
+
+The simulation framework also considers uncertainty in mortality, reproduction, recruitment, growth and gear selectivity, including environmentally driven variability in relevant biological parameters. Process error may be included in the simulated parameters, potentially with temporal autocorrelation. The workshop noted that these scenarios provide a means of evaluating assessment performance when biological processes deviate from the simplifying assumptions of the current single-stock production models.
+
+The workshop reviewed the scenarios representing uncertainty in data collection and availability. These distinguish a perfect-information case from scenarios approximating current and potential future data availability. Simulated outputs include total and fleet-specific catches, size information, CPUE, fishing effort and environmental indices, with the level of temporal and fleet resolution varying among scenarios. This framework is intended to assess not only the robustness of alternative assessment models, but also the potential benefits of improvements in fishery monitoring and biological sampling.
+
+The workshop noted the progress made in developing SquidSim and updated the ASTT workplan and timeline for the 2026–2027 intersessional period. The revised workplan foresees completion and distribution of simulated datasets in early 2027, followed by application of the candidate assessment models and an in-person meeting to review the results and prepare the ASTT report for SC15.
+
+| Activity                                                              | Timing            |
+| --------------------------------------------------------------------- | ----------------- |
+| First ASTT coordination meeting                                       | January 2027      |
+| Second coordination meeting and distribution of simulated datasets    | February 2027     |
+| Deadline for completion of simulated assessments                      | End of March 2027 |
+| In-person ASTT workshop for discussion of results and report drafting | April–May 2027    |
+| Report of ASTT results                                                | SC15 (2027)       |
+
+The planned in-person ASTT workshop will focus on comparing the results of the simulated assessments, identifying improvements required in the operating model, and drafting the report to the Scientific Committee. The updated workplan therefore shifts the principal model-comparison phase of the simulated assessment to the 2026–2027 intersessional period, while SCW18 served to review progress, refine the simulation design and parameterisation, and establish the timetable for completing this work.
+
 
 # Decisions and agreements
 
@@ -358,12 +383,24 @@ As an example, the model name: *y2t1e0r1w2d1q0* will correspond to:
 |  32 | Interpretation of diagnostics         | Interpret statistical diagnostics together with biological plausibility, fishery history and model assumptions; satisfactory diagnostics alone will not determine model acceptance.    | SQWG           |
 |  33 | Baseline model runs                   | Prioritise the agreed baseline runs before undertaking additional sensitivities and model refinements.                                                                               | SQWG           |
 |  34 | Reporting of model runs               | Present complete diagnostics with all accepted assessment runs.                                                                                                                      | SQWG           |
-|  36 | Final model configurations            | Agree on the final model-testing matrix as reported in the Appendix D.                                                                                                                    | SQWG           |
-|  37 | Follow-up model review                | Hold an online follow-up meeting before the pre-SC workshop if additional review of completed model runs is required.                                                                | SQWG Chair     |
+|  35 | Final model configurations            | Agree on the final model-testing matrix as reported in the Appendix D.                                                                                                                    | SQWG           |
+|  36 | Follow-up model review                | Hold an online follow-up meeting before the pre-SC workshop if additional review of completed model runs is required.                                                                | SQWG Chair     |
 |  37 | pre-SC Squid Workshop                | Hold an in-person whole-day pre-SC Workshop (5 September 2026) to discuss assessment results and draft recommendations to SC14.                                                                | SQWG Chair     |
 
 
 # Conclusions
+
+SCW18 substantially advanced the common scientific framework for the assessment of jumbo flying squid. The workshop consolidated a common and traceable catch database, identified remaining uncertainties in historical catch allocation, and agreed that original Member submissions and reconstructed assessment series should be retained until improved information becomes available.
+
+The workshop identified CPUE standardisation as a major source of uncertainty in the assessment. Differences among fleets in data coverage, spatial resolution, fishing power and standardisation methods, as well as differences between nominal and standardised indices, require further evaluation. The workshop therefore agreed on technical improvements to the Chinese and Chilean CPUE standardisation procedures and identified the need for further clarification of the Peruvian CPUE information.
+
+The workshop established a common framework for comparing candidate stock assessment models. The principal sources of uncertainty to be evaluated include the assessment period, temporal resolution, selection and relative influence of CPUE indices, environmental effects on productivity and catchability, prior assumptions and the form of the production function. A final model-testing matrix was agreed to organise reference and sensitivity analyses consistently across candidate models.
+
+The model runs completed during SCW18 were not sufficient to support adoption of a final stock-status estimate or management-relevant assessment result. The workshop therefore prioritised completion of the high-priority E-BSP and SPiCT configurations before the pre-SC Squid Workshop, while recommending that the other assessment models discussed during SCW18 also be finalised. Assessment results will be reviewed together with complete statistical diagnostics and biological plausibility before recommendations are developed for SC14.
+
+The workshop also reviewed progress in developing the SquidSim operating model and refined the simulation plan for evaluating the robustness of candidate assessment methods to uncertainty in population structure, environmental variability, fisheries and data availability. The ASTT workplan was updated, with simulated datasets and assessments to be completed during the 2026–2027 intersessional period and results to be reported to SC15.
+
+Overall, SCW18 provided a structured basis for completing the comparative stock assessment before SC14 and for continuing the longer-term simulated assessment work. The workshop identified improved CPUE standardisation, increased participation and data provision by Members, and continued evaluation of environmental and ecological processes as priorities for the next phase of SQWG work.
 
 # Recommendations to SC14
 
@@ -401,7 +438,7 @@ The workshop recommended that SC14 encourage all Members, particularly those par
 
 ## Meeting closure
 
-The meeting was closed at 1709 2026.08.01.
+The meeting was closed the 2026.08.01 at 1709 UTC+08.
 
 # Appendices {.unnumbered}
 
