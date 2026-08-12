@@ -26,12 +26,12 @@ format:
         \usepackage{fancyhdr}
         \fancyhf{}
         \fancyhead[R]{\textit{Third Squid Workshop (SCW18)}}
-        \fancyhead[L]{\textit{SCW18 Draft}}
+        \fancyhead[L]{\textit{SCW18 Report}}
         \fancyfoot[C]{\thepage}
         \fancypagestyle{plain}{
           \fancyhf{}
           \fancyhead[R]{\textit{Third Squid Workshop (SCW18)}}
-          \fancyhead[L]{\textit{SCW18 Draft}}
+          \fancyhead[L]{\textit{SCW18 Report}}
           \fancyfoot[C]{\thepage}
         }
         \pagestyle{fancy}
@@ -112,9 +112,16 @@ time_stamp <- format(Sys.time(), "%H:%M %Z")
 
 # Summary {.unnumbered}
 
-This is the working draft report for the SPRFMO SC Third Squid Workshop (SCW18), focused on the stock assessment and simulated assessment of jumbo flying squid (*Dosidicus gigas*).
+# Summary {.unnumbered}
 
-The workshop focused on two complementary components: advancing the stock assessment of jumbo flying squid and the associated scientific advice to the Scientific Committee and the Commission; and progressing the simulated assessment work needed to evaluate candidate models under alternative assumptions about population structure, fisheries, sampling and data availability.
+The Third Squid Workshop (SCW18) advanced the development of a common scientific framework for the assessment of jumbo flying squid (*Dosidicus gigas*) in the SPRFMO Convention Area. The workshop consolidated a common and traceable catch database, reviewed the available abundance indices and their standardisation, and identified remaining uncertainties associated with historical catch allocation, CPUE construction and representativeness, environmental effects, population structure and model assumptions. Specific technical improvements were identified for the Chinese and Chilean CPUE indices, while further information was requested on the Peruvian standardised CPUE series.
+
+The workshop agreed on a common framework for comparing candidate stock assessment models using consistent data and assumptions. The principal dimensions considered were assessment period, temporal resolution, CPUE weighting, environmental effects on productivity and catchability, prior distributions and the form of the production function. A final model-testing matrix was agreed to guide the remaining analyses. The model runs completed during SCW18 were not sufficient to support adoption of a final stock-status estimate or management-relevant assessment result. High-priority E-BSP and SPiCT assessments will therefore be completed before the pre-SC Squid Workshop on 5 September 2026, where the results will be reviewed and recommendations to SC14 developed.
+
+SCW18 also reviewed progress of the Assessment Simulation Task Team and the development of the SquidSim operating model. The simulation framework was refined to represent uncertainty in population and fishery structure, biological processes, environmental variability and data availability. The workplan was updated for 2026–2027, with simulated datasets to be distributed in early 2027, candidate assessments completed by the end of March 2027, and an in-person ASTT workshop planned for April–May 2027 to review results and prepare advice for SC15.
+
+The workshop recommended continued improvement of CPUE standardisation and assessment methods, completion of the stock assessment models discussed during SCW18, stronger provision of fishery and operational data by Members, and active participation in the SQWG intersessional work. It also recommended convening a dedicated data workshop during 2026–2027, in coordination with the Ecosystem Working Group, with a primary focus on CPUE standardisation, spatio-temporal modelling and the incorporation of relevant environmental information.
+
 
 # Meeting Details
 
@@ -150,7 +157,7 @@ The SC Chairperson, Dr Ricardo Oliveros Ramos, presented SCW18-Doc02, which desc
 The workshop noted that the Member submissions differed in their temporal coverage, operational detail and completeness. The Chilean, Chinese, Korean and Chinese Taipei series could be retained after completing missing periods or applying limited reconstruction. In contrast, the submissions from Peru and Ecuador represented monitoring or sampling information rather than complete national catches and therefore required reconstruction from complementary official sources.
 
 | Member | Principal treatment in the proposed database | Main issue identified |
-|---|---|---|
+|---|----------|-------|
 | Chile | Monthly Member records were retained for 2000–2025, with 2001–2002 supplemented using official SERNAPESCA information. | Recovery and reconciliation of earlier monthly records remained desirable. |
 | Peru | National catches were reconstructed from official PRODUCE statistics and complementary documented sources, distinguishing artisanal catches from historical industrial catches. | The submitted series did not represent complete national catches, and the historical industrial component required assumptions regarding fleet and area attribution. |
 | Ecuador | Available monthly patterns were combined with selected annual reference totals from official and documented sources. | Temporal coverage was incomplete and some annual totals required clarification. |
@@ -279,8 +286,12 @@ The final model-testing framework was agreed as the last technical decision of t
 
 - Model Scenarios with Naming Convention
 
+::: {.content-visible when-format="pdf"}
+```{=latex}
+\begingroup
+\small
 | Code   | Variable     | Values                                                                                                                                       | Priority                               |
-| -------------- | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------- |
+| --- | ----- | -------------- | -------- |
 | y1, y2         | startYear    | 1) 2001<br>2) 2012                                                                                                                           | 1) High<br>2) High                     |
 | t1, t2, t3     | Timescale    | 1) Yearly<br>2) Quarterly<br>3) Monthly                                                                                                      | 1) Low<br>2) High<br>3) High           |
 | e0, e1, e2, e3 | Env_r        | 0) No environmental index<br>1) 1+2 El Niño<br>2) 3.4 El Niño<br>3) PCT                                                                      | 0) High<br>1) High<br>2) Low<br>3) Low |
@@ -289,6 +300,9 @@ The final model-testing framework was agreed as the last technical decision of t
 | d1, d2         | Data series  | 1) All five indices<br>2) Three indices: CHN, CHL, PER                                                                                       | 1) High<br>2) Low                      |
 | q0, q1         | Env_q        | 0) No environmental index<br>1) q_CHL ~ 1+2 ENSO (or local env), q_CHN ~ 1+2 ENSO, q_PER ~ PCT                                               | 0) High<br>1) High                     |
 | p0, p1         | Perucpue     | 0) Nominal annual CPUE provided by Peru<br>1) Annual CPUE series from national report<br>                                                    | 0) High<br>1) Low                      |
+::: {.content-visible when-format="pdf"}
+```{=latex}
+\endgroup
 
 
 - Prior Specifications
@@ -349,7 +363,7 @@ The planned in-person ASTT workshop will focus on comparing the results of the s
 # Decisions and agreements
 
 | No. | Topic                                 | Decision or agreement                                                                                                                                                                | Responsibility |
-| --: | ------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------- |
+| --: | ------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------ |
 |   1 | Common catch database                 | Maintain a continuously update a catch database as the basis for all assessment models.                                                                                                  | SQWG           |
 |   2 | Original and reconstructed catches    | Retain both the original Member submissions and the reconstructed assessment series until better information is available.                                                                                                 | SQWG           |
 |   3 | Historical catch allocation           | Review the allocation of historical catches by Japan, the Republic of Korea and Peru within and outside national EEZs to avoid double counting.                                      | SQWG           |
@@ -429,12 +443,12 @@ The workshop recommended that SC14 encourage all Members, particularly those par
 
 # Post-SCW18 plan
 
-| Task                                                                                                                  | Lead       | Output                                                               | Deadline                |
-| --------------------------------------------------------------------------------------------------------------------- | ---------- | -------------------------------------------------------------------- | ----------------------- |
-| Complete the stock assessment using E-BSP.                                                                            | China      | Assessment results.                                                  | 28 August 2026          |
-| Complete the stock assessment using SPiCT.                                                                            | Chile      | Assessment results.                                                  | 28 August 2026          |
-| Hold an online meeting to review the completed model runs, if required.                                               | SQWG Chair | Review of assessment results and identification of outstanding work. | Before 5 September 2026 |
-| Hold an in-person, full-day pre-SC Squid Workshop to review the assessment results and draft recommendations to SC14. | SQWG Chair | Agreed assessment conclusions and draft recommendations to SC14.     | 5 September 2026        |
+| Task | Lead | Output | Deadline |
+| --------------- | --- | --------------- | ---- |
+| Complete the stock assessment using E-BSP.                                                                            | China      | Assessment results.                                                  | 2026.08.28 |
+| Complete the stock assessment using SPiCT.                                                                            | Chile      | Assessment results.                                                  | 2026.08.28 |
+| Hold an online meeting to review the completed model runs, if required.                                               | SQWG Chair | Review of assessment results and identification of outstanding work. | Before 2026.09.05 |
+| Hold an in-person, full-day pre-SC Squid Workshop to review the assessment results and draft recommendations to SC14. | SQWG Chair | Agreed assessment conclusions and draft recommendations to SC14.     | 2026.09.05 |
 
 ## Meeting closure
 
