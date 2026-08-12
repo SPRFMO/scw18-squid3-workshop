@@ -384,10 +384,12 @@ The workshop recommended that SC14 encourage all Members, particularly those par
 
 # Post-SCW18 plan
 
-| Task                                                                            | Lead           | Output                                                                 | Deadline        |
-| ------------------------------------------------------------------------------- | -------------- | ---------------------------------------------------------------------- | --------------- |
-| Complete the stock assessment using E-BSP.                                      | China          | Assessment results.                                                    | 28 August 2026  |
-| Complete the stock assessment using SPiCT.                                      | Chile          | Assessment results.                                                    | 28 August 2026  |
+| Task                                                                                                                  | Lead       | Output                                                               | Deadline                |
+| --------------------------------------------------------------------------------------------------------------------- | ---------- | -------------------------------------------------------------------- | ----------------------- |
+| Complete the stock assessment using E-BSP.                                                                            | China      | Assessment results.                                                  | 28 August 2026          |
+| Complete the stock assessment using SPiCT.                                                                            | Chile      | Assessment results.                                                  | 28 August 2026          |
+| Hold an online meeting to review the completed model runs, if required.                                               | SQWG Chair | Review of assessment results and identification of outstanding work. | Before 5 September 2026 |
+| Hold an in-person, full-day pre-SC Squid Workshop to review the assessment results and draft recommendations to SC14. | SQWG Chair | Agreed assessment conclusions and draft recommendations to SC14.     | 5 September 2026        |
 
 ## Meeting closure
 
